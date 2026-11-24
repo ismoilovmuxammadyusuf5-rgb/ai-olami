@@ -316,6 +316,32 @@ jobs:
           }
 
           for item in data.get("promotions", []):
+          
+              if item.get("status") in ("rejected", "expired"):
+                  continue
+
+              if item.get("status") == "approved":
+                  from datetime import datetime, timezone
+                  expiry = item.get("expires_at")
+
+                  try:
+                      end = datetime.fromisoformat(
+                          expiry.replace("Z", "+00:00")
+                      )
+
+                      if end.tzinfo is None:
+                          end = end.replace(
+                              tzinfo=timezone.utc
+                          )
+
+                      if end <= datetime.now(timezone.utc):
+                          item["status"] = "expired"
+
+                  except (AttributeError, TypeError, ValueError):
+                      item["status"] = "pending"
+
+                  continue
+
               host = urlparse(
                   item.get("url", "")
               ).hostname or ""
