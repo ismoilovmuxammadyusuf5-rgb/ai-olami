@@ -46,9 +46,14 @@ jobs:
       - name: Bepul manbalarni tekshirish
         if: github.event_name != 'pull_request'
         run: python -m scripts.update_catalog
+      - name: Ochiq kataloglarni birlashtirish
+        if: github.event_name != 'pull_request'
+        run: python -m scripts.sync_catalog
       - name: Chiqariladigan ma’lumotlarni tekshirish
         if: github.event_name != 'pull_request'
-        run: python -m scripts.validate_data
+        run: |
+          python -m scripts.validate_data
+          python -m scripts.sync_catalog --check
       - name: Natijalarni saqlash
         id: save
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -61,7 +66,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ai-candidates.json data/approved-ai.json data/promo-candidates.json data/monitor-status.json
+          git add data/ai-candidates.json data/approved-ai.json data/promo-candidates.json data/monitor-status.json data/ai-olami-tools.json
           if ! git diff --cached --quiet; then
             git commit -m "Katalog va rasmiy takliflarni tekshirish"
             git push
@@ -73,7 +78,7 @@ jobs:
           mkdir -p _site/data
           cp index.html _site/
           cp -r assets _site/
-          cp data/approved-ai.json data/promo-candidates.json data/monitor-status.json _site/data/
+          cp data/approved-ai.json data/promo-candidates.json data/monitor-status.json data/ai-olami-tools.json _site/data/
           touch _site/.nojekyll
       - name: Pages fayllari
         if: steps.save.outputs.publish == 'true'
