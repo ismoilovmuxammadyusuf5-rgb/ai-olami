@@ -1,0 +1,101 @@
+
+name: AI Olami - avtomatik qidiruv
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repositoryni olish
+        uses: actions/checkout@v4
+
+      - name: Yangi AI vositalarini qidirish
+        run: |
+          python - <<'PY'
+          import json
+          import pathlib
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          url = (
+              "https://www.producthunt.com/feed"
+              "?category=artificial-intelligence"
+          )
+          req = urllib.request.Request(
+              url,
+              headers={"User-Agent": "Mozilla/5.0"}
+          )
+          with urllib.request.urlopen(req, timeout=30) as r:
+              root = ET.fromstring(r.read())
+
+          path = pathlib.Path("data/ai-candidates.json")
+          path.parent.mkdir(parents=True, exist_ok=True)
+
+          if path.exists():
+              data = json.loads(path.read_text(encoding="utf-8"))
+          else:
+              data = {"candidates": []}
+
+          known = {
+              x["url"] for x in data["candidates"]
+          }
+
+          def child_text(node, name):
+              for child in node:
+                  if child.tag.split("}")[-1] == name:
+                      return (child.text or "").strip()
+              return ""
+
+          for item in root.iter():
+              kind = item.tag.split("}")[-1]
+              if kind not in ("item", "entry"):
+                  continue
+
+              title = child_text(item, "title")
+              link = child_text(item, "link")
+
+              if not link:
+                  for child in item:
+                      if child.tag.split("}")[-1] == "link":
+                          link = child.attrib.get("href", "")
+                          if link:
+                              break
+
+              if not title or not link or link in known:
+                  continue
+
+              data["candidates"].append({
+                  "name": title,
+                  "url": link,
+                  "source": "Product Hunt",
+                  "status": "pending"
+              })
+              known.add(link)
+
+          if not data["candidates"]:
+              raise RuntimeError("RSS manbasidan AI topilmadi")
+
+          path.write_text(
+              json.dumps(data, ensure_ascii=False, indent=2)
+              + "\n",
+              encoding="utf-8"
+          )
+          print("Jami nomzodlar:", len(known))
+          PY
+
+      - name: Natijalarni GitHubga saqlash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ai-candidates.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Yangi AI nomzodlarini yangilash"
+            git push
+          fi
