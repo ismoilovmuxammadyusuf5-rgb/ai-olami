@@ -181,6 +181,116 @@ jobs:
           print("Aksiya nomzodlari:", new_promos)
           PY
 
+      - name: Rasmiy aksiya manbalarini tekshirish
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import html
+          import pathlib
+          import urllib.request
+          import urllib.parse
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timezone
+
+          path = pathlib.Path("data/promo-candidates.json")
+          path.parent.mkdir(exist_ok=True)
+
+          if path.exists():
+              data = json.loads(path.read_text(encoding="utf-8"))
+          else:
+              data = {"promotions": []}
+
+          known = {p["url"] for p in data["promotions"]}
+
+          sources = [
+              ("OpenAI", "https://openai.com/news/rss.xml", "openai.com"),
+              ("Google", "https://blog.google/rss/", "blog.google")
+          ]
+
+          offer_re = re.compile(
+              r"\bfree trial\b|\bfree credits\b|"
+              r"\bdiscount\b|\bpromo code\b|"
+              r"\blimited.time offer\b|"
+              r"\b\d+\s*%\s*off\b",
+              re.IGNORECASE
+          )
+
+          ai_re = re.compile(
+              r"\bai\b|\bgemini\b|\bchatgpt\b|"
+              r"\bcopilot\b|\bllm\b|\bgenerative ai\b",
+              re.IGNORECASE
+          )
+
+          def field(item, name):
+              for c in item:
+                  if c.tag.split("}")[-1] == name:
+                      if name == "link" and c.get("href"):
+                          return c.get("href")
+                      return "".join(c.itertext()).strip()
+              return ""
+
+          found = 0
+
+          for source, feed, domain in sources:
+              try:
+                  request = urllib.request.Request(
+                      feed,
+                      headers={"User-Agent": "AI-Olami/1.0"}
+                  )
+                  with urllib.request.urlopen(
+                      request, timeout=30
+                  ) as response:
+                      root = ET.fromstring(response.read())
+
+                  for item in root.iter():
+                      if item.tag.split("}")[-1] not in ("item", "entry"):
+                          continue
+
+                      title = field(item, "title")
+                      link = field(item, "link")
+                      raw = (field(item, "description")
+                             or field(item, "summary"))
+
+                      description = html.unescape(
+                          re.sub(r"<[^>]+>", " ", raw)
+                      )
+                      description = " ".join(description.split())[:500]
+                      content = title + " " + description
+
+                      host = urllib.parse.urlparse(link).hostname
+                      if host not in (domain, "www." + domain):
+                          continue
+                      if not offer_re.search(content):
+                          continue
+                      if not ai_re.search(content) and source != "OpenAI":
+                          continue
+                      if link in known:
+                          continue
+
+                      data["promotions"].append({
+                          "name": title,
+                          "url": link,
+                          "description": description,
+                          "source": source,
+                          "status": "pending",
+                          "found_at": datetime.now(
+                              timezone.utc
+                          ).isoformat()
+                      })
+                      known.add(link)
+                      found += 1
+
+              except Exception as error:
+                  print(source, "tekshirishda xato:", error)
+
+          path.write_text(
+              json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          print("Yangi aksiya nomzodlari:", found)
+          PY
+
       - name: Natijalarni saqlash
         run: |
           git config user.name "github-actions[bot]"
