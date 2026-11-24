@@ -1,377 +1,87 @@
-
-name: AI Olami - avtomatik qidiruv
+name: AI Olami - tekshirish, yangilash va joylash
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '17 * * * *'
+  push:
+    branches: [main]
+  pull_request:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: ai-olami-update
+  group: ai-olami-${{ github.event_name == 'pull_request' && github.ref || 'publish' }}
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 12
+    permissions:
+      contents: write
     steps:
       - name: Kodni olish
         uses: actions/checkout@v4
-
-      - name: AI va aksiyalarni qidirish
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: JavaScript
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Mantiq va xavfsizlik testlari
         run: |
-          python - <<'PY'
-          import json
-          import pathlib
-          import urllib.request
-          import xml.etree.ElementTree as ET
-          import re
-          import html
-          from datetime import datetime, timezone
-
-          folder = pathlib.Path("data")
-          folder.mkdir(exist_ok=True)
-
-          def load(name, key):
-              path = folder / name
-              if path.exists():
-                  return json.loads(path.read_text(
-                      encoding="utf-8"
-                  ))
-              return {key: []}
-
-          ais = load("ai-candidates.json", "candidates")
-          promos = load(
-              "promo-candidates.json", "promotions"
-          )
-
-          known_ai = {
-              x["url"] for x in ais["candidates"]
-          }
-          known_promo = {
-              x["url"] for x in promos["promotions"]
-          }
-
-          request = urllib.request.Request(
-              "https://www.producthunt.com/feed"
-              "?category=artificial-intelligence",
-              headers={"User-Agent": "Mozilla/5.0"}
-          )
-
-          with urllib.request.urlopen(
-              request, timeout=30
-          ) as response:
-              root = ET.fromstring(response.read())
-
-          def get_field(item, names):
-              for child in item:
-                  tag = child.tag.split("}")[-1]
-                  if tag in names:
-                      if tag == "link":
-                          value = child.attrib.get("href")
-                          if value:
-                              return value.strip()
-                      value = "".join(child.itertext()).strip()
-                      if value:
-                          return value
-              return ""
-
-          ai_pattern = re.compile(
-              r"\b(ai|artificial intelligence|"
-              r"machine learning|llm|gpt|chatbot|"
-              r"generative ai|ai agents?)\b",
-              re.IGNORECASE
-          )
-
-          offer_pattern = re.compile(
-              r"\bfree trial\b|\bfree credits\b|"
-              r"\bbonus credits\b|\bpromo code\b|"
-              r"\blimited.time offer\b|"
-              r"\b\d+\s*%\s*off\b|"
-              r"\bspecial discount\b",
-              re.IGNORECASE
-          )
-
-          now = datetime.now(
-              timezone.utc
-          ).isoformat()
-
-          new_ai = 0
-          new_promos = 0
-
-          for item in root.iter():
-              tag = item.tag.split("}")[-1]
-              if tag not in ("item", "entry"):
-                  continue
-
-              name = get_field(item, {"title"})
-              url = get_field(item, {"link"})
-              raw = get_field(
-                  item,
-                  {"summary", "description", "content"}
-              )
-              description = html.unescape(
-                  re.sub(r"<[^>]+>", " ", raw)
-              )
-              description = " ".join(
-                  description.split()
-              )[:500]
-
-              categories = [
-                  " ".join(c.itertext())
-                  for c in item
-                  if c.tag.split("}")[-1] == "category"
-              ]
-
-              combined = " ".join(
-                  [name, description] + categories
-              )
-
-              if not name or not url:
-                  continue
-
-              if not ai_pattern.search(combined):
-                  continue
-
-              if url not in known_ai:
-                  ais["candidates"].append({
-                      "name": name,
-                      "url": url,
-                      "description": description,
-                      "source": "Product Hunt",
-                      "status": "pending",
-                      "found_at": now
-                  })
-                  known_ai.add(url)
-                  new_ai += 1
-
-              if (
-                  offer_pattern.search(combined)
-                  and url not in known_promo
-              ):
-                  promos["promotions"].append({
-                      "name": name,
-                      "url": url,
-                      "description": description,
-                      "source": "Product Hunt",
-                      "status": "pending",
-                      "found_at": now
-                  })
-                  known_promo.add(url)
-                  new_promos += 1
-
-          for filename, data in [
-              ("ai-candidates.json", ais),
-              ("promo-candidates.json", promos)
-          ]:
-              path = folder / filename
-              path.write_text(
-                  json.dumps(
-                      data,
-                      ensure_ascii=False,
-                      indent=2
-                  ) + "\n",
-                  encoding="utf-8"
-              )
-
-          print("Yangi AI nomzodlari:", new_ai)
-          print("Aksiya nomzodlari:", new_promos)
-          PY
-
-      - name: Rasmiy aksiya manbalarini tekshirish
-        run: |
-          python - <<'PY'
-          import json
-          import re
-          import html
-          import pathlib
-          import urllib.request
-          import urllib.parse
-          import xml.etree.ElementTree as ET
-          from datetime import datetime, timezone
-
-          path = pathlib.Path("data/promo-candidates.json")
-          path.parent.mkdir(exist_ok=True)
-
-          if path.exists():
-              data = json.loads(path.read_text(encoding="utf-8"))
-          else:
-              data = {"promotions": []}
-
-          known = {p["url"] for p in data["promotions"]}
-
-          sources = [
-              ("OpenAI", "https://openai.com/news/rss.xml", "openai.com"),
-              ("Google", "https://blog.google/rss/", "blog.google")
-          ]
-
-          offer_re = re.compile(
-              r"\bfree trial\b|\bfree credits\b|"
-              r"\bdiscount\b|\bpromo code\b|"
-              r"\blimited.time offer\b|"
-              r"\b\d+\s*%\s*off\b",
-              re.IGNORECASE
-          )
-
-          ai_re = re.compile(
-              r"\bai\b|\bgemini\b|\bchatgpt\b|"
-              r"\bcopilot\b|\bllm\b|\bgenerative ai\b",
-              re.IGNORECASE
-          )
-
-          def field(item, name):
-              for c in item:
-                  if c.tag.split("}")[-1] == name:
-                      if name == "link" and c.get("href"):
-                          return c.get("href")
-                      return "".join(c.itertext()).strip()
-              return ""
-
-          found = 0
-
-          for source, feed, domain in sources:
-              try:
-                  request = urllib.request.Request(
-                      feed,
-                      headers={"User-Agent": "AI-Olami/1.0"}
-                  )
-                  with urllib.request.urlopen(
-                      request, timeout=30
-                  ) as response:
-                      root = ET.fromstring(response.read())
-
-                  for item in root.iter():
-                      if item.tag.split("}")[-1] not in ("item", "entry"):
-                          continue
-
-                      title = field(item, "title")
-                      link = field(item, "link")
-                      raw = (field(item, "description")
-                             or field(item, "summary"))
-
-                      description = html.unescape(
-                          re.sub(r"<[^>]+>", " ", raw)
-                      )
-                      description = " ".join(description.split())[:500]
-                      content = title + " " + description
-
-                      host = urllib.parse.urlparse(link).hostname
-                      if host not in (domain, "www." + domain):
-                          continue
-                      if not offer_re.search(content):
-                          continue
-                      if not ai_re.search(content) and source != "OpenAI":
-                          continue
-                      if link in known:
-                          continue
-
-                      data["promotions"].append({
-                          "name": title,
-                          "url": link,
-                          "description": description,
-                          "source": source,
-                          "status": "pending",
-                          "found_at": datetime.now(
-                              timezone.utc
-                          ).isoformat()
-                      })
-                      known.add(link)
-                      found += 1
-
-              except Exception as error:
-                  print(source, "tekshirishda xato:", error)
-
-          path.write_text(
-              json.dumps(data, ensure_ascii=False, indent=2) + "\n",
-              encoding="utf-8"
-          )
-          print("Yangi aksiya nomzodlari:", found)
-          PY
-
-      - name: Aksiya nomzodlarini saralash
-        run: |
-          python - <<'PY'
-          import json
-          import re
-          from pathlib import Path
-          from urllib.parse import urlparse
-
-          path = Path("data/promo-candidates.json")
-          data = json.loads(path.read_text(encoding="utf-8"))
-
-          pattern = re.compile(
-              r"\bfree trial\b|\bdiscount\b|"
-              r"\bpromo code\b|\bfree credits?\b|"
-              r"\bbonus credits?\b|"
-              r"\b\d{1,3}\s*%\s*(off|discount)\b",
-              re.IGNORECASE
-          )
-
-          official = {
-              "OpenAI": {"openai.com", "www.openai.com"},
-              "Google": {"blog.google", "www.blog.google"}
-          }
-
-          for item in data.get("promotions", []):
-          
-              if item.get("status") in ("rejected", "expired"):
-                  continue
-
-              if item.get("status") == "approved":
-                  from datetime import datetime, timezone
-                  expiry = item.get("expires_at")
-
-                  try:
-                      end = datetime.fromisoformat(
-                          expiry.replace("Z", "+00:00")
-                      )
-
-                      if end.tzinfo is None:
-                          end = end.replace(
-                              tzinfo=timezone.utc
-                          )
-
-                      if end <= datetime.now(timezone.utc):
-                          item["status"] = "expired"
-
-                  except (AttributeError, TypeError, ValueError):
-                      item["status"] = "pending"
-
-                  continue
-
-              host = urlparse(
-                  item.get("url", "")
-              ).hostname or ""
-
-              source = item.get("source", "")
-              title = item.get("name", "")
-
-              if (
-                  host in official.get(source, set())
-                  and pattern.search(title)
-              ):
-                  item["status"] = "pending"
-              else:
-                  item["status"] = "rejected"
-
-          path.write_text(
-              json.dumps(
-                  data, ensure_ascii=False, indent=2
-              ) + "\n",
-              encoding="utf-8"
-          )
-          print("Aksiya nomzodlari saralandi")
-          PY
-
+          python -m unittest discover -s tests -v
+          node --test tests/*.test.js
+          node --check assets/site.js
+      - name: Bepul manbalarni tekshirish
+        if: github.event_name != 'pull_request'
+        run: python -m scripts.update_catalog
+      - name: Chiqariladigan ma’lumotlarni tekshirish
+        if: github.event_name != 'pull_request'
+        run: python -m scripts.validate_data
       - name: Natijalarni saqlash
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ai-candidates.json data/promo-candidates.json
+          git add data/ai-candidates.json data/approved-ai.json data/promo-candidates.json data/monitor-status.json
           if ! git diff --cached --quiet; then
-            git commit -m "AI va aksiya nomzodlarini yangilash"
+            git commit -m "Katalog va rasmiy takliflarni tekshirish"
             git push
           fi
+      - name: Faqat sayt fayllarini tayyorlash
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp -r assets _site/
+          cp data/approved-ai.json data/promo-candidates.json data/monitor-status.json _site/data/
+          touch _site/.nojekyll
+      - name: Pages fayllari
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+          retention-days: 1
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Pages sozlamalari
+        uses: actions/configure-pages@v5
+      - name: Saytni joylash
+        id: deployment
+        uses: actions/deploy-pages@v4

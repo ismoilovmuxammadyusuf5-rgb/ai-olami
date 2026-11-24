@@ -1,20 +1,43 @@
 {
+  "schema_version": 1,
+  "updated_at": "2026-11-24T15:21:00.898655+00:00",
   "promotions": [
     {
-      "name": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "name": "Evernote turns AI-driven discovery into paid subscriptions",
+      "url": "https://openai.com/ads/customers/evernote",
+      "description": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
       "source": "OpenAI",
-      "status": "rejected",
-      "found_at": "2026-11-24T14:40:47.915799+00:00"
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 28 Oct 2026 19:40:49 GMT",
+      "status": "pending",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
+      "checked_at": "2026-11-24T15:21:00.898655+00:00",
+      "id": "promo-16681fd606d5f699"
     },
     {
       "name": "DALL·E now available in beta",
       "url": "https://openai.com/index/dall-e-now-available-in-beta",
       "description": "We’ll invite 1 million people from our waitlist over the coming weeks. Users can create with DALL·E using free credits that refill every month, and buy additional credits in 115-generation increments for $15.",
       "source": "OpenAI",
-      "status": "rejected",
-      "found_at": "2026-11-24T14:40:47.933131+00:00"
+      "status": "pending",
+      "found_at": "2026-11-24T14:40:47.933131+00:00",
+      "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
+      "checked_at": "2026-11-24T15:21:00.898655+00:00",
+      "id": "promo-16a1a1dc486e496d"
+    },
+    {
+      "name": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "source": "OpenAI",
+      "status": "pending",
+      "found_at": "2026-11-24T14:40:47.915799+00:00",
+      "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
+      "checked_at": "2026-11-24T15:21:00.898655+00:00",
+      "id": "promo-3802aa15c4b6ae22"
     }
   ]
 }

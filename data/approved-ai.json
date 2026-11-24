@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-24T15:21:00.898655+00:00",
+  "tools": [
+    {
+      "name": "doola MCP",
+      "url": "https://producthunt.com/products/doola-mcp",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-2e3db2b4cdbe006c",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Start and run your US company from your AI assistant",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-22T11:23:24-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Start and run your US company from your AI assistant",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Granular.Build",
+      "url": "https://producthunt.com/products/granular-build",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-5b48cfb54e99cf63",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Put your AI agents to work in a visual workspace",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-18T10:51:22-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Put your AI agents to work in a visual workspace",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Fleetify",
+      "url": "https://producthunt.com/products/fleetify",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-68ae5999712f73db",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Open-source command center for your AI coding agents",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T08:11:52-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Dasturlash va Kod",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Open-source command center for your AI coding agents",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Claude Ship",
+      "url": "https://producthunt.com/products/claude-code",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-ad76fc1826aa4a22",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Ship code as fast as you can write it",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T13:00:36-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Dasturlash va Kod",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Ship code as fast as you can write it",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Clam AI",
+      "url": "https://producthunt.com/products/clam-ai",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-b5e68a0365d68a87",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Your inbox, safely shared with AI agents",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T00:44:25-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Your inbox, safely shared with AI agents",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Replit Missions",
+      "url": "https://producthunt.com/products/replit",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-ee9cac41a6be6d44",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Set a budget, coordinate teams of AI agents,",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-22T09:13:25-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Set a budget, coordinate teams of AI agents,",
+        "rule": "explicit-ai-function-v1"
+      }
+    }
+  ]
+}

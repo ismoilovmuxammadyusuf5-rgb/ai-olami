@@ -1,304 +1,3562 @@
 {
+  "schema_version": 1,
+  "updated_at": "2026-11-24T15:21:00.898655+00:00",
   "candidates": [
     {
-      "name": "K-Stra",
-      "url": "https://www.producthunt.com/products/k-stra",
-      "source": "Product Hunt",
-      "status": "pending"
+      "name": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "description": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "id": "ai-00427e47df5ef306",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
     {
-      "name": "Granular.Build",
-      "url": "https://www.producthunt.com/products/granular-build",
-      "source": "Product Hunt",
-      "status": "pending"
+      "name": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "description": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 14 Oct 2026 12:00:00 GMT",
+      "id": "ai-004cd593adabcd24",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
     {
-      "name": "Astor",
-      "url": "https://www.producthunt.com/products/astor",
-      "source": "Product Hunt",
-      "status": "pending"
+      "name": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "description": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Tue, 03 Nov 2026 00:00:00 GMT",
+      "id": "ai-019edb616369c332",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
     {
-      "name": "Adanotch",
-      "url": "https://www.producthunt.com/products/adanotch",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Prates",
-      "url": "https://www.producthunt.com/products/prates",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Cullman",
-      "url": "https://www.producthunt.com/products/cullman",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "frwrd.to",
-      "url": "https://www.producthunt.com/products/frwrd-to",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Viktor Code",
-      "url": "https://www.producthunt.com/products/viktor",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Tendor",
-      "url": "https://www.producthunt.com/products/tendor",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Ohhai",
-      "url": "https://www.producthunt.com/products/ohhai",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Finseo",
-      "url": "https://www.producthunt.com/products/finseo-ai",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Astrolabio",
-      "url": "https://www.producthunt.com/products/astrolabio",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "tday.com",
-      "url": "https://www.producthunt.com/products/tday",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Claude Ship",
-      "url": "https://www.producthunt.com/products/claude-code",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Clam AI",
-      "url": "https://www.producthunt.com/products/clam-ai",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "doola MCP",
-      "url": "https://www.producthunt.com/products/doola-mcp",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Scribase MCP Server",
-      "url": "https://www.producthunt.com/products/scribase",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "DeskMagic",
-      "url": "https://www.producthunt.com/products/deskmagic",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Almma's PII Guard",
-      "url": "https://www.producthunt.com/products/almma-s-pii-guard",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Valley",
-      "url": "https://www.producthunt.com/products/valley-3",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "mindyOne",
-      "url": "https://www.producthunt.com/products/mindyone",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Agenda Hero Magic Labs",
-      "url": "https://www.producthunt.com/products/agenda-hero-magic",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Pinned",
-      "url": "https://www.producthunt.com/products/pinned",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Fleetify",
-      "url": "https://www.producthunt.com/products/fleetify",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "HeroUI Pro 1.0",
-      "url": "https://www.producthunt.com/products/heroui-pro-1-0",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "MAI Image 2.7",
-      "url": "https://www.producthunt.com/products/mai-image-2-3",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Gauth Personal Study Agent",
-      "url": "https://www.producthunt.com/products/gauth-ai-course",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Dog Translator SuperTranslator",
-      "url": "https://www.producthunt.com/products/dog-translator-supertranslator",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Inkling 2 Mini",
-      "url": "https://www.producthunt.com/products/tinker-2",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Tesla Self-Driving V15",
-      "url": "https://www.producthunt.com/products/tesla",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Omi Work",
-      "url": "https://www.producthunt.com/products/omi-work",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Replit Missions",
-      "url": "https://www.producthunt.com/products/replit",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Ashwa",
-      "url": "https://www.producthunt.com/products/ashwa",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Chat with Work",
-      "url": "https://www.producthunt.com/products/chat-with-work",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Hydrilla",
-      "url": "https://www.producthunt.com/products/hydrilla",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Motionflare",
-      "url": "https://www.producthunt.com/products/motionflare",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Modem",
-      "url": "https://www.producthunt.com/products/modem",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Orpheus",
-      "url": "https://www.producthunt.com/products/orpheus-2",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "Mobile Agent Testers",
-      "url": "https://www.producthunt.com/products/mobile-agent-testers",
-      "source": "Product Hunt",
-      "status": "pending"
-    },
-    {
-      "name": "freddy",
-      "url": "https://www.producthunt.com/products/freddy",
-      "source": "Product Hunt",
-      "status": "pending"
+      "name": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "description": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Mon, 09 Nov 2026 08:00:00 GMT",
+      "id": "ai-02e9abf47eaf3fa0",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
     {
       "name": "Polylane Swarms",
-      "url": "https://www.producthunt.com/products/polylane",
+      "url": "https://producthunt.com/products/polylane",
       "source": "Product Hunt",
-      "status": "pending"
+      "status": "pending",
+      "id": "ai-044fc6560823dce6",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
     },
     {
-      "name": "Yoroll",
-      "url": "https://www.producthunt.com/products/yoroll",
+      "name": "Ashwa",
+      "url": "https://producthunt.com/products/ashwa",
       "source": "Product Hunt",
-      "status": "pending"
+      "status": "pending",
+      "id": "ai-0476dbb766a45bda",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Your AI companion that never forgets what you say",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-22T12:25:10-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
     },
     {
-      "name": "Webless Agents",
-      "url": "https://www.producthunt.com/products/webless",
-      "source": "Product Hunt",
-      "status": "pending"
+      "name": "Introducing file slicing controls in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls",
+      "description": "Introducing File Slicing Controls",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Developer tools"
+      ],
+      "published_at": "Mon, 23 Nov 2026 16:12:00 +0000",
+      "id": "ai-04ec58c5601563db",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
     {
-      "name": "Squint",
-      "url": "https://www.producthunt.com/products/squint",
-      "source": "Product Hunt",
-      "status": "pending"
+      "name": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "description": "Gemini spark on a space background",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Developer tools",
+        "AI"
+      ],
+      "published_at": "Thu, 19 Nov 2026 18:00:00 +0000",
+      "id": "ai-056cf0b58a3dbace",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
     {
-      "name": "oovi",
-      "url": "https://www.producthunt.com/products/oovi",
+      "name": "SparrowDesk Phone Calls",
+      "url": "https://producthunt.com/products/sparrowdesk",
+      "description": "Phone support in the same inbox as email, chat & WhatsApp",
       "source": "Product Hunt",
-      "status": "pending"
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-22T23:07:05-08:00",
+      "id": "ai-09254d793d85a361",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "description": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Mon, 02 Nov 2026 18:00:00 GMT",
+      "id": "ai-0d297090385ad5a7",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "description": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Tue, 17 Nov 2026 00:00:00 GMT",
+      "id": "ai-0e7f690aa4ff229b",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Tue, 10 Nov 2026 12:00:00 GMT",
+      "id": "ai-0f0020abcf733229",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "description": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Thu, 29 Oct 2026 09:00:00 GMT",
+      "id": "ai-0f01adb2acab0a67",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "MAI Image 2.7",
+      "url": "https://producthunt.com/products/mai-image-2-3",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-0f5d54c44befb7f9",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "description": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Webinars"
+      ],
+      "published_at": "Mon, 23 Nov 2026 08:00:00 GMT",
+      "id": "ai-10878202550bbbf9",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "description": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Mon, 23 Nov 2026 08:00:00 GMT",
+      "id": "ai-1259b534687dd8b3",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Almma's PII Guard",
+      "url": "https://producthunt.com/products/almma-s-pii-guard",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-128e5e3c5ac6548d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Catch personal data before it reaches your AI chat",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T11:01:35-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "description": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Thu, 05 Nov 2026 09:00:00 GMT",
+      "id": "ai-14e90e72d3401ddf",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Evernote turns AI-driven discovery into paid subscriptions",
+      "url": "https://openai.com/ads/customers/evernote",
+      "description": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 28 Oct 2026 19:40:49 GMT",
+      "id": "ai-16681fd606d5f699",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Even G2 Enterprise SDK",
+      "url": "https://producthunt.com/products/even-g2",
+      "description": "Build custom business apps for Even G2 smart glasses",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T10:57:21-08:00",
+      "id": "ai-1718f503b969a028",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Tue, 20 Oct 2026 10:00:00 GMT",
+      "id": "ai-1725d137aa3debc0",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "See what 6 builders are making with Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders",
+      "description": "Collage of six 3D graphics showcasing virtual environments, interactive scenes, and model comparisons including \"Gemini 4 Hydrogen\" and \"Gemini 3.8 Flash.\"",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Gemini models"
+      ],
+      "published_at": "Mon, 23 Nov 2026 18:00:00 +0000",
+      "id": "ai-17a4c12938fd3e48",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Demos"
+      ],
+      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+      "id": "ai-17b7a2b39f098895",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Intelligence Age"
+      ],
+      "published_at": "Wed, 18 Nov 2026 10:00:00 GMT",
+      "id": "ai-184d931227f2504d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Sun, 22 Nov 2026 00:00:00 GMT",
+      "id": "ai-1a10f1676d46fc01",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "description": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Fri, 23 Oct 2026 00:00:00 GMT",
+      "id": "ai-1a543055a02f9816",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "description": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Wed, 04 Nov 2026 14:30:00 GMT",
+      "id": "ai-1be4fdd8e6ca80f0",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Tue, 20 Oct 2026 00:00:00 GMT",
+      "id": "ai-1cfb6291fa158d05",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Publication"
+      ],
+      "published_at": "Mon, 19 Oct 2026 12:00:00 GMT",
+      "id": "ai-1dbe22633003a2af",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Tue, 27 Oct 2026 15:00:00 GMT",
+      "id": "ai-1e3ebf94e41ebe19",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Wed, 14 Oct 2026 00:00:00 GMT",
+      "id": "ai-200a5d3dd39c6bfb",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Watch Duty is using Gemini to get wildfire alerts out faster",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool",
+      "description": "Watch Duty rendering",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Google.org",
+        "Google Research"
+      ],
+      "published_at": "Fri, 20 Nov 2026 17:00:00 +0000",
+      "id": "ai-20a6c91a795bac88",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "description": "",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "id": "ai-21b4758ab52123ac",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "description": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "id": "ai-21e886491b30cfff",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Tue, 03 Nov 2026 12:00:00 GMT",
+      "id": "ai-25493a43cba550c7",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Willow iOS 2.0",
+      "url": "https://producthunt.com/products/willow-voice",
+      "description": "No switching apps while you dictate",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T22:38:15-08:00",
+      "id": "ai-25609a3e6a115a5a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "description": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Thu, 05 Nov 2026 02:00:00 GMT",
+      "id": "ai-25fa4dd18ec78a48",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Mon, 26 Oct 2026 10:00:00 GMT",
+      "id": "ai-27334100e818b985",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "description": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Engineering"
+      ],
+      "published_at": "Mon, 02 Nov 2026 15:30:00 GMT",
+      "id": "ai-277870ffc8d71544",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Tue, 06 Oct 2026 16:00:00 GMT",
+      "id": "ai-2896758265cec81d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "description": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "id": "ai-295354ff422b0d4d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
     {
       "name": "TeaserKit",
-      "url": "https://www.producthunt.com/products/teaserkit",
+      "url": "https://producthunt.com/products/teaserkit",
       "source": "Product Hunt",
-      "status": "pending"
+      "status": "pending",
+      "id": "ai-2b80ac733fcd05d4",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
     },
     {
-      "name": "Omi CLI",
-      "url": "https://www.producthunt.com/products/omi-cli",
+      "name": "Juncts",
+      "url": "https://producthunt.com/products/juncts",
+      "description": "Superhuman for your DMs, with AI that triages and drafts",
       "source": "Product Hunt",
-      "status": "pending"
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T19:08:21-08:00",
+      "id": "ai-2c1d8b816bacc461",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
     },
     {
-      "name": "Resurf",
-      "url": "https://www.producthunt.com/products/resurf-2",
+      "name": "Astor",
+      "url": "https://producthunt.com/products/astor",
       "source": "Product Hunt",
-      "status": "pending"
+      "status": "pending",
+      "id": "ai-2c704785d7b64d69",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "AI Thesis Investing",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-18T18:44:24-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
     },
     {
-      "name": "Ulika",
-      "url": "https://www.producthunt.com/products/ulika",
+      "name": "Flipsnack grows product signups with conversion optimization",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "description": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 05 Nov 2026 00:45:15 GMT",
+      "id": "ai-2d1d326185a62641",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "description": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "id": "ai-2d7a5d6b20fff3cd",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "description": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Mon, 09 Nov 2026 08:00:00 GMT",
+      "id": "ai-2e34e84f0999c607",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "doola MCP",
+      "url": "https://producthunt.com/products/doola-mcp",
       "source": "Product Hunt",
-      "status": "pending"
+      "status": "approved",
+      "id": "ai-2e3db2b4cdbe006c",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Start and run your US company from your AI assistant",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-22T11:23:24-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Start and run your US company from your AI assistant",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Science"
+      ],
+      "published_at": "Sun, 15 Nov 2026 22:00:01 GMT",
+      "id": "ai-2e8f421d2ee2a3df",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Viktor Code",
+      "url": "https://producthunt.com/products/viktor",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-2f3658651200f99c",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Coding agents know your repo. Viktor knows your company.",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T08:35:13-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "How we’re putting one of quantum mechanics’ deepest features to the test at scale.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale",
+      "description": "Google Quantum AI research proves contextuality powers quantum algorithms at scale. See how our processor beat classical limits. Get the details.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Quantum computing"
+      ],
+      "published_at": "Thu, 19 Nov 2026 19:00:00 +0000",
+      "id": "ai-2f5da7a01f727a33",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "description": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Tue, 17 Nov 2026 08:00:00 GMT",
+      "id": "ai-3047d7657748ea76",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Thu, 15 Oct 2026 19:00:00 GMT",
+      "id": "ai-32165ee6af8945a5",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Science"
+      ],
+      "published_at": "Sun, 15 Nov 2026 22:00:00 GMT",
+      "id": "ai-33b95c2112c46efd",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "description": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "id": "ai-34e7d62615202d0d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "ChatGPT Ads increases its market presence in 44 countries",
+      "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+      "description": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "id": "ai-35bcc4b3dafe10f2",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "description": "Delivering fast and capable computer use at scale",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Mon, 26 Oct 2026 18:00:00 GMT",
+      "id": "ai-35e334c198740f74",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "description": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Tue, 10 Nov 2026 00:00:00 GMT",
+      "id": "ai-37e4452e64c861cf",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "LayAuto 4",
+      "url": "https://producthunt.com/products/layauto-for-mac",
+      "description": "Find any window, tab, or session on your Mac",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T07:51:28-08:00",
+      "id": "ai-38ea571fe53fa61b",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 21 Oct 2026 17:00:00 GMT",
+      "id": "ai-39cad894cdd240fb",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "description": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Tue, 17 Nov 2026 00:00:00 GMT",
+      "id": "ai-3b3be741a87f5e21",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "url": "https://openai.com/index/anima",
+      "description": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Fri, 23 Oct 2026 00:00:00 GMT",
+      "id": "ai-3b5a2a6a27ab5490",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Mystonie",
+      "url": "https://producthunt.com/products/mystonie",
+      "description": "Log movies, shows, books & games — turn finishes into art",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T18:57:54-08:00",
+      "id": "ai-3bc3b85944db4b2e",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Independent filmmakers in India bring big-screen stories to life with Google Flow.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/women-in-film-india-google-flow",
+      "description": "Indian filmmakers use Google Flow to create original short films. Watch five winning stories from the WIF India Filmathon. See the films now.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Google Labs"
+      ],
+      "published_at": "Tue, 24 Nov 2026 14:00:00 +0000",
+      "id": "ai-3cf0a5f34d4c9c13",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Sotto",
+      "url": "https://producthunt.com/products/sotto-11",
+      "description": "Hold a key, speak, clean text lands at your Linux cursor",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T14:13:40-08:00",
+      "id": "ai-3d1a81cb1d3c40ea",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "At Holiday Extras, dots get to work before anyone asks",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "description": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Mon, 16 Nov 2026 00:00:00 GMT",
+      "id": "ai-3d4aeac88b69acfa",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "K-Stra",
+      "url": "https://producthunt.com/products/k-stra",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-3d9adb8687aaa94f",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Geomarketing for Australia, with an AI that does the maths",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-20T06:25:07-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "Astrolabio",
+      "url": "https://producthunt.com/products/astrolabio",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-3de1e34581f434f6",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Your AIs pick up right where you left off, on your Mac",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T05:39:26-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
     {
       "name": "Zapyso",
-      "url": "https://www.producthunt.com/products/zapyso",
+      "url": "https://producthunt.com/products/zapyso",
       "source": "Product Hunt",
-      "status": "pending"
+      "status": "pending",
+      "id": "ai-3e3e04245fd03987",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Safety"
+      ],
+      "published_at": "Wed, 21 Oct 2026 21:00:00 GMT",
+      "id": "ai-3f1a11956436b167",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "description": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 21 Oct 2026 00:00:00 GMT",
+      "id": "ai-3fe372fb2e8166f0",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Mon, 02 Nov 2026 00:00:00 GMT",
+      "id": "ai-4094d4340f9e66f9",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "LegalOn halves Codex costs while maintaining development speed",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "description": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 08 Oct 2026 12:00:00 GMT",
+      "id": "ai-45d6a2b79938283a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Agenda Hero Magic Labs",
+      "url": "https://producthunt.com/products/agenda-hero-magic",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-46ea5154c356998d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Any schedule. Any layout. Any style.",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T22:26:55-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Ulika",
+      "url": "https://producthunt.com/products/ulika",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-47e6d1c70aa54ae5",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "LeanTake",
+      "url": "https://producthunt.com/products/leantake",
+      "description": "4.1 MB native Mac screen recorder — zero export wait",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-22T04:14:55-08:00",
+      "id": "ai-48f2fa74038a35ad",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "description": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 12 Nov 2026 09:30:00 GMT",
+      "id": "ai-4922ca6fb0dd9299",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Finseo",
+      "url": "https://producthunt.com/products/finseo-ai",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-4a5eeb69d5b9ec3c",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Company brain + outreach to get your brand mentioned by AI",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T08:47:25-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "Yoroll",
+      "url": "https://producthunt.com/products/yoroll",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-4a722578dd1dc965",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Omi Work",
+      "url": "https://producthunt.com/products/omi-work",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-4bc93afab7454881",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "description": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "id": "ai-4e324623ab7ca6fe",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "description": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Search",
+        "Gemini",
+        "Google Play",
+        "AI"
+      ],
+      "published_at": "Mon, 23 Nov 2026 17:00:00 +0000",
+      "id": "ai-4f5fe20de68e9dfd",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "See some of the work from Google Flow and Flow Music Sessions artists",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-and-flow-music-session-artists",
+      "description": "A man and a seagull",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Google Labs"
+      ],
+      "published_at": "Thu, 19 Nov 2026 16:00:00 +0000",
+      "id": "ai-5021ba6085ca6193",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Resurf",
+      "url": "https://producthunt.com/products/resurf-2",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-5319ebf128dc96f1",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "id": "ai-53d809d7420a3923",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "description": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 11 Nov 2026 00:00:00 GMT",
+      "id": "ai-55ff14dc4213127d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "id": "ai-570fe3204556675e",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "id": "ai-574dbaf7fc8731e4",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Wed, 14 Oct 2026 12:00:00 GMT",
+      "id": "ai-57c3309db5bedcde",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "id": "ai-58da586369f33999",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Mon, 02 Nov 2026 09:00:00 GMT",
+      "id": "ai-5a014341bc3fc0f1",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Granular.Build",
+      "url": "https://producthunt.com/products/granular-build",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-5b48cfb54e99cf63",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Put your AI agents to work in a visual workspace",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-18T10:51:22-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Put your AI agents to work in a visual workspace",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Omi CLI",
+      "url": "https://producthunt.com/products/omi-cli",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-5c3610de900e2ae1",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "distribution.dev",
+      "url": "https://producthunt.com/products/distribution-dev",
+      "description": "Advertise to developers on many sites with one campaign",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-17T01:23:57-08:00",
+      "id": "ai-5c9091d9364f6324",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Mon, 02 Nov 2026 15:00:00 GMT",
+      "id": "ai-5d33ed0c66ace544",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Publication"
+      ],
+      "published_at": "Fri, 06 Nov 2026 00:00:00 GMT",
+      "id": "ai-5f721228af3682c2",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Organize and share your holiday memories with these five updates in Google Photos.",
+      "url": "https://blog.google/products-and-platforms/products/photos/google-photo-tools-holiday-season-2026",
+      "description": "Organize holiday memories with five new Google Photos updates. Use Gemini for video tasks and filter shared albums by people. Try these features today.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Photos"
+      ],
+      "published_at": "Mon, 23 Nov 2026 17:00:00 +0000",
+      "id": "ai-606cad8e85b3c4fe",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "The King’s Trust and OpenAI launch £1m partnership",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "description": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Mon, 16 Nov 2026 00:00:00 GMT",
+      "id": "ai-60f3c7381bc61eae",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Thu, 05 Nov 2026 17:00:00 GMT",
+      "id": "ai-616c68177b707eae",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Prates",
+      "url": "https://producthunt.com/products/prates",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-620403bc5bd99857",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Learns how you write, then writes exactly as you would",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-21T06:13:49-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
+      "description": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "AI"
+      ],
+      "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "id": "ai-63610b904de29506",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "description": "What forward deployed engineering means at OpenAI",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "AI Adoption"
+      ],
+      "published_at": "Thu, 22 Oct 2026 06:00:00 GMT",
+      "id": "ai-6400feb681472530",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Publication"
+      ],
+      "published_at": "Wed, 21 Oct 2026 04:50:00 GMT",
+      "id": "ai-64ddfb139fec8a1c",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "We’re expanding our London home in King's Cross.",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/expanding-london-home-kings-cross",
+      "description": "Sticky Note Art in 6 Pancras Square",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "UK"
+      ],
+      "published_at": "Tue, 24 Nov 2026 08:00:00 +0000",
+      "id": "ai-6546b5b79b87675e",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "id": "ai-65b96c238445cded",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "description": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Wed, 07 Oct 2026 12:00:00 GMT",
+      "id": "ai-661f64ddb5f472a2",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Orpheus",
+      "url": "https://producthunt.com/products/orpheus-2",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-66eceeba9f8e95d3",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 12 Nov 2026 20:00:00 GMT",
+      "id": "ai-67672a694e389b29",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Inkling 2 Mini",
+      "url": "https://producthunt.com/products/tinker-2",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-676820b420345b82",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "description": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Engineering"
+      ],
+      "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "id": "ai-67952d9a918d2536",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Valley",
+      "url": "https://producthunt.com/products/valley-3",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-67f3c9d90d0d4fd5",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Outbound system to find people most likely to buy from you",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T02:54:10-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Fleetify",
+      "url": "https://producthunt.com/products/fleetify",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-68ae5999712f73db",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Open-source command center for your AI coding agents",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T08:11:52-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Dasturlash va Kod",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Open-source command center for your AI coding agents",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "description": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
+      "id": "ai-68ddb817fe4001c0",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Build strategic A/B tests to grow your ad performance.",
+      "url": "https://blog.google/products/ads-commerce/ads-decoded-ab-testing",
+      "description": "Improve your Google Ads performance with expert A/B testing strategies. Master AI Max experiments and Smart Bidding with our latest guide. Listen now.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Google Ads"
+      ],
+      "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "id": "ai-68f478bc125468f3",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Cullman",
+      "url": "https://producthunt.com/products/cullman",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-690b57442379133d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Faster voice agent evals, from simulation to production",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-18T21:59:36-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "description": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Tue, 10 Nov 2026 09:00:00 GMT",
+      "id": "ai-69d4d9d74efa0162",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Webless Agents",
+      "url": "https://producthunt.com/products/webless",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-6b78be8a8dde6dd0",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "DeskMagic",
+      "url": "https://producthunt.com/products/deskmagic",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-6d668d6727e8c55b",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Shake your cursor, ask AI about anything on screen",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-19T23:02:09-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "Chat with Work",
+      "url": "https://producthunt.com/products/chat-with-work",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-6f22cc9e3c4945e4",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "mindyOne",
+      "url": "https://producthunt.com/products/mindyone",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-707ddbb574a8203b",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Your Instagram DMs. Now with an AI receptionist.",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-22T13:42:19-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 28 Oct 2026 09:30:00 GMT",
+      "id": "ai-709cc8e2bd467b79",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "HeroUI Pro 1.0",
+      "url": "https://producthunt.com/products/heroui-pro-1-0",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-70d59b9a83a3793f",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Premium UI components, templates, and AI tooling for React",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-13T05:50:59-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "Squint",
+      "url": "https://producthunt.com/products/squint",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-7224258b7b1f6f8f",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Dog Translator SuperTranslator",
+      "url": "https://producthunt.com/products/dog-translator-supertranslator",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-7322aa5be22b0ba2",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "description": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "OpenAI on OpenAI"
+      ],
+      "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "id": "ai-742d30efdc4090c1",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Hydrilla",
+      "url": "https://producthunt.com/products/hydrilla",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-7537a20a126ec6e2",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 20 Nov 2026 10:00:00 GMT",
+      "id": "ai-7ad44f990f0c53ef",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "TouchDeck",
+      "url": "https://producthunt.com/products/touchdeck",
+      "description": "Turn your iPhone or iPad into a control deck for your Mac",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-14T21:49:41-08:00",
+      "id": "ai-7bd040a2e0b7006f",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Fri, 13 Nov 2026 15:00:00 GMT",
+      "id": "ai-7d4d71d056da0286",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "description": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Mon, 26 Oct 2026 13:45:00 GMT",
+      "id": "ai-7d972df501d01ba1",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "id": "ai-7e73eebe3e909303",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "How VistaPrint helps small businesses get the word out",
+      "url": "https://openai.com/ads/customers/vistaprint",
+      "description": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Mon, 09 Nov 2026 00:00:00 GMT",
+      "id": "ai-81209450b91a7acb",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Tendor",
+      "url": "https://producthunt.com/products/tendor",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-8142e372a8e7ff7a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Write it or ask it, from anywhere on Windows",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-19T23:02:20-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "id": "ai-8145fefb47ff1ca9",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Demos"
+      ],
+      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+      "id": "ai-82fe289fe466dcc1",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Fri, 30 Oct 2026 09:30:00 GMT",
+      "id": "ai-84abd1857de5dfd9",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "description": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Thu, 08 Oct 2026 12:00:00 GMT",
+      "id": "ai-855092fba1df7e8a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "description": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "id": "ai-85f94c0fe8f02a81",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Grupo Boticário uses AI to strengthen human connections",
+      "url": "https://openai.com/index/grupo-boticario",
+      "description": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "id": "ai-86dbfdb5b436c283",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "A smarter way to track and buy clean energy",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/granular-certificates-clean-energy-2026",
+      "description": "Video",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Global Network",
+        "Sustainability"
+      ],
+      "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "id": "ai-88a0684d6bab0437",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "description": "Fast, focused, low-cost decisions for any application.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Thu, 22 Oct 2026 19:00:00 GMT",
+      "id": "ai-891b7e0bbf66f86d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Finer Screenshot",
+      "url": "https://producthunt.com/products/finer-screenshot",
+      "description": "Add text that automatically stays readable on any background",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T20:45:20-08:00",
+      "id": "ai-8c38500592de1168",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Tue, 13 Oct 2026 12:00:00 GMT",
+      "id": "ai-8d45898e533e591d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "description": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Mon, 26 Oct 2026 14:30:00 GMT",
+      "id": "ai-8eb6001a836a6e50",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Context",
+      "url": "https://producthunt.com/products/context-13",
+      "description": "The calendar that gets you ready for every meeting",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-10T15:16:49-08:00",
+      "id": "ai-8f19b1dcabd3a93f",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Tue, 17 Nov 2026 17:45:00 GMT",
+      "id": "ai-8f6af8c44a4a1bfb",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "description": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "id": "ai-9092d5eb66f29547",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Here are 4 things you didn’t know you could do with Gemini Canvas.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks",
+      "description": "Boost productivity with Google Gemini Canvas. Build web apps, create custom study tools, and refine writing side-by-side. Try it in your next chat.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Gemini App"
+      ],
+      "published_at": "Mon, 23 Nov 2026 18:00:00 +0000",
+      "id": "ai-930259be17ccb09d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Engineering"
+      ],
+      "published_at": "Thu, 19 Nov 2026 08:00:00 GMT",
+      "id": "ai-9342dbf934e428aa",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Safety"
+      ],
+      "published_at": "Thu, 29 Oct 2026 17:00:00 GMT",
+      "id": "ai-9349f418e7bc7ab4",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "description": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Mon, 02 Nov 2026 00:00:00 GMT",
+      "id": "ai-945f879ef3a469b4",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Wellbreak",
+      "url": "https://producthunt.com/products/wellbreak",
+      "description": "Your wellbeing buddy in Mac's notch",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T11:09:40-08:00",
+      "id": "ai-947862dcf9cca364",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Strict",
+      "url": "https://producthunt.com/products/strict",
+      "description": "Run GitHub Actions on any spare Mac or Linux machine",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-22T15:04:09-08:00",
+      "id": "ai-94a767640e2d46dd",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "id": "ai-94eadcab22c41e35",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "id": "ai-94ee28b93f9d2d83",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "description": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Safety"
+      ],
+      "published_at": "Mon, 09 Nov 2026 13:00:00 GMT",
+      "id": "ai-952d2516af2e9054",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Wed, 21 Oct 2026 12:00:00 GMT",
+      "id": "ai-95dedf578de78f3e",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees—in one of Brazil’s most regulated sectors.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 16 Oct 2026 19:00:00 GMT",
+      "id": "ai-9732b2763df5a67a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Tesla Self-Driving V15",
+      "url": "https://producthunt.com/products/tesla",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-974f06ff1d499e9f",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Upgrading every part of the end-to-end driving network",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-21T18:23:40-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "description": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "id": "ai-981785a01550309d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Tue, 10 Nov 2026 10:00:00 GMT",
+      "id": "ai-991ad48e8559b2fe",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "frwrd.to",
+      "url": "https://producthunt.com/products/frwrd-to",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-996ad01d5e879752",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Your link in bio, sorted by your AI in one message",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T04:34:54-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Safety"
+      ],
+      "published_at": "Wed, 18 Nov 2026 06:00:00 GMT",
+      "id": "ai-99be0c0a7e074380",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "id": "ai-9bf93d58cc35db99",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Rotara",
+      "url": "https://producthunt.com/products/rotara",
+      "description": "Mac workspaces, one flick away",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-22T08:59:41-08:00",
+      "id": "ai-9c0241504946476c",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Small businesses, big results: How teams scale with AI",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-workspace-gemini-small-business-stories",
+      "description": "A montage of four U.S. small business owners using Google Workspace with Gemini on their phones and laptops to run their businesses.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Google Workspace",
+        "Small Business",
+        "Grow with Google"
+      ],
+      "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "id": "ai-9d9675420d9516db",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "id": "ai-9e63539289a31c86",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Safety"
+      ],
+      "published_at": "Mon, 16 Nov 2026 08:00:00 GMT",
+      "id": "ai-9fe6d2ae73e55f52",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "description": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Wed, 07 Oct 2026 00:00:00 GMT",
+      "id": "ai-a097ef0d441a7216",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Fri, 06 Nov 2026 08:00:00 GMT",
+      "id": "ai-a0a44ed09dc9a108",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
+      "id": "ai-a1de396d3910fa2e",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Building the right way: Lessons from 20 years in The Dalles",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/the-dalles-data-center-20-years",
+      "description": "The Dalles",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Global Network"
+      ],
+      "published_at": "Thu, 19 Nov 2026 15:00:00 +0000",
+      "id": "ai-a2352d09abdc412c",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Drift",
+      "url": "https://producthunt.com/products/drift-aef4d3de-e971-402b-b62f-613b9c79b4cd",
+      "description": "Wallpaper that reflects the world around you",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T13:24:36-08:00",
+      "id": "ai-a238f2ae8e538967",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "description": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Wed, 04 Nov 2026 07:00:00 GMT",
+      "id": "ai-a3433e936d2c04bf",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "oovi",
+      "url": "https://producthunt.com/products/oovi",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-a389a22d6e6cebf1",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Wed, 28 Oct 2026 13:15:00 GMT",
+      "id": "ai-a395c7da350b5086",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Thu, 15 Oct 2026 13:00:00 GMT",
+      "id": "ai-a60f4a701f887ae8",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Safety"
+      ],
+      "published_at": "Fri, 30 Oct 2026 09:00:00 GMT",
+      "id": "ai-a86d24c59c826150",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Guides"
+      ],
+      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+      "id": "ai-a890a236270cc5e3",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "ICYMI: Transfer your history from other AI apps into Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history",
+      "description": "Transfer your chat history into Gemini. Import your ZIP files and AI summaries to continue conversations seamlessly. Get the details.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Gemini App"
+      ],
+      "published_at": "Thu, 19 Nov 2026 20:30:00 +0000",
+      "id": "ai-a89c20fefc5a1132",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "id": "ai-a8b8c31de898145e",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Franklin Templeton uses OpenAI to support investment research",
+      "url": "https://openai.com/index/franklin-templeton",
+      "description": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 05 Nov 2026 00:00:00 GMT",
+      "id": "ai-a8e215d1c3fca63a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "id": "ai-a99dfdd20d85acbb",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Mon, 26 Oct 2026 22:00:00 GMT",
+      "id": "ai-a9c488820a62ac4a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "description": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "id": "ai-aa8847d44cbae332",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Wed, 11 Nov 2026 08:00:00 GMT",
+      "id": "ai-ac94b61a25ade5ed",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Claude Ship",
+      "url": "https://producthunt.com/products/claude-code",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-ad76fc1826aa4a22",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Ship code as fast as you can write it",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T13:00:36-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Dasturlash va Kod",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Ship code as fast as you can write it",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Mon, 23 Nov 2026 21:20:00 GMT",
+      "id": "ai-b0689cf87ab570a4",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Wed, 21 Oct 2026 13:00:00 GMT",
+      "id": "ai-b1215e1aefc04c61",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "description": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Tue, 17 Nov 2026 00:00:00 GMT",
+      "id": "ai-b43ef08ac3ed4f7a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Clam AI",
+      "url": "https://producthunt.com/products/clam-ai",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-b5e68a0365d68a87",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Your inbox, safely shared with AI agents",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T00:44:25-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Your inbox, safely shared with AI agents",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Bento terminal",
+      "url": "https://producthunt.com/products/bento-terminal",
+      "description": "A multi-pane terminal workspace for one project",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-18T02:25:07-08:00",
+      "id": "ai-b66f8c99356e8c3f",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "id": "ai-b6756c0a180ee554",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Ohhai",
+      "url": "https://producthunt.com/products/ohhai",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-b6c79423b48d81be",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Type messy, send clean: an AI keyboard for iPhone",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-18T10:05:36-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Mon, 16 Nov 2026 09:30:00 GMT",
+      "id": "ai-b82b64ef90f76e66",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Startup"
+      ],
+      "published_at": "Thu, 12 Nov 2026 12:00:00 GMT",
+      "id": "ai-b9840fd67063a36a",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Adanotch",
+      "url": "https://producthunt.com/products/adanotch",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-b9dc72d44dc26c31",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "A live Dynamic Island for your MacBook notch",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-17T12:36:39-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Scribase MCP Server",
+      "url": "https://producthunt.com/products/scribase",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-ba1b5d7e7b639f25",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "A Postgres backend your coding agent sets up by MCP",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-12T02:25:04-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "description": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 05 Nov 2026 20:00:00 GMT",
+      "id": "ai-bbd492caba72ca54",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "description": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Mon, 02 Nov 2026 18:00:00 GMT",
+      "id": "ai-bca108e4c77bd86b",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Gauth Personal Study Agent",
+      "url": "https://producthunt.com/products/gauth-ai-course",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-bcad19eb1fbdbc47",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Modem",
+      "url": "https://producthunt.com/products/modem",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-c172a715964dfe86",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "id": "ai-c1a2af93db54bfcf",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Tue, 27 Oct 2026 07:00:00 GMT",
+      "id": "ai-c417f8e3d39d0b89",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Tue, 27 Oct 2026 00:00:00 GMT",
+      "id": "ai-c44dc9ed271ff418",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Kodak SlideTag",
+      "url": "https://producthunt.com/products/kodak-slidetag",
+      "description": "A 1935 film-slide E-Ink frame that tracks like an AirTag",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T19:40:58-08:00",
+      "id": "ai-c6ab9f1d737e63d5",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Product"
+      ],
+      "published_at": "Mon, 09 Nov 2026 19:00:00 GMT",
+      "id": "ai-caa9073cefb43725",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Motionflare",
+      "url": "https://producthunt.com/products/motionflare",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-cdd0288b934b38ea",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "How Localiza reorganized work around generative AI",
+      "url": "https://openai.com/index/localiza-generative-ai",
+      "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "id": "ai-d3b9ba6f7bd01af0",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Thu, 12 Nov 2026 00:00:00 GMT",
+      "id": "ai-d7c1da8cb7dc41da",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Mobile Agent Testers",
+      "url": "https://producthunt.com/products/mobile-agent-testers",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-d8303e832d4a17eb",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Research"
+      ],
+      "published_at": "Mon, 16 Nov 2026 12:00:00 GMT",
+      "id": "ai-d91fd06de7b8771e",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "description": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "id": "ai-d948735545c20cf3",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Hourly Journal",
+      "url": "https://producthunt.com/products/hourly-journal",
+      "description": "Journal your hours, understand your days",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T20:54:41-08:00",
+      "id": "ai-d9bbd894e2614f13",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "description": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Safety"
+      ],
+      "published_at": "Thu, 08 Oct 2026 00:00:00 GMT",
+      "id": "ai-d9e485b409fe8517",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "description": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Demos"
+      ],
+      "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+      "id": "ai-da30645137037f00",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "description": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 08 Oct 2026 16:00:00 GMT",
+      "id": "ai-db7b9e6fe248e314",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "description": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "id": "ai-db9792e954d44701",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Genie 4 is now available on the Gemini API.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api",
+      "description": "Build interactive 720p worlds with Genie 4 on the Google Gemini API. Generate coherent environments with native audio and real-time controls. Get started.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Google DeepMind",
+        "Developer tools"
+      ],
+      "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "id": "ai-dc88cc571d8c7771",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Safety"
+      ],
+      "published_at": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "id": "ai-dd659f011024f04f",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "id": "ai-de9db6f384cbc788",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Global Affairs"
+      ],
+      "published_at": "Wed, 21 Oct 2026 00:00:00 GMT",
+      "id": "ai-e270f5ba4688033d",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "description": "How AI might enter the org chart—beneath, beside, and between us.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Intelligence Age"
+      ],
+      "published_at": "Wed, 28 Oct 2026 10:00:00 GMT",
+      "id": "ai-e2ed7680c50ae3f0",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Get your year-end tasks done with new Connected Apps.",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands",
+      "description": "Google Connected Apps simplify your year-end tasks. Manage groceries, credit scores, and home services directly in Search. Get the details for November 2026.",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Gemini App",
+        "Search"
+      ],
+      "published_at": "Fri, 20 Nov 2026 18:00:00 +0000",
+      "id": "ai-e75dee93f69f4b7e",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "freddy",
+      "url": "https://producthunt.com/products/freddy",
+      "source": "Product Hunt",
+      "status": "pending",
+      "id": "ai-e92df436f6e901bf",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
+    },
+    {
+      "name": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Engineering"
+      ],
+      "published_at": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "id": "ai-ea92da5c121ecb45",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "description": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Tue, 06 Oct 2026 12:00:00 GMT",
+      "id": "ai-ebb413cc5359756b",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Thu, 22 Oct 2026 00:00:00 GMT",
+      "id": "ai-eda525050cea8fce",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Pinned",
+      "url": "https://producthunt.com/products/pinned",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-edde3971d7a91f54",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Ask the city where to go tonight with your friends",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T17:33:35-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Engineering"
+      ],
+      "published_at": "Fri, 23 Oct 2026 17:00:00 GMT",
+      "id": "ai-ee4c22366ef7e7ab",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Replit Missions",
+      "url": "https://producthunt.com/products/replit",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-ee9cac41a6be6d44",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Set a budget, coordinate teams of AI agents,",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-22T09:13:25-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-24T15:18:46.858453+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Set a budget, coordinate teams of AI agents,",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Let Gemini tackle repetitive chores on your Mac",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
+      "description": "Prompting Gemini to take a kid's butterfly sketch, model it, and rig it in Blender",
+      "source": "Google",
+      "source_url": "https://blog.google/rss/",
+      "categories": [
+        "Gemini App"
+      ],
+      "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
+      "id": "ai-efdbd6c83627cffe",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "tday.com",
+      "url": "https://producthunt.com/products/tday",
+      "source": "Product Hunt",
+      "status": "rejected",
+      "id": "ai-f2bdc95f54e98cf1",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "description": "Ask your coding agent for a narrated demo of any feature",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-11-23T13:22:27-08:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Umami Manager",
+      "url": "https://producthunt.com/products/umami-manager",
+      "description": "Umami reports, widgets & links – native on iPhone & iPad",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T08:55:11-08:00",
+      "id": "ai-f36835feccd64b3b",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "InField",
+      "url": "https://producthunt.com/products/infield-translate-and-refine",
+      "description": "Translate and refine text where you type, on Mac and Chrome",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T08:52:44-08:00",
+      "id": "ai-f3988ef2950576dd",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "description": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Tue, 10 Nov 2026 07:00:00 GMT",
+      "id": "ai-f3fc54cd1d78c100",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Publication"
+      ],
+      "published_at": "Tue, 06 Oct 2026 10:00:00 GMT",
+      "id": "ai-f57eff9c23a4454b",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Fri, 23 Oct 2026 10:00:00 GMT",
+      "id": "ai-f8c156dba7886826",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Snowly",
+      "url": "https://producthunt.com/products/snowly-2",
+      "description": "Plan ski trips with friends. Remember every run.",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-17T18:11:19-08:00",
+      "id": "ai-faeba6eb9fc58e32",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "description": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Security"
+      ],
+      "published_at": "Wed, 04 Nov 2026 08:00:00 GMT",
+      "id": "ai-fbaa86a829ad59fd",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [],
+      "published_at": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "id": "ai-fc87a45dcfbf03d4",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
+    },
+    {
+      "name": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "source": "OpenAI",
+      "source_url": "https://openai.com/news/rss.xml",
+      "categories": [
+        "Company"
+      ],
+      "published_at": "Mon, 16 Nov 2026 09:00:00 GMT",
+      "id": "ai-ff7833693fa2a067",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "last_seen_at": "2026-11-24T15:21:00.898655+00:00",
+      "status": "pending",
+      "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     }
   ]
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Olami — Dunyodagi Barcha Sun'iy Intellektlar Ensiklopediyasi</title>
+    <title>AI Olami — Sun’iy intellekt vositalari katalogi</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -123,7 +123,7 @@
                 </div>
                 <div>
                     <span class="font-extrabold text-lg tracking-tight text-white">AI <span class="text-cyan-400">Olami</span></span>
-                    <span class="hidden sm:block text-[10px] uppercase tracking-widest text-slate-400">2026 Global Ensiklopediya</span>
+                    <span class="hidden sm:block text-[10px] uppercase tracking-widest text-slate-400">O‘zbekcha AI katalogi</span>
                 </div>
             </a>
 
@@ -131,7 +131,7 @@
                 <a href="#yonalishlar" class="hover:text-cyan-400 transition">AI Turlari</a>
                 <a href="#katalog" class="hover:text-cyan-400 transition">Barcha AI lar</a>
                 <a href="#aksiyalar" class="hover:text-amber-400 transition flex items-center gap-1.5 text-amber-300 font-semibold">
-                    <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+                    <span class="w-2 h-2 rounded-full bg-amber-400"></span>
                     <span>Aksiyalar</span>
                 </a>
                 <a href="#statistika" class="hover:text-cyan-400 transition">Statistika</a>
@@ -139,9 +139,9 @@
             </nav>
 
             <button onclick="toggleAIChat(true)" class="px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white text-xs sm:text-sm font-bold shadow-lg shadow-cyan-500/25 flex items-center gap-2 transition active:scale-95">
-                <span class="w-2 h-2 rounded-full bg-emerald-300 animate-ping"></span>
+                <span class="w-2 h-2 rounded-full bg-emerald-300"></span>
                 <i class="fa-solid fa-robot"></i>
-                <span>AI Yordamchi</span>
+                <span>Qidiruv yordamchisi</span>
             </button>
         </div>
     </header>
@@ -154,16 +154,16 @@
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-400/25 text-cyan-300 text-xs font-semibold tracking-wide mb-6">
-                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-                2026 GLOBAL AI ENSIKLOPEDIYASI • 15 000+ SUN’IY INTELLEKT BAZASI
+                <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                OCHIQ MANBALARDAN YANGILANADIGAN AI KATALOGI
             </div>
 
             <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight text-white max-w-4xl mx-auto leading-[1.1]">
-                Dunyodagi <span class="text-gradient">Barcha Sun’iy Intellektlar</span> Bitta Joyda
+                <span class="text-gradient">Sun’iy Intellekt Vositalari</span> Bitta Joyda
             </h1>
 
             <p class="mt-6 text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-                Har bir sun’iy intellekt nimalar qila olishi, qaysi sohada eng kuchli ekani, foydalanuvchilar soni va bepul imkoniyatlari haqida eng to‘liq o‘zbekcha ma’lumotlar bazasi.
+                Sun’iy intellekt vositalarini vazifasi va yo‘nalishi bo‘yicha toping. Yangi topilmalar ochiq manbalardagi dalillar asosida katalogga qo‘shiladi. Tarif va mavjudlikni xizmatning o‘zida tekshiring.
             </p>
 
             <!-- Hero Search Bar -->
@@ -187,25 +187,13 @@
 
             <!-- 4 Key Metrics with Repeatable Count-Up Animation -->
             <div id="hero-metrics" class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-5 max-w-4xl mx-auto mt-14">
-                <div class="glass-card p-5 rounded-3xl">
-                    <div class="stat-counter text-3xl sm:text-4xl font-black text-white tabular-nums" data-target="15400" data-suffix="+">0+</div>
-                    <div class="text-xs sm:text-sm text-slate-400 mt-1">Dunyodagi barcha AI</div>
-                </div>
-                <div class="glass-card p-5 rounded-3xl">
-                    <div class="stat-counter text-3xl sm:text-4xl font-black text-cyan-400 tabular-nums" data-target="8" data-suffix=" ta">0 ta</div>
-                    <div class="text-xs sm:text-sm text-slate-400 mt-1">Asosiy AI yo‘nalishi</div>
-                </div>
-                <div class="glass-card p-5 rounded-3xl">
-                    <div class="stat-counter text-3xl sm:text-4xl font-black text-emerald-400 tabular-nums" data-target="11200" data-suffix="+">0+</div>
-                    <div class="text-xs sm:text-sm text-slate-400 mt-1">Bepul AI tizimlar</div>
-                </div>
-                <div class="glass-card p-5 rounded-3xl">
-                    <div class="stat-counter text-3xl sm:text-4xl font-black text-purple-400 tabular-nums" data-target="3.4" data-decimal="true" data-suffix="B+">0.0B+</div>
-                    <div class="text-xs sm:text-sm text-slate-400 mt-1">Global foydalanuvchilar</div>
-                </div>
+<div class="glass-card p-5 rounded-3xl"><div id="metric-total" class="text-3xl sm:text-4xl font-black text-white tabular-nums">0</div><div class="text-xs sm:text-sm text-slate-400 mt-1">Katalogdagi vositalar</div></div>
+<div class="glass-card p-5 rounded-3xl"><div id="metric-categories" class="text-3xl sm:text-4xl font-black text-cyan-400 tabular-nums">0</div><div class="text-xs sm:text-sm text-slate-400 mt-1">Mavjud yo‘nalishlar</div></div>
+<div class="glass-card p-5 rounded-3xl"><div id="metric-discovered" class="text-3xl sm:text-4xl font-black text-emerald-400 tabular-nums">0</div><div class="text-xs sm:text-sm text-slate-400 mt-1">Avtomatik saralangan</div></div>
+<div class="glass-card p-5 rounded-3xl"><div id="metric-promos" class="text-3xl sm:text-4xl font-black text-purple-400 tabular-nums">0</div><div class="text-xs sm:text-sm text-slate-400 mt-1">Tasdiqlangan takliflar</div></div>
             </div>
+            <p id="monitor-summary" class="text-sm text-slate-400 mt-5" role="status">So‘nggi tekshiruv ma’lumoti yuklanmoqda…</p>
         </div>
-
         <!-- Animated Brand Marquee -->
         <div class="mt-16 border-y border-white/10 bg-dark-900/50 py-4 overflow-hidden">
             <div id="brand-marquee" class="animate-marquee gap-6 px-4"></div>
@@ -271,7 +259,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6">
                 <div>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white">Dunyodagi Barcha AI Tizimlari</h2>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white">Sun’iy Intellekt Katalogi</h2>
                     <p class="text-slate-400 text-sm mt-1">
                         Katalogda ko‘rsatilmoqda: <span id="ai-count" class="text-cyan-400 font-bold tabular-nums">0</span> ta asosiy AI vositasi • Istalgan birini bosing
                     </p>
@@ -339,16 +327,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
                 <div>
-                    <span class="text-xs font-bold uppercase tracking-widest text-cyan-400">2026 Global Analitika</span>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-1">Eng Ko‘p Foydalaniladigan AI lar Reytingi</h2>
+                    <span class="text-xs font-bold uppercase tracking-widest text-cyan-400">Ushbu katalog ma’lumotlari</span>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-1">Katalogning Yo‘nalishlar Bo‘yicha Tarkibi</h2>
                 </div>
-                <div class="flex flex-wrap gap-1.5 rounded-xl bg-dark-900 p-1 border border-white/10">
-                    <button id="tab-users" onclick="switchStatsTab('users')" class="stats-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-cyan-500 text-slate-950 transition">Foydalanuvchilar</button>
-                    <button id="tab-category-users" onclick="switchStatsTab('category-users')" class="stats-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition">Turlar bo‘yicha foydalanuvchilar</button>
-                    <button id="tab-growth" onclick="switchStatsTab('growth')" class="stats-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition">Yillik o‘sish (%)</button>
-                    <button id="tab-domains" onclick="switchStatsTab('domains')" class="stats-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition">Sohalar ulushi (%)</button>
-                    <button id="tab-free" onclick="switchStatsTab('free')" class="stats-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition">Bepul AI lar soni</button>
-                </div>
+                <p class="text-sm text-slate-400 max-w-md">Raqamlar shu katalogdagi yozuvlardan hisoblanadi; global bozor ulushi yoki foydalanuvchilar reytingi emas.</p>
             </div>
 
             <div id="stats-bars" class="glass-card p-6 sm:p-8 rounded-3xl space-y-5"></div>
@@ -361,14 +343,14 @@
             <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
                 <div>
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-400/30 text-amber-300 text-xs font-bold uppercase tracking-wider mb-2">
-                        <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
-                        Jonli Aksiyalar va Bepul Sinovlar
+                        <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                        Tekshirilgan Aksiyalar va Bepul Sinovlar
                     </div>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white">Hozirgi Kunda Aksiya va Bepul Sinov Berayotgan AI lar</h2>
-                    <p class="text-slate-400 text-sm mt-1">Cheklangan muddatga bepul Pro tarif, bonus kreditlar yoki maxsus chegirma e’lon qilgan AI platformalar.</p>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white">Rasmiy Manbada Tasdiqlangan Takliflar</h2>
+                    <p class="text-slate-400 text-sm mt-1">Faqat narxi, shartlari va boshlanish/tugash sanasi rasmiy manbada tekshirilgan takliflar. Tekshiruv 24 soatdan eskirsa yoki muddati tugasa, taklif yashiriladi.</p>
                 </div>
                 <div class="flex flex-wrap gap-1.5 rounded-xl bg-dark-900 p-1 border border-white/10">
-                    <button onclick="filterPromos('all', this)" class="promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-amber-500 text-slate-950 transition">Barchasi (6)</button>
+                    <button onclick="filterPromos('all', this)" class="promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-amber-500 text-slate-950 transition">Barchasi (0)</button>
                     <button onclick="filterPromos('trial', this)" class="promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition">⏳ Bepul sinov</button>
                     <button onclick="filterPromos('bonus', this)" class="promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition">🎁 Bonus kredit</button>
                     <button onclick="filterPromos('discount', this)" class="promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition">🔥 Chegirma</button>
@@ -407,9 +389,9 @@
     <section id="baholash" class="py-16 border-t border-white/5">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-10">
-                <span class="text-xs font-bold uppercase tracking-widest text-amber-400">Hamjamiyat va Fikrlar</span>
-                <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-1">Saytimizni Baholang va O‘z Fikringizni Qoldiring</h2>
-                <p class="text-slate-400 text-sm mt-2">Foydalanuvchilarimizning baholari asosida platformamizni yanada rivojlantiramiz.</p>
+                <span class="text-xs font-bold uppercase tracking-widest text-amber-400">Shu brauzerdagi qaydlar</span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-1">Shaxsiy Baho va Fikrlaringiz</h2>
+                <p class="text-slate-400 text-sm mt-2">Fikrlar faqat shu qurilmaning brauzerida saqlanadi; sayt egasiga yuborilmaydi va boshqa odamlarga ko‘rinmaydi.</p>
             </div>
 
             <!-- Live Site Visitors & Rating Summary Cards -->
@@ -418,8 +400,8 @@
                     <div class="w-11 h-11 rounded-2xl bg-cyan-500/15 text-cyan-400 flex items-center justify-center text-lg mx-auto mb-3">
                         <i class="fa-solid fa-users"></i>
                     </div>
-                    <div id="site-visitors-count" class="stat-counter text-3xl sm:text-4xl font-black text-white tabular-nums" data-target="48920" data-suffix="+">0+</div>
-                    <div class="text-xs sm:text-sm text-slate-400 mt-1">Saytimiz foydalanuvchilari</div>
+                    <div id="site-visitors-count" class="text-3xl sm:text-4xl font-black text-white">—</div>
+                    <div class="text-xs sm:text-sm text-slate-400 mt-1">Tashriflar hisobi yoqilmagan</div>
                 </div>
 
                 <div class="glass-card p-6 rounded-3xl text-center">
@@ -427,21 +409,19 @@
                         <i class="fa-solid fa-star"></i>
                     </div>
                     <div class="flex items-center justify-center gap-2">
-                        <span id="site-avg-rating" class="text-3xl sm:text-4xl font-black text-amber-400 tabular-nums">4.9</span>
+                        <span id="site-avg-rating" class="text-3xl sm:text-4xl font-black text-amber-400 tabular-nums">—</span>
                         <span class="text-sm text-slate-400 font-semibold">/ 5.0</span>
                     </div>
-                    <div id="site-avg-stars" class="flex items-center justify-center gap-1 text-amber-400 text-xs mt-1.5">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="text-xs text-slate-400 mt-1">Saytimiz umumiy reytingi</div>
+                    <div id="site-avg-stars" class="flex items-center justify-center gap-1 text-amber-400 text-xs mt-1.5"></div>
+                    <div class="text-xs text-slate-400 mt-1">Shu brauzerdagi o‘rtacha baho</div>
                 </div>
 
                 <div class="glass-card p-6 rounded-3xl text-center">
                     <div class="w-11 h-11 rounded-2xl bg-emerald-500/15 text-emerald-400 flex items-center justify-center text-lg mx-auto mb-3">
                         <i class="fa-solid fa-comment-dots"></i>
                     </div>
-                    <div id="site-reviews-count" class="text-3xl sm:text-4xl font-black text-emerald-400 tabular-nums">1 284</div>
-                    <div class="text-xs sm:text-sm text-slate-400 mt-1">Qoldirilgan baho va fikrlar</div>
+                    <div id="site-reviews-count" class="text-3xl sm:text-4xl font-black text-emerald-400 tabular-nums">0</div>
+                    <div class="text-xs sm:text-sm text-slate-400 mt-1">Shu brauzerda saqlangan fikrlar</div>
                 </div>
             </div>
 
@@ -450,7 +430,7 @@
                 <!-- Leave a Review Form -->
                 <div class="lg:col-span-5 glass-card p-6 sm:p-7 rounded-3xl">
                     <h3 class="text-lg font-bold text-white mb-1">Baho bering</h3>
-                    <p class="text-xs text-slate-400 mb-5">Yulduzchalarni tanlang va fikringizni yozib qoldiring:</p>
+                    <p class="text-xs text-slate-400 mb-5">Yulduzchalarni tanlang va shaxsiy qayd yozing:</p>
 
                     <form id="site-review-form" onsubmit="submitSiteReview(event)" class="space-y-4">
                         <div>
@@ -467,21 +447,21 @@
 
                         <div>
                             <label class="block text-xs text-slate-300 mb-1.5">Ismingiz</label>
-                            <input id="reviewer-name" type="text" required placeholder="Masalan: Jasurbek"
+                            <input id="reviewer-name" type="text" required maxlength="80" placeholder="Masalan: Jasurbek"
                                    class="w-full px-4 py-2.5 rounded-xl bg-dark-950 border border-white/15 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400">
                         </div>
 
                         <div>
                             <label class="block text-xs text-slate-300 mb-1.5">Fikr va taklifingiz</label>
-                            <textarea id="reviewer-comment" rows="3" required placeholder="Sayt haqida o‘z fikringizni yozing..."
+                            <textarea id="reviewer-comment" rows="3" required maxlength="1500" placeholder="Sayt haqida o‘z fikringizni yozing..."
                                       class="w-full px-4 py-2.5 rounded-xl bg-dark-950 border border-white/15 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400"></textarea>
                         </div>
 
                         <button type="submit" class="w-full py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white text-xs sm:text-sm font-bold shadow-lg shadow-cyan-500/20 transition">
-                            Fikrni yuborish <i class="fa-solid fa-paper-plane ml-1.5"></i>
+                            Shu brauzerda saqlash <i class="fa-solid fa-paper-plane ml-1.5"></i>
                         </button>
                         <div id="review-success-msg" class="hidden text-center text-xs text-emerald-400 font-semibold pt-1">
-                            Rahmat! Bahoingiz va fikringiz muvaffaqiyatli qo‘shildi va reyting yangilandi.
+                            Baho va fikr shu brauzerda saqlandi.
                         </div>
                     </form>
                 </div>
@@ -490,8 +470,8 @@
                 <div class="lg:col-span-7 glass-card p-6 sm:p-7 rounded-3xl flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-4">
-                            <h3 class="text-lg font-bold text-white">Foydalanuvchilar fikrlari</h3>
-                            <span class="text-[11px] px-2.5 py-1 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-semibold">Jonli reyting</span>
+                            <h3 class="text-lg font-bold text-white">Shaxsiy fikrlaringiz</h3>
+                            <span class="text-[11px] px-2.5 py-1 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-semibold">Shu brauzerda</span>
                         </div>
                         <div id="site-reviews-list" class="space-y-3 max-h-[340px] overflow-y-auto pr-1"></div>
                     </div>
@@ -519,8 +499,8 @@
                         <i class="fa-solid fa-robot"></i>
                     </div>
                     <div>
-                        <h4 class="text-sm font-bold text-white">AI Olami Yordamchisi</h4>
-                        <span class="text-[11px] text-emerald-400 flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Saytni boshqaruvchi AI</span>
+                        <h4 class="text-sm font-bold text-white">Katalog Qidiruv Yordamchisi</h4>
+                        <span class="text-[11px] text-emerald-400 flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Kalit so‘zlar bo‘yicha qidiruv</span>
                     </div>
                 </div>
                 <button onclick="toggleAIChat(false)" class="w-7 h-7 rounded-lg bg-white/10 hover:bg-white/20 text-slate-300 flex items-center justify-center text-xs">
@@ -550,1689 +530,8 @@
         </button>
     </div>
 
-    <script>
-        // =========================================================================
-        // 1. Brand Logos & Category Visual Banners (SVG)
-        // =========================================================================
-        function getBrandLogoSVG(name) {
-            const n = name.toLowerCase();
-            // OpenAI / ChatGPT / Sora / Whisper / DALL-E
-            if (n.includes('chatgpt') || n.includes('sora') || n.includes('dall-e') || n.includes('whisper')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#10a37f"/><g fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round"><path d="M18 8.5c2.8 0 5.1 2 5.5 4.7a5.5 5.5 0 0 1 3.7 7.6 5.5 5.5 0 0 1-5.2 7.2 5.5 5.5 0 0 1-8.5-1.6 5.5 5.5 0 0 1-4.7-7.1 5.5 5.5 0 0 1 4.2-7.8A5.5 5.5 0 0 1 18 8.5Z"/><circle cx="18" cy="18" r="3.2"/></g></svg>`;
-            }
-            // Google Gemini / Veo / NotebookLM / AlphaFold / GNoME
-            if (n.includes('gemini') || n.includes('veo') || n.includes('notebooklm') || n.includes('alphafold') || n.includes('gnome')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><defs><linearGradient id="gemGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4285f4"/><stop offset="50%" stop-color="#9b72cb"/><stop offset="100%" stop-color="#d96570"/></linearGradient></defs><rect width="36" height="36" rx="10" fill="#0f172a"/><path d="M18 5.5c0 6.9 5.6 12.5 12.5 12.5-6.9 0-12.5 5.6-12.5 12.5 0-6.9-5.6-12.5-12.5-12.5C12.4 18 18 12.4 18 5.5Z" fill="url(#gemGrad)"/></svg>`;
-            }
-            // Anthropic Claude
-            if (n.includes('claude') || n.includes('cline')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#d97757"/><g stroke="#fff" stroke-width="2.3" stroke-linecap="round"><path d="M18 7.5v21M7.5 18h21M10.6 10.6l14.8 14.8M25.4 10.6L10.6 25.4M13.8 8.5l8.4 19M22.2 8.5l-8.4 19M8.5 13.8l19 8.4M8.5 22.2l19-8.4"/></g></svg>`;
-            }
-            // DeepSeek
-            if (n.includes('deepseek')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#1d4ed8"/><path d="M8 20.5c2.2-5.8 8.5-8.5 14.5-6.5 2.5.8 4.2 2.4 5.5 4.2-1.8.8-3.2 2.2-3.8 4-2.5 3.8-8.2 5.3-13.2 2.8-1.5-.8-2.4-2.2-3-4.5Z" fill="#60a5fa"/><path d="M23.5 14l4.5-3.2-1.2 5.2Z" fill="#93c5fd"/><circle cx="13.5" cy="18.2" r="1.5" fill="#0f172a"/></svg>`;
-            }
-            // Midjourney
-            if (n.includes('midjourney')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#0b1120"/><path d="M18 7.5c4.5 4.2 6.8 9.2 6.8 14.5H18V7.5Z" fill="#38bdf8"/><path d="M16.5 10.5c-3.8 3.5-5.8 7.5-5.8 11.5h5.8V10.5Z" fill="#e879f9"/><path d="M7.5 24.5c3.5 2.2 17.5 2.2 21 0l-2.2 3.2H9.7l-2.2-3.2Z" fill="#f8fafc"/></svg>`;
-            }
-            // xAI Grok
-            if (n.includes('grok')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#09090b"/><path d="M10 10l16 16M26 10L10 26" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/><circle cx="18" cy="18" r="8.5" fill="none" stroke="#fff" stroke-width="1.8"/></svg>`;
-            }
-            // Microsoft Copilot / AutoGen
-            if (n.includes('copilot') || n.includes('microsoft')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#1e293b"/><rect x="9" y="9" width="8" height="8" rx="1.8" fill="#f25022"/><rect x="19" y="9" width="8" height="8" rx="1.8" fill="#7fba00"/><rect x="9" y="19" width="8" height="8" rx="1.8" fill="#00a4ef"/><rect x="19" y="19" width="8" height="8" rx="1.8" fill="#ffb900"/></svg>`;
-            }
-            // Meta Llama / AudioCraft / MusicGen
-            if (n.includes('llama') || n.includes('meta') || n.includes('musicgen') || n.includes('audiocraft')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#0668E1"/><path d="M11.5 22.5c-2.5 0-4.2-1.8-4.2-4.3 0-2.8 2.1-5.2 4.7-5.2 2.2 0 3.9 1.5 6 4.7 2.1-3.2 3.8-4.7 6-4.7 2.6 0 4.7 2.4 4.7 5.2 0 2.5-1.7 4.3-4.2 4.3-2.1 0-3.7-1.4-6.5-5.3-2.8 3.9-4.4 5.3-6.5 5.3Z" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>`;
-            }
-            // Alibaba Qwen / Wan
-            if (n.includes('qwen') || n.includes('wan 2.1')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#6366f1"/><polygon points="18,7 27.5,12.5 27.5,23.5 18,29 8.5,23.5 8.5,12.5" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="18" cy="18" r="4" fill="#fff"/></svg>`;
-            }
-            // Mistral / Codestral
-            if (n.includes('mistral') || n.includes('codestral')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#18181b"/><rect x="8" y="9" width="4" height="4" fill="#ffd800"/><rect x="24" y="9" width="4" height="4" fill="#ffd800"/><rect x="8" y="13.5" width="8" height="4" fill="#ffaf00"/><rect x="20" y="13.5" width="8" height="4" fill="#ffaf00"/><rect x="8" y="18" width="20" height="4" fill="#ff8205"/><rect x="8" y="22.5" width="4" height="4.5" fill="#fa500f"/><rect x="16" y="22.5" width="4" height="4.5" fill="#fa500f"/><rect x="24" y="22.5" width="4" height="4.5" fill="#fa500f"/></svg>`;
-            }
-            // FLUX / Black Forest Labs
-            if (n.includes('flux')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#111827"/><path d="M18 8l10 18H8L18 8Z" fill="none" stroke="#f43f5e" stroke-width="2.4" stroke-linejoin="round"/><path d="M13 21h10" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round"/></svg>`;
-            }
-            // Runway
-            if (n.includes('runway')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#10b981"/><path d="M12 26V10h7.5a5 5 0 0 1 0 10H12m6.5 0L24 26" fill="none" stroke="#042f2e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-            }
-            // Kling AI
-            if (n.includes('kling')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#0284c7"/><path d="M12 9v18M24 9l-9 9 9 9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-            }
-            // Luma Dream Machine / Genie
-            if (n.includes('luma')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#0f172a"/><polygon points="18,7 27,13 27,23 18,29 9,23 9,13" fill="#38bdf8" opacity="0.85"/><polygon points="18,7 27,13 18,18 9,13" fill="#bae6fd"/></svg>`;
-            }
-            // HeyGen / Synthesia
-            if (n.includes('heygen') || n.includes('synthesia')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#7c3aed"/><circle cx="18" cy="14" r="4.5" fill="#fff"/><path d="M10 27c1.5-4.5 14.5-4.5 16 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>`;
-            }
-            // Suno / Udio
-            if (n.includes('suno') || n.includes('udio')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#f59e0b"/><circle cx="18" cy="18" r="8" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M15 14l8 4-8 4v-8Z" fill="#fff"/></svg>`;
-            }
-            // ElevenLabs
-            if (n.includes('elevenlabs')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#18181b"/><rect x="13" y="9" width="3.5" height="18" rx="1.5" fill="#fff"/><rect x="19.5" y="9" width="3.5" height="18" rx="1.5" fill="#fff"/></svg>`;
-            }
-            // Cursor AI
-            if (n.includes('cursor')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#09090b"/><polygon points="18,7 28,13 28,23 18,29 8,23 8,13" fill="none" stroke="#fff" stroke-width="2"/><polygon points="18,7 28,13 18,18 8,13" fill="#38bdf8"/><polygon points="18,18 28,13 28,23 18,29" fill="#818cf8" opacity="0.8"/></svg>`;
-            }
-            // v0 / Vercel
-            if (n.includes('v0') || n.includes('vercel')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#000"/><polygon points="18,9 28,26 8,26" fill="#fff"/></svg>`;
-            }
-            // Bolt.new / Lovable / Replit
-            if (n.includes('bolt') || n.includes('lovable') || n.includes('replit')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#ea580c"/><path d="M19.5 7L10 19.5h7.5L16 29l10-12.5h-7.5L19.5 7Z" fill="#fff"/></svg>`;
-            }
-            // Perplexity AI
-            if (n.includes('perplexity')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#0e7490"/><g stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M18 7v22M10 11l8 7 8-7M10 25l8-7 8 7"/><rect x="11" y="13" width="14" height="10"/></g></svg>`;
-            }
-            // Canva
-            if (n.includes('canva')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><defs><linearGradient id="canvaG" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00c4cc"/><stop offset="100%" stop-color="#7d2ae8"/></linearGradient></defs><rect width="36" height="36" rx="10" fill="url(#canvaG)"/><path d="M23.5 13.5a6.5 6.5 0 1 0 0 9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>`;
-            }
-            // Figma
-            if (n.includes('figma')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#1e1e1e"/><circle cx="21" cy="18" r="3.5" fill="#1abcfe"/><path d="M14 11h3.5v7H14a3.5 3.5 0 0 1 0-7Z" fill="#f24e1e"/><path d="M17.5 11H21a3.5 3.5 0 0 1 0 7h-3.5v-7Z" fill="#ff7262"/><path d="M14 18h3.5v7H14a3.5 3.5 0 0 1 0-7Z" fill="#a259ff"/><path d="M14 25h3.5v3.5A3.5 3.5 0 0 1 14 25Z" fill="#0acf83"/></svg>`;
-            }
-            // Gamma / Notion / Zapier / n8n
-            if (n.includes('gamma') || n.includes('notion') || n.includes('zapier') || n.includes('n8n')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#ec4899"/><circle cx="12" cy="18" r="3" fill="#fff"/><circle cx="24" cy="12" r="3" fill="#fff"/><circle cx="24" cy="24" r="3" fill="#fff"/><path d="M14.5 17l7-4M14.5 19l7 4" stroke="#fff" stroke-width="2.2"/></svg>`;
-            }
-            // Adobe Firefly / Express / Podcast
-            if (n.includes('adobe') || n.includes('firefly')) {
-                return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="#dc2626"/><path d="M18 9L9 27h4.2l2-4.2h5.6l2 4.2H27L18 9Zm0 7.2 1.8 4h-3.6l1.8-4Z" fill="#fff"/></svg>`;
-            }
-            const initials = name.replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() || 'AI';
-            const colors = ['#0284c7', '#7c3aed', '#059669', '#db2777', '#d97706', '#4f46e5'];
-            const color = colors[name.length % colors.length];
-            return `<svg viewBox="0 0 36 36" class="w-9 h-9"><rect width="36" height="36" rx="10" fill="${color}"/><text x="18" y="22" text-anchor="middle" fill="#fff" font-size="13" font-weight="800" font-family="Inter, sans-serif">${initials}</text></svg>`;
-        }
-
-        function getCategoryBadgeGradient(type) {
-            const map = {
-                text: 'from-cyan-500/20 via-blue-600/10 to-transparent',
-                image: 'from-fuchsia-500/20 via-purple-600/10 to-transparent',
-                video: 'from-amber-500/20 via-orange-600/10 to-transparent',
-                audio: 'from-emerald-500/20 via-teal-600/10 to-transparent',
-                code: 'from-indigo-500/20 via-sky-600/10 to-transparent',
-                research: 'from-sky-500/20 via-cyan-600/10 to-transparent',
-                design: 'from-rose-500/20 via-pink-600/10 to-transparent',
-                auto: 'from-violet-500/20 via-purple-600/10 to-transparent'
-            };
-            return map[type] || map.text;
-        }
-
-        // =========================================================================
-        // 2. Core AI Database + 400+ Global AI Registry
-        // =========================================================================
-        const coreAIs = [
-            {
-                id: 'chatgpt', name: 'ChatGPT (GPT-5 / GPT-4o)', developer: 'OpenAI',
-                generation: 'Eng mashhur universal AI', category: 'Katta Til Modellari', bannerType: 'text',
-                users: '450M+ foydalanuvchi', usersMillions: 450, growthPercent: 145,
-                pricing: 'Bepul / Plus $20', hasFree: true, priceType: 'free',
-                tags: ['matn', 'kod', 'rasm', 'ovoz', 'bepul'],
-                shortDesc: 'Matn yozish, dasturlash, rasm yaratish va jonli ovozli suhbat qila oladigan dunyodagi №1 AI.',
-                fullDesc: 'OpenAI tomonidan yaratilgan ChatGPT matnlar bilan ishlash, murakkab dasturiy kodlar yozish, fayllarni tahlil qilish, rasm generatsiya qilish va real vaqtda ovozli muloqot olib borish imkonini beradi.',
-                capabilities: ['Har qanday mavzuda maqola, reja va ssenariy yozish', 'Python, JS, C++ va boshqa tillarda kod yozish', 'Excel, PDF va rasmlarni chuqur tahlil qilish', 'Jonli ovozli suhbat va til o‘rgatish'],
-                pros: ['Juda keng bilim bazasi va o‘zbek tilini yaxshi tushunadi', 'Bepul versiyasi ham juda kuchli'],
-                cons: ['Bepul tarifda kunlik so‘rovlar cheklangan'],
-                samplePrompt: 'Menga o‘zbek tilida kichik biznesni rivojlantirish uchun 30 kunlik marketing rejasini jadval ko‘rinishida tuzib ber.',
-                url: 'https://chat.openai.com'
-            },
-            {
-                id: 'gemini', name: 'Google Gemini 2.5 Pro', developer: 'Google DeepMind',
-                generation: 'Multimodal ekotizim AI', category: 'Katta Til Modellari', bannerType: 'text',
-                users: '380M+ foydalanuvchi', usersMillions: 380, growthPercent: 185,
-                pricing: 'Bepul / Pro $19.99', hasFree: true, priceType: 'free',
-                tags: ['google', 'video', 'matn', 'bepul', 'kod'],
-                shortDesc: '1 million tokenli ulkan xotira, YouTube videolarini tahlil qilish va Google servislari bilan integratsiya.',
-                fullDesc: 'Google Gemini bir vaqtning o‘zida matn, video, audio va ulkan kod bazalarini tushuna oladigan ko‘p qirrali sun’iy intellekt modelidir.',
-                capabilities: ['1 soatlik videoni ko‘rib mazmunini aytib berish', 'Google Docs, Gmail va Drive bilan to‘g‘ridan-to‘g‘ri ishlash', 'Murakkab matematik va ilmiy masalalarni yechish', 'Real vaqtdagi Google qidiruv ma’lumotlaridan foydalanish'],
-                pros: ['Ulkan kontekst xotirasi (butun kitobni sig‘diradi)', 'Tezkor va bepul kirish imkoniyati'],
-                cons: ['Ayrim ijodiy vazifalarda batafsil prompt talab qiladi'],
-                samplePrompt: 'Ushbu ilmiy maqolaning 5 ta eng muhim xulosasini oddiy tilda tushuntirib ber.',
-                url: 'https://gemini.google.com'
-            },
-            {
-                id: 'deepseek', name: 'DeepSeek R1 / V3', developer: 'DeepSeek AI',
-                generation: 'Ochiq kodli mantiqiy AI', category: 'Katta Til Modellari', bannerType: 'text',
-                users: '210M+ foydalanuvchi', usersMillions: 210, growthPercent: 340,
-                pricing: '100% Bepul • Open-Source', hasFree: true, priceType: 'opensource',
-                tags: ['bepul', 'open-source', 'kod', 'matematika'],
-                shortDesc: 'Matematika, mantiqiy fikrlash va dasturlashda pullik modellarga tenglashuvchi to‘liq bepul AI.',
-                fullDesc: 'DeepSeek R1 chuqur mulohaza yuritish (DeepThink) texnologiyasi orqali murakkab algoritmlar va matematik masalalarni bosqichma-bosqich yechadi.',
-                capabilities: ['Chuqur mantiqiy tahlil va bosqichma-bosqich yechim', 'Yuqori aniqlikdagi dasturlash va algoritmlar', 'Cheklovsiz bepul veb-interfeys va ochiq og‘irliklar', 'Katta hajmdagi hujjatlarni o‘qish'],
-                pros: ['To‘liq bepul va ochiq kodli (Open-Source)', 'Dasturlash va matematikada juda kuchli'],
-                cons: ['Yuqori yuklama paytida server sekinlashishi mumkin'],
-                samplePrompt: 'Python tilida tez ishlovchi Telegram bot arxitekturasini yozib ber va har bir qismini tushuntir.',
-                url: 'https://chat.deepseek.com'
-            },
-            {
-                id: 'claude', name: 'Claude 3.7 Sonnet', developer: 'Anthropic',
-                generation: 'Eng tabiiy yozuvchi va koder', category: 'Dasturlash va Kod', bannerType: 'code',
-                users: '140M+ foydalanuvchi', usersMillions: 140, growthPercent: 190,
-                pricing: 'Bepul / Pro $20', hasFree: true, priceType: 'free',
-                tags: ['kod', 'matn', 'dizayn', 'bepul'],
-                shortDesc: 'Dasturchilarning eng sevimli AI yordamchisi va eng tabiiy uslubda matn yozuvchi tizim.',
-                fullDesc: 'Anthropic kompaniyasining Claude modeli Artifacts oynasi orqali tayyor veb-saytlar, o‘yinlar va diagrammalarni jonli yaratib ko‘rsatadi.',
-                capabilities: ['To‘liq ishlaydigan veb-ilovalar va React komponentlar yaratish', 'Inson uslubiga eng yaqin tabiiy matnlar yozish', '200K tokenli hujjatlarni xatosiz tahlil qilish', 'Xavfsiz va aniq javoblar'],
-                pros: ['Kod yozish sifati juda yuqori', 'Artifacts funksiyasi orqali natijani darhol ko‘rsatadi'],
-                cons: ['Bepul tarifda xabarlar soni tez tugaydi'],
-                samplePrompt: 'Menga zamonaviy dizayndagi interaktiv kalkulyator veb-ilovasini bitta HTML faylda yaratib ber.',
-                url: 'https://claude.ai'
-            },
-            {
-                id: 'midjourney', name: 'Midjourney V7', developer: 'Midjourney Inc.',
-                generation: 'Badiiy tasvirlar qiroli', category: 'Rasm va San’at', bannerType: 'image',
-                users: '95M+ foydalanuvchi', usersMillions: 95, growthPercent: 110,
-                pricing: 'Pullik ($10/oy dan)', hasFree: false, priceType: 'paid',
-                tags: ['rasm', 'dizayn', 'sanat'],
-                shortDesc: 'Fotorealistik suratlar, reklama posterlari va badiiy illyustratsiyalar yaratuvchi eng kuchli AI.',
-                fullDesc: 'Midjourney matnli tavsif asosida kino darajasidagi yorug‘lik, kompozitsiya va detallarga ega rasmlarni yaratadi.',
-                capabilities: ['Fotorealistik portretlar va mahsulot rasmlari', 'Brend logotiplari va illyustratsiyalar', 'Rasm uslubini va qahramon yuzini saqlab qolish', 'Yuqori aniqlikdagi (Upscale) tasvirlar'],
-                pros: ['Estetik go‘zallik va sifat bo‘yicha yetakchi', 'Qulay veb-muharrir interfeysi'],
-                cons: ['Bepul sinov rejimi mavjud emas'],
-                samplePrompt: 'Futuristic Uzbek Silk Road city at sunset, golden domes, cyberpunk lights, photorealistic 8k --ar 16:9',
-                url: 'https://www.midjourney.com'
-            },
-            {
-                id: 'sora', name: 'OpenAI Sora', developer: 'OpenAI',
-                generation: 'Kinematografik video AI', category: 'Video Generatsiya', bannerType: 'video',
-                users: '65M+ foydalanuvchi', usersMillions: 65, growthPercent: 260,
-                pricing: 'ChatGPT Plus tarkibida', hasFree: false, priceType: 'paid',
-                tags: ['video', 'kino', 'animatsiya'],
-                shortDesc: 'Matn va rasmlardan fizika qonunlariga mos keluvchi 1080p HD videolar yaratuvchi tizim.',
-                fullDesc: 'Sora murakkab kamera harakatlari, bir nechta qahramonlar va realistik muhitga ega videolarni soniyalar ichida yaratadi.',
-                capabilities: ['Matndan 20 soniyagacha 1080p video yaratish', 'Rasmni jonlantirish va davom ettirish', 'Storyboard orqali kadrma-kadr rejissura', 'Video uslubini qayta ishlash (Remix)'],
-                pros: ['Fizika va harakatlar tabiiyligi yuqori', 'Storyboard boshqaruvi'],
-                cons: ['Faqat pullik obunachilar uchun ochiq'],
-                samplePrompt: 'A drone shot flying over ancient Samarkand Registan square at dawn, cinematic lighting, 4k',
-                url: 'https://sora.com'
-            },
-            {
-                id: 'runway', name: 'Runway Gen-3 Alpha', developer: 'Runway ML',
-                generation: 'Professional kino montaj AI', category: 'Video Generatsiya', bannerType: 'video',
-                users: '48M+ foydalanuvchi', usersMillions: 48, growthPercent: 175,
-                pricing: 'Bepul sinov / Pro $15', hasFree: true, priceType: 'free',
-                tags: ['video', 'bepul', 'kino'],
-                shortDesc: 'Gollivud studiyalari ishlatadigan video generatsiya va kamera harakatini boshqarish platformasi.',
-                fullDesc: 'Runway Gen-3 videolar yaratish, orqa fonni o‘chirish, harakat cho‘tkasi (Motion Brush) va Act-One yuz animatsiyasi vositalarini taqdim etadi.',
-                capabilities: ['Matn va rasmdan yuqori sifatli video yaratish', 'Kamera burchagi va tezligini aniq boshqarish', 'Video ichidagi obyektlarni o‘chirish', 'Bepul boshlang‘ich kreditlar'],
-                pros: ['Professional montaj vositalari bir joyda', 'Bepul sinab ko‘rish mumkin'],
-                cons: ['Yuqori sifatli eksport kredit talab qiladi'],
-                samplePrompt: 'Slow motion close-up of rain drops falling on neon street at night, cinematic anamorphic lens',
-                url: 'https://runwayml.com'
-            },
-            {
-                id: 'suno', name: 'Suno AI v4', developer: 'Suno Inc.',
-                generation: 'To‘liq qo‘shiq yaratuvchi AI', category: 'Ovoz va Musiqa', bannerType: 'audio',
-                users: '75M+ foydalanuvchi', usersMillions: 75, growthPercent: 290,
-                pricing: 'Bepul (kunlik 50 kredit) / Pro $10', hasFree: true, priceType: 'free',
-                tags: ['musiqa', 'qoshiq', 'ovoz', 'bepul'],
-                shortDesc: 'Matn asosida vokal, musiqa asboblari va professional aranjirovkaga ega tayyor qo‘shiq yaratadi.',
-                fullDesc: 'Suno AI istalgan tilda, jumladan o‘zbek tilida ham she’r yoki mavzu asosida haqiqiy xonanda ovozi bilan qo‘shiq bastalaydi.',
-                capabilities: ['Matndan 4 daqiqagacha to‘liq qo‘shiq yaratish', 'Pop, rap, rok, milliy va elektron janrlar', 'Vokal va musiqani alohida yuklab olish', 'Har kuni bepul kreditlar'],
-                pros: ['Ovoz sifati haqiqiy studiya yozuviga o‘xshaydi', 'Har kuni bepul foydalanish mumkin'],
-                cons: ['Tijorat huquqlari uchun Pro tarif kerak'],
-                samplePrompt: 'Upbeat modern Uzbek pop song about spring in Tashkent, energetic rhythm, clear male vocals',
-                url: 'https://suno.com'
-            },
-            {
-                id: 'elevenlabs', name: 'ElevenLabs', developer: 'ElevenLabs',
-                generation: 'Eng realistik ovoz sintezatori', category: 'Ovoz va Musiqa', bannerType: 'audio',
-                users: '55M+ foydalanuvchi', usersMillions: 55, growthPercent: 210,
-                pricing: 'Bepul (10 000 belgi) / Starter $5', hasFree: true, priceType: 'free',
-                tags: ['ovoz', 'dublyaj', 'bepul'],
-                shortDesc: 'Matnni hissiyotli inson ovoziga aylantiruvchi va videolarni 30+ tilga dublyaj qiluvchi AI.',
-                fullDesc: 'ElevenLabs audiokitoblar, YouTube videolar va o‘yin qahramonlari uchun eng tabiiy diktor ovozlarini yaratadi.',
-                capabilities: ['Matnni tabiiy nutqqa aylantirish (Text-to-Speech)', 'O‘z ovozingizni klonlash imkoniyati', 'Videolarni asl ovoz ohangida boshqa tilga tarjima qilish', 'Ovoz effektlari (SFX) generatsiyasi'],
-                pros: ['Inson nafas olishi va intonatsiyasini aniq beradi', 'Bepul tarifi mavjud'],
-                cons: ['Uzoq matnlar uchun pullik obuna kerak'],
-                samplePrompt: 'Assalomu alaykum! Bugun sizlar bilan kelajak texnologiyalari haqida suhbatlashamiz.',
-                url: 'https://elevenlabs.io'
-            },
-            {
-                id: 'cursor', name: 'Cursor AI IDE', developer: 'Anysphere',
-                generation: 'Dasturchilar uchun aqlli muharrir', category: 'Dasturlash va Kod', bannerType: 'code',
-                users: '35M+ foydalanuvchi', usersMillions: 35, growthPercent: 380,
-                pricing: 'Bepul / Pro $20', hasFree: true, priceType: 'free',
-                tags: ['kod', 'dasturlash', 'ide', 'bepul'],
-                shortDesc: 'Butun loyihani tushunadigan va bir buyruq bilan o‘nlab fayllarda kod yozadigan AI kod muharriri.',
-                fullDesc: 'Cursor VS Code asosida qurilgan bo‘lib, Composer va Agent rejimlari orqali loyihani noldan yaratish va xatolarni avtomatik tuzatish imkonini beradi.',
-                capabilities: ['Butun loyiha kod bazasini indeksatsiya qilish', 'Bir vaqtda bir nechta faylni tahrirlash (Composer)', 'Terminal xatolarini avtomatik tuzatish', 'Claude, GPT va DeepSeek modellarini tanlash'],
-                pros: ['Dasturlash tezligini 3-5 barobar oshiradi', 'Bepul boshlang‘ich tarifi bor'],
-                cons: ['Katta loyihalarda tezkor so‘rovlar limiti tugashi mumkin'],
-                samplePrompt: 'Ushbu loyihaga foydalanuvchi ro‘yxatdan o‘tish va kirish (JWT Auth) tizimini qo‘shib ber.',
-                url: 'https://cursor.com'
-            },
-            {
-                id: 'perplexity', name: 'Perplexity AI', developer: 'Perplexity Inc.',
-                generation: 'Aqlli AI qidiruv tizimi', category: 'Qidiruv va Tadqiqot', bannerType: 'research',
-                users: '110M+ foydalanuvchi', usersMillions: 110, growthPercent: 240,
-                pricing: 'Bepul / Pro $20', hasFree: true, priceType: 'free',
-                tags: ['qidiruv', 'fakt', 'bepul', 'tadqiqot'],
-                shortDesc: 'Internetdagi eng so‘nggi ma’lumotlarni tekshirib, aniq manba havolalari bilan javob beruvchi AI.',
-                fullDesc: 'Perplexity oddiy qidiruv tizimi o‘rnini bosuvchi AI bo‘lib, har bir gapining oxirida qaysi saytdan olinganini havola bilan ko‘rsatadi.',
-                capabilities: ['Real vaqtdagi internet qidiruvi va tahlili', 'Har bir fakt uchun ishonchli manba havolalari', 'Deep Research — chuqur tahliliy hisobotlar', 'Bepul va ro‘yxatdan o‘tmasdan ishlash'],
-                pros: ['Yolg‘on ma’lumot (gallyutsinatsiya) eng kam', 'Bepul versiyasi juda qulay'],
-                cons: ['Ijodiy hikoyalar yozish uchun mo‘ljallanmagan'],
-                samplePrompt: '2026-yilda dunyoda eng ko‘p ishlatilayotgan quyosh panellari texnologiyalari haqida manbali tahlil ber.',
-                url: 'https://www.perplexity.ai'
-            },
-            {
-                id: 'canva', name: 'Canva Magic Studio', developer: 'Canva',
-                generation: 'Hamma uchun AI dizayner', category: 'Dizayn va 3D', bannerType: 'design',
-                users: '220M+ foydalanuvchi', usersMillions: 220, growthPercent: 130,
-                pricing: 'Bepul / Pro $12.99', hasFree: true, priceType: 'free',
-                tags: ['dizayn', 'taqdimot', 'bepul', 'logo'],
-                shortDesc: 'Bir necha soniyada taqdimot (slayd), ijtimoiy tarmoq postlari, logo va bannerlar yaratuvchi AI.',
-                fullDesc: 'Canva Magic Studio dizaynerlik bilimisiz ham professional darajadagi taqdimotlar, vizitkalar va reklama materiallarini tayyorlashga yordam beradi.',
-                capabilities: ['Matndan tayyor PowerPoint taqdimot yaratish', 'Rasmdan keraksiz obyektlarni o‘chirish (Magic Eraser)', 'Instagram va Telegram uchun tayyor post shablonlari', 'Matn yozish va tarjima qilish'],
-                pros: ['Foydalanish juda oson va tushunarli', 'Katta bepul kutubxona'],
-                cons: ['Ayrim premium elementlar Pro tarifda'],
-                samplePrompt: 'Startap loyihasi uchun 8 ta slayddan iborat zamonaviy investor taqdimotini yarat.',
-                url: 'https://www.canva.com'
-            }
-        ];
-
-        // Populate 400+ Named Real-World AI Tools across all 8 categories
-        const aiList = [...coreAIs];
-        (function populateGlobalRegistry() {
-            const existingNames = new Set(aiList.map(a => a.name.toLowerCase()));
-            const domainBlueprints = [
-                {
-                    cat: 'Katta Til Modellari', banner: 'text',
-                    prefixes: ['Grok 3 (xAI)', 'Microsoft Copilot', 'Meta Llama 4', 'Qwen 2.5 Max', 'Mistral Large 2', 'Yi-Large', 'Baichuan 4', 'Step-2', 'SenseChat', 'ERNIE 4.5', 'Hunyuan Turbo', 'GLM-4 Plus', 'Solar Pro', 'HyperCLOVA X', 'EXAONE 3.5', 'Reka Core', 'Inflection Pi', 'Character.AI', 'Poe Multi-AI', 'YouChat', 'HuggingChat', 'Ollama Local', 'LM Studio', 'Jan.ai', 'GPT4All', 'Cerebras Inference', 'Groq LPU Chat', 'Together Chat', 'Fireworks AI', 'OpenRouter', 'SambaNova Cloud', 'Writer Palmyra', 'AI21 Jamba', 'Aleph Alpha Luminous', 'Falcon 180B', 'Jais Arabic AI', 'Krutrim AI', 'Sarvam AI', 'Sea-Lion AI', 'EuroLLM', 'Kimi AI (Moonshot)', 'Doubao AI', 'Cohere Command R+', 'NVIDIA Nemotron', 'Apple Intelligence', 'Samsung Gauss', 'YandexGPT 4', 'GigaChat Max', 'Zhipu ChatGLM', 'UzbekGPT Pro'],
-                    devs: ['xAI', 'Microsoft', 'Meta', 'Alibaba', 'Mistral AI', '01.AI', 'Baichuan', 'StepFun', 'SenseTime', 'Baidu', 'Tencent', 'Zhipu AI', 'Upstage', 'Naver', 'LG AI', 'Reka AI', 'Inflection', 'Character Tech', 'Quora', 'You.com', 'Hugging Face', 'Ollama', 'LM Studio', 'Jan', 'Nomic', 'Cerebras', 'Groq', 'Together AI', 'Fireworks', 'OpenRouter', 'SambaNova', 'Writer', 'AI21 Labs', 'Aleph Alpha', 'TII UAE', 'Inception', 'Ola Krutrim', 'Sarvam', 'AI Singapore', 'BSC', 'Moonshot AI', 'ByteDance', 'Cohere', 'NVIDIA', 'Apple', 'Samsung', 'Yandex', 'Sber', 'Zhipu', 'Uzbek AI Lab'],
-                    descTpl: 'katta hajmdagi matnlar, tahlil, tarjima va intellektual muloqot uchun mo‘ljallangan sun’iy intellekt modeli.',
-                    caps: ['Yuqori tezlikda matn generatsiyasi va tahlili', 'Ko‘p tilli tarjima va kontekstni saqlash', 'Savol-javob va mantiqiy xulosa chiqarish', 'Veb va API orqali qulay integratsiya']
-                },
-                {
-                    cat: 'Rasm va San’at', banner: 'image',
-                    prefixes: ['FLUX.1 Pro', 'DALL-E 3 / GPT-Image', 'Ideogram 3.0', 'Leonardo.ai', 'Adobe Firefly 3', 'Recraft V3', 'Playground v3', 'Krea AI', 'Magnific AI', 'Photoroom AI', 'Remove.bg', 'Clipdrop', 'Let’s Enhance', 'Topaz Photo AI', 'Luminar Neo', 'Upscayl', 'NightCafe', 'Artbreeder', 'StarryAI', 'DreamStudio', 'Pixlr AI', 'Fotor AI', 'Picsart AI', 'VanceAI', 'Stockimg.ai', 'Illustroke', 'Vectorizer.ai', 'Flair.ai', 'Pebblely', 'Mokker AI', 'Claid.ai', 'Dzine (Stylar)', 'Tensor.Art', 'Civitai Gen', 'SeaArt AI', 'LiblibAI', 'Fooocus', 'ComfyUI Cloud', 'InvokeAI', 'Automatic1111', 'Kolors AI', 'Hunyuan DiT', 'AuraFlow', 'PixArt Sigma', 'Kandinsky 3.1', 'Lexica Art', 'OpenArt AI', 'Scenario GG', 'Layer.ai', 'Pixelcut AI'],
-                    devs: ['Black Forest Labs', 'OpenAI', 'Ideogram', 'Leonardo', 'Adobe', 'Recraft', 'Playground', 'Krea', 'Magnific', 'Photoroom', 'Kaleido', 'Jasper', 'LetsEnhance', 'Topaz Labs', 'Skylum', 'Upscayl', 'NightCafe', 'Artbreeder', 'StarryAI', 'Stability AI', 'Pixlr', 'Fotor', 'Picsart', 'VanceAI', 'Stockimg', 'Illustroke', 'Cedar Lake', 'Flair', 'Pebblely', 'Mokker', 'Claid', 'Dzine', 'Tensor', 'Civitai', 'SeaArt', 'Liblib', 'Illyasviel', 'Comfy Org', 'Invoke', 'Open Source', 'Kuaishou', 'Tencent', 'Fal.ai', 'PixArt', 'Sber AI', 'Lexica', 'OpenArt', 'Scenario', 'Layer', 'Pixelcut'],
-                    descTpl: 'fotorealistik tasvirlar yaratish, sifatni 4K/8K gacha oshirish va fonni o‘zgartirish uchun ixtisoslashgan AI.',
-                    caps: ['Matndan yuqori aniqlikdagi rasm yaratish', 'Xira rasmlarni 4K/8K formatgacha tiniqlashtirish', 'Orqa fonni bir bosishda o‘chirish va almashtirish', 'Mahsulot fotosessiyasi va vektor grafikalar']
-                },
-                {
-                    cat: 'Video Generatsiya', banner: 'video',
-                    prefixes: ['Google Veo 2', 'Kling AI 1.6', 'Luma Dream Machine', 'Hailuo AI (MiniMax)', 'HeyGen Avatar', 'Synthesia AI', 'Pika 2.1', 'Vidu AI', 'PixVerse V3', 'Genmo Mochi 1', 'CogVideoX', 'LTX-Video', 'Open-Sora', 'HunyuanVideo', 'Wan 2.1 Video', 'SkyReels V1', 'InVideo AI', 'OpusClip', 'Munch AI', 'Vizard.ai', 'Captions AI', 'Descript Video', 'Filmora AI', 'Topaz Video AI', 'Runway Act-One', 'Hedra Character', 'LivePortrait', 'D-ID Studio', 'Colossyan', 'Hour One', 'Elai.io', 'Tavus AI', 'Arcads AI', 'Creatify AI', 'Submagic', '2short.ai', 'Klap App', 'Vidyo.ai', 'Pictory AI', 'Lumen5', 'Fliki Video', 'Steve.ai', 'Animaker AI', 'Vyond Go', 'Kaiber AI', 'DomoAI', 'LensGo AI', 'GoEnhance AI', 'Viggle AI', 'CapCut AI Studio'],
-                    devs: ['Google', 'Kuaishou', 'Luma AI', 'MiniMax', 'HeyGen', 'Synthesia', 'Pika Labs', 'ShengShu', 'PixVerse', 'Genmo', 'Zhipu AI', 'Lightricks', 'HPC-AI', 'Tencent', 'Alibaba', 'Skywork', 'InVideo', 'Opus', 'Munch', 'Vizard', 'Captions', 'Descript', 'Wondershare', 'Topaz Labs', 'Runway', 'Hedra', 'KwaiVGI', 'D-ID', 'Colossyan', 'Hour One', 'Elai', 'Tavus', 'Arcads', 'Creatify', 'Submagic', '2short', 'Klap', 'Vidyo', 'Pictory', 'Lumen5', 'Fliki', 'Steve', 'Animaker', 'Vyond', 'Kaiber', 'DomoAI', 'LensGo', 'GoEnhance', 'Viggle', 'ByteDance'],
-                    descTpl: 'matn va rasmlardan kinematografik videolar, YouTube Shorts/Reels kliplar hamda AI avatarlar yaratuvchi video tizim.',
-                    caps: ['Matn va rasmdan ravon HD/4K video generatsiyasi', 'Uzun videolardan viral Shorts va Reels kesish', 'Avtomatik subtitrlar va AI avatar diktorlar', 'Video sifatini oshirish va kadrlar chastotasini ko‘paytirish']
-                },
-                {
-                    cat: 'Ovoz va Musiqa', banner: 'audio',
-                    prefixes: ['Udio Music', 'OpenAI Whisper', 'Murf AI', 'PlayHT 3.0', 'WellSaid Labs', 'Resemble AI', 'Speechify', 'Lovo AI (Genny)', 'Listnr AI', 'ElevenLabs Dubbing', 'Cartesia Sonic', 'Deepgram Aura', 'AssemblyAI', 'Fish Audio', 'F5-TTS', 'Bark Audio', 'Tortoise TTS', 'Coqui XTTS', 'RVC Voice', 'Kits.ai', 'Lalals', 'Voicemod AI', 'Krisp Noise Cancel', 'Adobe Podcast Enhance', 'Auphonic', 'Lalal.ai', 'Moises AI', 'Splitter.ai', 'AIVA Composer', 'Soundraw', 'Boomy', 'Loudly', 'Beatoven.ai', 'Mubert', 'Riffusion', 'Stable Audio 2.0', 'MusicGen Meta', 'AudioCraft', 'Splash Pro', 'LANDR Mastering', 'iZotope Ozone AI', 'Descript Overdub', 'Podcastle AI', 'Riverside Magic Audio', 'Cleanvoice AI', 'Wondercraft', 'Papercup Dubbing', 'Rask AI', 'Camb.ai', 'Soniox STT'],
-                    devs: ['Udio', 'OpenAI', 'Murf', 'PlayHT', 'WellSaid', 'Resemble', 'Speechify', 'Lovo', 'Listnr', 'ElevenLabs', 'Cartesia', 'Deepgram', 'AssemblyAI', 'Fish Audio', 'Open Source', 'Suno', 'Neonbjb', 'Coqui', 'Open Source', 'Kits', 'Lalals', 'Voicemod', 'Krisp', 'Adobe', 'Auphonic', 'Lalal', 'Moises', 'Splitter', 'AIVA', 'Soundraw', 'Boomy', 'Loudly', 'Beatoven', 'Mubert', 'Riffusion', 'Stability AI', 'Meta', 'Meta', 'Splash', 'LANDR', 'Native Instruments', 'Descript', 'Podcastle', 'Riverside', 'Cleanvoice', 'Wondercraft', 'Papercup', 'Rask', 'Camb', 'Soniox'],
-                    descTpl: 'inson ovozini klonlash, matnni tabiiy nutqqa aylantirish, vokal ajratish va original musiqa bastalash AI platformasi.',
-                    caps: ['30+ tilda tabiiy ovoz sintez qilish (TTS)', 'Videolarni asl ovoz ohangida boshqa tillarga dublyaj qilish', 'Qo‘shiqdan vokal va musiqani alohida ajratish', 'Mualliflik huquqisiz original musiqa va beatlar yaratish']
-                },
-                {
-                    cat: 'Dasturlash va Kod', banner: 'code',
-                    prefixes: ['GitHub Copilot', 'Windsurf IDE', 'v0 by Vercel', 'Bolt.new', 'Lovable AI', 'Replit Agent', 'Devin AI', 'Cline (Claude Dev)', 'Roo Code', 'Aider CLI', 'Continue.dev', 'Tabnine', 'Amazon Q Developer', 'Codeium', 'Supermaven', 'Sourcegraph Cody', 'JetBrains AI', 'Zed AI', 'Trae IDE', 'Qodo (CodiumAI)', 'Sweep AI', 'Greptile', 'Sourcery', 'Blackbox AI', 'Phind', 'Pieces for Developers', 'Warp Terminal AI', 'CodeRabbit', 'Ellipsis Code Review', 'Snyk DeepCode AI', 'Semgrep Assistant', 'Mutable.ai', 'Mintlify Docs', 'Swimm AI', 'Same.dev', 'Tempo Labs', 'Create.xyz', 'Softgen', 'Databutton', 'Pythagora', 'MetaGPT', 'OpenHands', 'SWE-agent', 'Plandex', 'CodeGeeX', 'StarCoder 2', 'DeepSeek Coder V2', 'Codestral 25.01', 'Qwen2.5-Coder', 'Vanna.ai SQL'],
-                    devs: ['GitHub / Microsoft', 'Codeium', 'Vercel', 'StackBlitz', 'Lovable', 'Replit', 'Cognition AI', 'Open Source', 'RooVet', 'Paul Gauthier', 'Continue', 'Tabnine', 'AWS', 'Exafunction', 'Supermaven', 'Sourcegraph', 'JetBrains', 'Zed Industries', 'ByteDance', 'Qodo', 'Sweep', 'Greptile', 'Sourcery', 'Blackbox', 'Phind', 'Pieces', 'Warp', 'CodeRabbit', 'Ellipsis', 'Snyk', 'Semgrep', 'Mutable', 'Mintlify', 'Swimm', 'Same', 'Tempo', 'Create', 'Softgen', 'Databutton', 'Pythagora', 'FoundationAgents', 'All-Hands', 'Princeton', 'Plandex', 'Zhipu AI', 'BigCode', 'DeepSeek', 'Mistral AI', 'Alibaba', 'Vanna'],
-                    descTpl: 'butun boshli dasturiy loyihalarni yozadigan, xatolarni tuzatadigan va Pull Requestlarni tekshiradigan AI muhandis.',
-                    caps: ['Ko‘p faylli loyihalarda avtonom kod yozish va tahrirlash', 'Xatolarni (Bug) aniqlash va avtomatik tuzatish', 'Unit testlar va texnik hujjatlar generatsiyasi', 'GitHub Pull Requestlarni chuqur kod tekshiruvi']
-                },
-                {
-                    cat: 'Qidiruv va Tadqiqot', banner: 'research',
-                    prefixes: ['Google NotebookLM', 'Consensus AI', 'Julius AI (Data)', 'Elicit AI', 'Semantic Scholar AI', 'Scite.ai', 'ResearchRabbit', 'Connected Papers', 'Litmaps', 'Scholarcy', 'Explainpaper', 'ChatPDF', 'Humata AI', 'PDF.ai', 'Sharly AI', 'UPDF AI', 'Jenni AI', 'Paperpal', 'Trinka AI', 'QuillBot', 'Grammarly AI', 'DeepL Write', 'Wordtune', 'ProWritingAid', 'Glean Enterprise', 'Hebbia Matrix', 'AlphaSense', 'Harvey AI (Legal)', 'CoCounsel', 'Spellbook Legal', 'Glass Health', 'MediSearch', 'PubMed GPT', 'BioGPT', 'Evo 2 Genomics', 'AlphaFold 3', 'GNoME Materials', 'ClimateGPT', 'Exa.ai Search', 'Tavily Search', 'Brave Leo Search', 'Andi Search', 'Kagi FastGPT', 'Komodo AI', 'Felo Search', 'Genspark AI', 'Liner AI', 'SciSpace (Typeset)', 'Iris.ai', 'Zotero ARIA'],
-                    devs: ['Google', 'Consensus', 'Julius', 'Elicit', 'Allen Institute', 'Scite', 'ResearchRabbit', 'Connected Papers', 'Litmaps', 'Scholarcy', 'Explainpaper', 'ChatPDF', 'Humata', 'PDF.ai', 'Sharly', 'Superace', 'Jenni', 'Cactus', 'Crimson', 'Course Hero', 'Grammarly', 'DeepL', 'AI21 Labs', 'ProWritingAid', 'Glean', 'Hebbia', 'AlphaSense', 'Harvey', 'Thomson Reuters', 'Rally', 'Glass Health', 'MediSearch', 'Stanford', 'Microsoft', 'Arc Institute', 'Google DeepMind', 'Google DeepMind', 'Erasmus', 'Exa', 'Tavily', 'Brave', 'Andi', 'Kagi', 'Komodo', 'Sparticle', 'MainFunc', 'Liner', 'Typeset', 'Iris', 'Open Source'],
-                    descTpl: 'ilmiy maqolalar, PDF hujjatlar, tibbiyot va huquqiy manbalarni aniq iqtiboslar bilan tahlil qiluvchi tadqiqot AI.',
-                    caps: ['Millionlab ilmiy maqolalardan aniq faktlar topish', 'Katta PDF hujjatlar bilan savol-javob qilish', 'Manbalar va iqtiboslar zanjirini ko‘rsatish', 'Akademik matnlarni tahrirlash va xulosa chiqarish']
-                },
-                {
-                    cat: 'Dizayn va 3D', banner: 'design',
-                    prefixes: ['Gamma App', 'Meshy 3D', 'Figma AI', 'Framer AI', 'Webflow AI', 'Relume AI', 'Uizard', 'Galileo AI', 'Visily AI', 'Musho AI', 'Khroma Color', 'Fontjoy AI', 'Looka Logo', 'Brandmark.io', 'Hatchful AI', 'Designs.ai', 'Simplified Design', 'Kittl AI', 'Recraft Vector', 'Spline AI 3D', 'Luma Genie 3D', 'Tripo AI 3D', 'Rodin Gen-1', 'CSM 3D', 'Kaedim 3D', 'Masterpiece X', 'Sloyd.ai', '3DFY.ai', 'Alpha3D', 'Polycam AI', 'Blockade Labs Skybox', 'Scenario 3D', 'Inworld AI NPC', 'Convai 3D', 'Tome AI', 'Beautiful.ai', 'Pitch AI', 'Decktopus', 'SlidesAI', 'Presentations.ai', 'Chronicle HQ', 'Prezi AI', 'Adobe Express AI', 'Microsoft Designer', 'VistaCreate AI', 'MockupBro AI', 'Pacdora 3D', 'RoomGPT', 'InteriorAI', 'Planner 5D AI'],
-                    devs: ['Gamma', 'Meshy', 'Figma', 'Framer', 'Webflow', 'Relume', 'Uizard', 'Galileo', 'Visily', 'Musho', 'Khroma', 'Fontjoy', 'Looka', 'Brandmark', 'Shopify', 'Inmagine', 'Simplified', 'Kittl', 'Recraft', 'Spline', 'Luma AI', 'VAST', 'Deemos', 'CSM', 'Kaedim', 'Masterpiece', 'Sloyd', '3DFY', 'Alpha3D', 'Polycam', 'Blockade Labs', 'Scenario', 'Inworld', 'Convai', 'Tome', 'Beautiful.ai', 'Pitch', 'Decktopus', 'SlidesAI', 'Presentations', 'Chronicle', 'Prezi', 'Adobe', 'Microsoft', 'Vista', 'MockupBro', 'Pacdora', 'Nutlope', 'Levelsio', 'Planner 5D'],
-                    descTpl: 'UI/UX interfeyslar, 3D modellar, logotiplar, interyer dizayni va taqdimot slaydlarini yaratuvchi dizayner AI.',
-                    caps: ['Matndan tayyor UI/UX dizayn va veb-sahifa maketi', '2D rasmdan o‘yinlar uchun 3D model yaratish', 'Brend logotipi, ranglar palitrasi va taqdimotlar', 'Xona va bino interyerini AI orqali qayta loyihalash']
-                },
-                {
-                    cat: 'Avtomatlashtirish', banner: 'auto',
-                    prefixes: ['n8n AI Agents', 'Make.com AI', 'Dify AI', 'Lindy AI', 'Relevance AI', 'CrewAI', 'AutoGen Microsoft', 'LangGraph', 'LlamaIndex', 'Flowise AI', 'Botpress AI', 'Voiceflow', 'Stack AI', 'Gumloop', 'Bardeen AI', 'Browse AI', 'Apify AI Scraper', 'Firecrawl', 'MultiOn Agent', 'Adept ACT-2', 'Rabbit R1 LAM', 'Browser-Use', 'Skyvern AI', 'Induced AI', 'Relay.app', 'Activepieces', 'Pipedream AI', 'Tray.ai', 'Workato AI', 'UiPath Autopilot', 'Zapier Central', 'Notion AI', 'Coda AI', 'ClickUp Brain', 'Asana AI', 'Monday AI', 'Trello Butler AI', 'Airtable Cobuilder', 'Mem.ai', 'Reflect Notes AI', 'Taskade AI', 'Motion AI Calendar', 'Reclaim.ai', 'Clockwise AI', 'Fireflies.ai', 'Otter.ai', 'Fathom Notetaker', 'tl;dv Meeting AI', 'Granola AI', 'Superhuman AI'],
-                    devs: ['n8n', 'Make', 'LangGenius', 'Lindy', 'Relevance', 'CrewAI', 'Microsoft', 'LangChain', 'LlamaIndex', 'Flowise', 'Botpress', 'Voiceflow', 'Stack AI', 'Gumloop', 'Bardeen', 'Browse AI', 'Apify', 'Mendable', 'MultiOn', 'Adept', 'Rabbit', 'Open Source', 'Skyvern', 'Induced', 'Relay', 'Activepieces', 'Pipedream', 'Tray', 'Workato', 'UiPath', 'Zapier', 'Notion', 'Coda', 'ClickUp', 'Asana', 'Monday', 'Atlassian', 'Airtable', 'Mem', 'Reflect', 'Taskade', 'Motion', 'Dropbox', 'Clockwise', 'Fireflies', 'Otter', 'Fathom', 'tl;dv', 'Granola', 'Superhuman'],
-                    descTpl: 'biznes jarayonlari, brauzer harakatlari, uchrashuv konspektlari va ko‘p agentli tizimlarni avtomatlashtiruvchi AI.',
-                    caps: ['Avtonom AI agentlar jamoasini yaratish va boshqarish', 'Saytlardan ma’lumot yig‘ish va CRM tizimlarga ulash', 'Zoom/Meet uchrashuvlarini yozib olish va xulosa tuzish', 'Email, taqvim va vazifalarni avtomatik rejalashtirish']
-                }
-            ];
-
-            let counter = 1;
-            domainBlueprints.forEach((bp, dIdx) => {
-                bp.prefixes.forEach((name, i) => {
-                    if (existingNames.has(name.toLowerCase())) return;
-                    existingNames.add(name.toLowerCase());
-                    const dev = bp.devs[i % bp.devs.length];
-                    const usersM = Math.max(3, Math.round(62 / (1 + (i % 10) * 0.4) + ((dIdx * 7 + i * 3) % 15)));
-                    const growth = 50 + ((i * 19 + dIdx * 23) % 175);
-                    const isOpenSource = (i % 7 === 3);
-                    const hasFree = isOpenSource || (i % 4 !== 2);
-                    const priceType = isOpenSource ? 'opensource' : (hasFree ? 'free' : 'paid');
-                    const pricing = isOpenSource
-                        ? 'Bepul • Open-Source'
-                        : (hasFree ? 'Bepul / Pro $' + (10 + (i % 4) * 5) : 'Pullik ($' + (15 + (i % 5) * 5) + '/oy)');
-
-                    aiList.push({
-                        id: 'global-ai-' + (counter++),
-                        name: name,
-                        developer: dev,
-                        generation: bp.cat + ' • Global Reyestr',
-                        category: bp.cat,
-                        bannerType: bp.banner,
-                        users: usersM + 'M+ foydalanuvchi',
-                        usersMillions: usersM,
-                        growthPercent: growth,
-                        pricing: pricing,
-                        hasFree: hasFree,
-                        priceType: priceType,
-                        tags: [bp.cat.toLowerCase(), dev.toLowerCase(), hasFree ? 'bepul' : 'pullik', isOpenSource ? 'open-source' : 'ai'],
-                        shortDesc: name + ' — ' + dev + ' tomonidan yaratilgan ' + bp.descTpl,
-                        fullDesc: name + ' (' + dev + ') zamonaviy sun’iy intellekt ekotizimining muhim qismi bo‘lib, ' + bp.cat.toLowerCase() + ' yo‘nalishida minglab mutaxassislar va kompaniyalar tomonidan kundalik ishlarni tezlashtirish uchun qo‘llaniladi.',
-                        capabilities: bp.caps,
-                        pros: ['O‘z yo‘nalishida yuqori aniqlik va tezlik', hasFree ? 'Bepul sinov yoki ochiq kod imkoniyati mavjud' : 'Professional korporativ darajadagi sifat'],
-                        cons: ['To‘liq hajmda ishlash uchun ingliz tilidagi promptlar samaraliroq'],
-                        samplePrompt: name + ' imkoniyatlaridan foydalanib, ' + bp.cat.toLowerCase() + ' bo‘yicha professional natija yaratib ber.',
-                        url: 'https://www.google.com/search?q=' + encodeURIComponent(name + ' AI official')
-                    });
-                });
-            });
-        })();
-
-        // =========================================================================
-        // 3. Repeatable Count-Up Animation Engine (Every Scroll Up & Down)
-        // =========================================================================
-        function runCountUp(el, opts = {}) {
-            if (!el) return;
-            const target = opts.target !== undefined ? opts.target : parseFloat(el.getAttribute('data-target') || '0');
-            const suffix = opts.suffix !== undefined ? opts.suffix : (el.getAttribute('data-suffix') || '');
-            const isDecimal = opts.decimal !== undefined ? opts.decimal : (el.getAttribute('data-decimal') === 'true');
-            const duration = opts.duration || 1200;
-
-            if (el._countRaf) cancelAnimationFrame(el._countRaf);
-            const startTime = performance.now();
-
-            function step(now) {
-                const elapsed = now - startTime;
-                const progress = Math.min(elapsed / duration, 1);
-                const eased = 1 - Math.pow(1 - progress, 3);
-                const current = target * eased;
-
-                if (isDecimal) {
-                    el.textContent = current.toFixed(1) + suffix;
-                } else {
-                    el.textContent = Math.round(current).toLocaleString('en-US').replace(/,/g, ' ') + suffix;
-                }
-
-                if (progress < 1) {
-                    el._countRaf = requestAnimationFrame(step);
-                } else {
-                    el._countRaf = null;
-                }
-            }
-            el._countRaf = requestAnimationFrame(step);
-        }
-
-        function setupRepeatableCounters() {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    const el = entry.target;
-                    if (entry.isIntersecting) {
-                        runCountUp(el, { duration: 1250 });
-                    } else {
-                        const suffix = el.getAttribute('data-suffix') || '';
-                        const isDecimal = el.getAttribute('data-decimal') === 'true';
-                        el.textContent = (isDecimal ? '0.0' : '0') + suffix;
-                    }
-                });
-            }, { threshold: 0.15 });
-
-            document.querySelectorAll('.stat-counter').forEach(el => observer.observe(el));
-        }
-
-        function animateStatsSectionElements(resetFirst) {
-            const container = document.getElementById('stats-bars');
-            if (!container) return;
-            const bars = container.querySelectorAll('.stat-bar-fill');
-            const nums = container.querySelectorAll('.stats-num-anim');
-
-            if (resetFirst) {
-                bars.forEach(bar => {
-                    bar.style.transition = 'none';
-                    bar.style.width = '0%';
-                });
-                nums.forEach(num => {
-                    const suffix = num.getAttribute('data-suffix') || '';
-                    num.textContent = '0' + suffix;
-                });
-                void container.offsetWidth;
-            }
-
-            requestAnimationFrame(() => {
-                bars.forEach((bar, i) => {
-                    const targetPct = bar.getAttribute('data-pct') || '0';
-                    bar.style.transition = `width 1.25s cubic-bezier(0.22, 1, 0.36, 1) ${i * 55}ms`;
-                    bar.style.width = targetPct + '%';
-                });
-                nums.forEach(num => {
-                    runCountUp(num, { duration: 1250 });
-                });
-            });
-        }
-
-        function setupStatsBarObserver() {
-            const container = document.getElementById('stats-bars');
-            if (!container) return;
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        animateStatsSectionElements(true);
-                    } else {
-                        container.querySelectorAll('.stat-bar-fill').forEach(bar => {
-                            bar.style.transition = 'none';
-                            bar.style.width = '0%';
-                        });
-                        container.querySelectorAll('.stats-num-anim').forEach(num => {
-                            const suffix = num.getAttribute('data-suffix') || '';
-                            num.textContent = '0' + suffix;
-                        });
-                    }
-                });
-            }, { threshold: 0.15 });
-            observer.observe(container);
-        }
-
-        function attachCardHoverEffects(scopeEl) {
-            if (!scopeEl) return;
-            scopeEl.querySelectorAll('.ai-tilt-card').forEach(card => {
-                card.addEventListener('mousemove', (e) => {
-                    const rect = card.getBoundingClientRect();
-                    const x = e.clientX - rect.left;
-                    const y = e.clientY - rect.top;
-                    const rotateX = ((y / rect.height) - 0.5) * -9;
-                    const rotateY = ((x / rect.width) - 0.5) * 9;
-                    card.style.setProperty('--mx', x + 'px');
-                    card.style.setProperty('--my', y + 'px');
-                    card.style.transform = `perspective(900px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`;
-                });
-                card.addEventListener('mouseleave', () => {
-                    card.style.transform = 'perspective(900px) rotateX(0deg) rotateY(0deg) translateY(0px)';
-                });
-            });
-        }
-
-        // =========================================================================
-        // 4. Global State & DOM References
-        // =========================================================================
-        let currentCategory = 'Hammasi';
-        let currentPricing = 'all';
-        let currentSearch = '';
-        let currentStatsMode = 'users';
-        let visibleLimit = 24;
-        let isChatOpen = false;
-
-        const aiGrid = document.getElementById('ai-grid');
-        const aiCount = document.getElementById('ai-count');
-        const emptyState = document.getElementById('empty-state');
-        const catalogSearch = document.getElementById('catalog-search');
-        const heroSearchInput = document.getElementById('hero-search');
-        const catButtons = document.querySelectorAll('.cat-btn');
-        const priceButtons = document.querySelectorAll('.price-btn');
-
-        // =========================================================================
-        // 5. Render Functions
-        // =========================================================================
-        function initBrandMarquee() {
-            const container = document.getElementById('brand-marquee');
-            if (!container) return;
-            const featured = aiList.slice(0, 18);
-            const items = [...featured, ...featured].map(ai => `
-                <button onclick="openModalById('${ai.id}')" class="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 shrink-0 transition">
-                    ${getBrandLogoSVG(ai.name)}
-                    <span class="text-xs font-bold text-white">${ai.name}</span>
-                </button>
-            `).join('');
-            container.innerHTML = items;
-        }
-
-        function getFilteredAIs() {
-            return aiList.filter(ai => {
-                const matchCat = currentCategory === 'Hammasi' || ai.category === currentCategory;
-                const matchPrice = currentPricing === 'all' ||
-                    (currentPricing === 'free' && ai.hasFree) ||
-                    (currentPricing === 'opensource' && ai.priceType === 'opensource') ||
-                    (currentPricing === 'paid' && !ai.hasFree);
-                const q = currentSearch.trim().toLowerCase();
-                const matchSearch = !q ||
-                    ai.name.toLowerCase().includes(q) ||
-                    ai.developer.toLowerCase().includes(q) ||
-                    ai.category.toLowerCase().includes(q) ||
-                    ai.shortDesc.toLowerCase().includes(q) ||
-                    ai.tags.some(t => t.toLowerCase().includes(q));
-                return matchCat && matchPrice && matchSearch;
-            });
-        }
-
-        function loadMoreAIs() {
-            visibleLimit += 40;
-            renderCards(false);
-        }
-
-        function renderCards(highlightMatches) {
-            if (!aiGrid) return;
-            const list = getFilteredAIs();
-            const displayedList = list.slice(0, visibleLimit);
-            const loadMoreWrap = document.getElementById('load-more-wrap');
-            const loadMoreLabel = document.getElementById('load-more-label');
-
-            if (aiCount) {
-                runCountUp(aiCount, { target: list.length, duration: 900 });
-            }
-
-            if (loadMoreWrap && loadMoreLabel) {
-                if (list.length > visibleLimit) {
-                    const remaining = list.length - visibleLimit;
-                    loadMoreWrap.classList.remove('hidden');
-                    loadMoreLabel.textContent = 'Yana ' + Math.min(40, remaining) + ' ta AI yuklash (qolgan: ' + remaining + ' ta)';
-                } else {
-                    loadMoreWrap.classList.add('hidden');
-                }
-            }
-
-            if (list.length === 0) {
-                aiGrid.innerHTML = '';
-                if (emptyState) emptyState.classList.remove('hidden');
-                return;
-            }
-            if (emptyState) emptyState.classList.add('hidden');
-
-            aiGrid.innerHTML = displayedList.map((ai, idx) => {
-                const badgeClass = ai.priceType === 'opensource'
-                    ? 'bg-purple-500/20 text-purple-200 border-purple-400/35'
-                    : (ai.hasFree
-                        ? 'bg-emerald-500/20 text-emerald-200 border-emerald-400/35'
-                        : 'bg-amber-500/20 text-amber-200 border-amber-400/35');
-                const pulseClass = (highlightMatches && idx < 4) ? 'card-highlight-pulse' : '';
-
-                return `
-                    <div onclick="openModalById('${ai.id}')" class="glass-card ai-tilt-card rounded-3xl overflow-hidden cursor-pointer flex flex-col justify-between group ${pulseClass}">
-                        <div>
-                            <div class="p-5 bg-gradient-to-br ${getCategoryBadgeGradient(ai.bannerType)} border-b border-white/5 flex items-center justify-between gap-3">
-                                <div class="flex items-center gap-3 min-w-0">
-                                    <div class="shrink-0 group-hover:scale-110 transition">${getBrandLogoSVG(ai.name)}</div>
-                                    <div class="min-w-0">
-                                        <h3 class="font-bold text-white text-sm sm:text-base truncate group-hover:text-cyan-300 transition">${ai.name}</h3>
-                                        <p class="text-[11px] text-slate-400 truncate">${ai.developer}</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-5">
-                                <div class="flex flex-wrap items-center gap-1.5 mb-3">
-                                    <span class="px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-white/10 text-slate-200">${ai.category}</span>
-                                    <span class="px-2.5 py-0.5 rounded-full text-[10px] font-semibold border ${badgeClass}">${ai.pricing}</span>
-                                </div>
-                                <p class="text-xs text-slate-300 leading-relaxed line-clamp-3">${ai.shortDesc}</p>
-                            </div>
-                        </div>
-                        <div class="px-5 py-3.5 border-t border-white/5 bg-dark-950/40 flex items-center justify-between text-[11px]">
-                            <span class="text-cyan-400 font-semibold"><i class="fa-solid fa-users mr-1"></i> ${ai.users}</span>
-                            <span class="text-slate-300 group-hover:text-white font-semibold">Batafsil <i class="fa-solid fa-arrow-right ml-1"></i></span>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-            attachCardHoverEffects(aiGrid);
-        }
-
-        function syncFilterButtonsUI() {
-            catButtons.forEach(btn => {
-                const active = btn.getAttribute('data-cat') === currentCategory;
-                btn.className = active
-                    ? 'cat-btn px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-cyan-500 text-slate-950 transition'
-                    : 'cat-btn px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-white/5 text-slate-300 hover:bg-white/10 transition';
-            });
-            priceButtons.forEach(btn => {
-                const active = btn.getAttribute('data-price') === currentPricing;
-                btn.className = active
-                    ? 'price-btn px-3 py-1 rounded-lg text-xs font-semibold bg-indigo-500 text-white transition'
-                    : 'price-btn px-3 py-1 rounded-lg text-xs font-semibold bg-white/5 text-slate-300 hover:bg-white/10 transition';
-            });
-        }
-
-        function updateActiveBanner() {
-            const banner = document.getElementById('active-filter-banner');
-            const text = document.getElementById('active-filter-text');
-            if (!banner || !text) return;
-            const parts = [];
-            if (currentCategory !== 'Hammasi') parts.push('Yo‘nalish: ' + currentCategory);
-            if (currentPricing !== 'all') parts.push('Tarif: ' + (currentPricing === 'free' ? 'Bepul bor' : currentPricing === 'opensource' ? 'Open-Source' : 'Pullik'));
-            if (currentSearch.trim()) parts.push('Qidiruv: "' + currentSearch.trim() + '"');
-
-            if (parts.length > 0) {
-                banner.classList.remove('hidden');
-                text.textContent = 'Faol filtrlar → ' + parts.join(' • ');
-            } else {
-                banner.classList.add('hidden');
-            }
-        }
-
-        // =========================================================================
-        // 6. Modal, Statistics & Comparison
-        // =========================================================================
-        function openModalById(id) {
-            const ai = aiList.find(item => item.id === id);
-            if (!ai) return;
-            const modal = document.getElementById('ai-modal');
-            const content = document.getElementById('modal-content');
-            if (!modal || !content) return;
-
-            content.innerHTML = `
-                <div class="flex items-center gap-4 mb-5">
-                    ${getBrandLogoSVG(ai.name)}
-                    <div>
-                        <h3 class="text-xl sm:text-2xl font-extrabold text-white">${ai.name}</h3>
-                        <p class="text-xs sm:text-sm text-cyan-400">${ai.developer} • ${ai.category}</p>
-                    </div>
-                </div>
-                <p class="text-sm text-slate-300 leading-relaxed mb-5">${ai.fullDesc}</p>
-
-                <div class="grid grid-cols-2 gap-3 mb-5">
-                    <div class="p-3.5 rounded-2xl bg-white/5 border border-white/10">
-                        <div class="text-[11px] text-slate-400">Foydalanuvchilar</div>
-                        <div class="text-sm font-bold text-white mt-0.5">${ai.users}</div>
-                    </div>
-                    <div class="p-3.5 rounded-2xl bg-white/5 border border-white/10">
-                        <div class="text-[11px] text-slate-400">Narx va Tarif</div>
-                        <div class="text-sm font-bold text-emerald-400 mt-0.5">${ai.pricing}</div>
-                    </div>
-                </div>
-
-                <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-2.5">Asosiy imkoniyatlari:</h4>
-                <ul class="space-y-2 mb-5">
-                    ${ai.capabilities.map(c => `<li class="text-xs sm:text-sm text-slate-200 flex items-start gap-2"><i class="fa-solid fa-circle-check text-cyan-400 mt-1"></i><span>${c}</span></li>`).join('')}
-                </ul>
-
-                <div class="p-4 rounded-2xl bg-dark-950 border border-white/10 mb-6">
-                    <div class="flex items-center justify-between mb-1.5">
-                        <span class="text-[11px] font-bold text-purple-300">Tayyor Prompt Namunasi:</span>
-                        <button onclick="copyPromptText(this, '${ai.samplePrompt.replace(/'/g, "\\'")}')" class="text-[11px] px-2.5 py-1 rounded-lg bg-white/10 hover:bg-white/20 text-white">Nusxalash</button>
-                    </div>
-                    <p class="font-mono text-xs text-slate-300">${ai.samplePrompt}</p>
-                </div>
-
-                <div class="flex flex-wrap gap-3">
-                    <a href="${ai.url}" target="_blank" rel="noopener noreferrer" class="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 text-white text-sm font-bold text-center hover:opacity-95 transition">
-                        Rasmiy saytga o‘tish <i class="fa-solid fa-arrow-up-right-from-square ml-1.5"></i>
-                    </a>
-                    <button onclick="askAboutAI('${ai.name.replace(/'/g, "\\'")}')" class="py-3 px-4 rounded-xl bg-white/10 hover:bg-white/15 text-white text-xs sm:text-sm font-semibold transition">
-                        AI Yordamchidan so‘rash
-                    </button>
-                </div>
-            `;
-            modal.classList.remove('hidden');
-            modal.classList.add('flex');
-        }
-
-        function closeModal() {
-            const modal = document.getElementById('ai-modal');
-            if (modal) {
-                modal.classList.add('hidden');
-                modal.classList.remove('flex');
-            }
-        }
-
-        function copyPromptText(btn, text) {
-            const ta = document.createElement('textarea');
-            ta.value = text;
-            document.body.appendChild(ta);
-            ta.select();
-            document.execCommand('copy');
-            document.body.removeChild(ta);
-            btn.textContent = 'Nusxalandi ✓';
-            setTimeout(() => { btn.textContent = 'Nusxalash'; }, 1800);
-        }
-
-        function renderStats() {
-            const container = document.getElementById('stats-bars');
-            if (!container) return;
-
-            let rows = [];
-            if (currentStatsMode === 'category-users') {
-                const categoryUserStats = [
-                    { label: 'Katta Til Modellari (Matn va Chat)', sub: 'ChatGPT, Gemini, DeepSeek, Claude', val: 1280, suffix: 'M+' },
-                    { label: 'Rasm va San’at (Tasvir yaratish)', sub: 'Midjourney, FLUX, DALL-E, Firefly', val: 640, suffix: 'M+' },
-                    { label: 'Dizayn va 3D (Grafika va Taqdimot)', sub: 'Canva AI, Gamma, Figma AI, Meshy', val: 490, suffix: 'M+' },
-                    { label: 'Video Generatsiya (Video yasovchi AI)', sub: 'Sora, Veo, Runway, Kling, CapCut AI', val: 385, suffix: 'M+' },
-                    { label: 'Ovoz va Musiqa (Qo‘shiq va Dublyaj)', sub: 'Suno AI, ElevenLabs, Udio, Whisper', val: 295, suffix: 'M+' },
-                    { label: 'Dasturlash va Kod (Kod yozuvchi AI)', sub: 'GitHub Copilot, Cursor, v0, Bolt', val: 215, suffix: 'M+' },
-                    { label: 'Qidiruv va Tadqiqot (Ilmiy tahlil)', sub: 'Perplexity, NotebookLM, Consensus', val: 190, suffix: 'M+' },
-                    { label: 'AI Agentlar va Avtomatlashtirish', sub: 'n8n, Zapier Central, Make, Notion AI', val: 135, suffix: 'M+' }
-                ];
-                const maxVal = categoryUserStats[0].val;
-                rows = categoryUserStats.map(d => ({
-                    title: d.label,
-                    subtitle: d.sub,
-                    val: d.val,
-                    suffix: d.suffix,
-                    pct: Math.round((d.val / maxVal) * 100)
-                }));
-            } else if (currentStatsMode === 'domains') {
-                const domainStats = [
-                    { label: 'Katta Til Modellari (LLM)', sub: 'Matn va muloqot', val: 34, suffix: '%' },
-                    { label: 'Rasm va San’at', sub: 'Grafika va dizayn', val: 21, suffix: '%' },
-                    { label: 'Dasturlash va Kod', sub: 'IDE va agentlar', val: 16, suffix: '%' },
-                    { label: 'Video Generatsiya', sub: 'Kino va Shorts', val: 11, suffix: '%' },
-                    { label: 'Ovoz va Musiqa', sub: 'TTS va bastalash', val: 8, suffix: '%' },
-                    { label: 'Qidiruv va Tadqiqot', sub: 'Ilmiy va faktlar', val: 5, suffix: '%' },
-                    { label: 'Dizayn va 3D', sub: 'UI/UX va modellar', val: 3, suffix: '%' },
-                    { label: 'Avtomatlashtirish', sub: 'Biznes agentlar', val: 2, suffix: '%' }
-                ];
-                const maxVal = domainStats[0].val;
-                rows = domainStats.map(d => ({
-                    title: d.label,
-                    subtitle: d.sub,
-                    val: d.val,
-                    suffix: d.suffix,
-                    pct: Math.round((d.val / maxVal) * 100)
-                }));
-            } else if (currentStatsMode === 'free') {
-                const freeCounts = [
-                    { label: 'Katta Til Modellari', sub: 'Bepul va Open-Source modellar', val: 2650, suffix: ' ta' },
-                    { label: 'Rasm va San’at', sub: 'Bepul tasvir yaratuvchilar', val: 2340, suffix: ' ta' },
-                    { label: 'Dasturlash va Kod', sub: 'Bepul koder yordamchilar', val: 1780, suffix: ' ta' },
-                    { label: 'Qidiruv va Tadqiqot', sub: 'Bepul tahlil vositalari', val: 1420, suffix: ' ta' },
-                    { label: 'Ovoz va Musiqa', sub: 'Bepul ovoz va musiqa AI', val: 1150, suffix: ' ta' },
-                    { label: 'Video Generatsiya', sub: 'Bepul kreditli video AI', val: 940, suffix: ' ta' },
-                    { label: 'Dizayn va 3D', sub: 'Bepul dizayn studiyalar', val: 540, suffix: ' ta' },
-                    { label: 'Avtomatlashtirish', sub: 'Ochiq kodli agentlar', val: 380, suffix: ' ta' }
-                ];
-                const maxVal = freeCounts[0].val;
-                rows = freeCounts.map(d => ({
-                    title: d.label,
-                    subtitle: d.sub,
-                    val: d.val,
-                    suffix: d.suffix,
-                    pct: Math.round((d.val / maxVal) * 100)
-                }));
-            } else {
-                const isGrowth = currentStatsMode === 'growth';
-                const topAIs = [...aiList]
-                    .sort((a, b) => isGrowth ? (b.growthPercent - a.growthPercent) : (b.usersMillions - a.usersMillions))
-                    .slice(0, 8);
-                const maxVal = isGrowth ? topAIs[0].growthPercent : topAIs[0].usersMillions;
-                rows = topAIs.map(ai => {
-                    const val = isGrowth ? ai.growthPercent : ai.usersMillions;
-                    return {
-                        title: ai.name,
-                        subtitle: ai.category,
-                        val: val,
-                        suffix: isGrowth ? '%' : 'M+',
-                        pct: Math.round((val / maxVal) * 100)
-                    };
-                });
-            }
-
-            container.innerHTML = rows.map(r => `
-                <div>
-                    <div class="flex items-center justify-between text-xs sm:text-sm mb-1.5">
-                        <span class="font-bold text-white flex items-center gap-2">${r.title} <span class="text-[11px] font-normal text-slate-400">(${r.subtitle})</span></span>
-                        <span class="stats-num-anim font-extrabold text-cyan-400 tabular-nums" data-target="${r.val}" data-suffix="${r.suffix}">0${r.suffix}</span>
-                    </div>
-                    <div class="w-full h-3 rounded-full bg-dark-950 overflow-hidden p-0.5 border border-white/5">
-                        <div class="stat-bar-fill h-full rounded-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-fuchsia-500" data-pct="${r.pct}"></div>
-                    </div>
-                </div>
-            `).join('');
-
-            animateStatsSectionElements(true);
-        }
-
-        function switchStatsTab(mode) {
-            currentStatsMode = mode;
-            const tabMap = {
-                users: 'tab-users',
-                'category-users': 'tab-category-users',
-                growth: 'tab-growth',
-                domains: 'tab-domains',
-                free: 'tab-free'
-            };
-            Object.entries(tabMap).forEach(([key, id]) => {
-                const btn = document.getElementById(id);
-                if (!btn) return;
-                btn.className = (key === mode)
-                    ? 'stats-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-cyan-500 text-slate-950 transition'
-                    : 'stats-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition';
-            });
-            renderStats();
-        }
-
-        function initComparisonSelects() {
-            const selA = document.getElementById('compare-a');
-            const selB = document.getElementById('compare-b');
-            if (!selA || !selB) return;
-            const options = aiList.slice(0, 40).map(ai => `<option value="${ai.id}">${ai.name} (${ai.category})</option>`).join('');
-            selA.innerHTML = options;
-            selB.innerHTML = options;
-            selA.value = 'chatgpt';
-            selB.value = 'deepseek';
-            renderComparison();
-        }
-
-        function renderComparison() {
-            const selA = document.getElementById('compare-a');
-            const selB = document.getElementById('compare-b');
-            const table = document.getElementById('comparison-table');
-            if (!selA || !selB || !table) return;
-
-            const a = aiList.find(x => x.id === selA.value) || aiList[0];
-            const b = aiList.find(x => x.id === selB.value) || aiList[1];
-
-            table.innerHTML = `
-                <table class="w-full text-left border-collapse text-xs sm:text-sm">
-                    <thead>
-                        <tr class="border-b border-white/10">
-                            <th class="py-3 px-3 text-slate-400 font-medium w-1/4">Mezon</th>
-                            <th class="py-3 px-3 text-cyan-400 font-bold w-3/8">${a.name}</th>
-                            <th class="py-3 px-3 text-purple-400 font-bold w-3/8">${b.name}</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-white/5">
-                        <tr><td class="py-3 px-3 text-slate-400">Kompaniya</td><td class="py-3 px-3 text-white">${a.developer}</td><td class="py-3 px-3 text-white">${b.developer}</td></tr>
-                        <tr><td class="py-3 px-3 text-slate-400">Yo‘nalish</td><td class="py-3 px-3 text-white">${a.category}</td><td class="py-3 px-3 text-white">${b.category}</td></tr>
-                        <tr><td class="py-3 px-3 text-slate-400">Foydalanuvchilar</td><td class="py-3 px-3 text-cyan-300 font-semibold">${a.users}</td><td class="py-3 px-3 text-purple-300 font-semibold">${b.users}</td></tr>
-                        <tr><td class="py-3 px-3 text-slate-400">Narxi</td><td class="py-3 px-3 text-emerald-400 font-semibold">${a.pricing}</td><td class="py-3 px-3 text-emerald-400 font-semibold">${b.pricing}</td></tr>
-                        <tr><td class="py-3 px-3 text-slate-400">Asosiy kuchi</td><td class="py-3 px-3 text-slate-300">${a.shortDesc}</td><td class="py-3 px-3 text-slate-300">${b.shortDesc}</td></tr>
-                    </tbody>
-                </table>
-            `;
-        }
-
-        // =========================================================================
-        // 7. Interactive AI Assistant (Controls Filters & Opens Results)
-        // =========================================================================
-        function toggleAIChat(forceState) {
-            const win = document.getElementById('ai-chat-window');
-            if (!win) return;
-            isChatOpen = forceState !== undefined ? forceState : !isChatOpen;
-            if (isChatOpen) {
-                win.classList.remove('hidden');
-                const box = document.getElementById('chat-messages');
-                if (box && box.children.length === 0) {
-                    appendChatBubble('ai', 'Assalomu alaykum! Men <b>AI Olami Yordamchisiman</b>. Mendan istalgan sun’iy intellektni so‘rang (masalan: <i>"bepul AI larni topib och"</i> yoki <i>"video yaratuvchi AI"</i>) — saytdan darhol topib ochib beraman!');
-                }
-            } else {
-                win.classList.add('hidden');
-            }
-        }
-
-        function appendChatBubble(sender, html) {
-            const box = document.getElementById('chat-messages');
-            if (!box) return;
-            const div = document.createElement('div');
-            div.className = sender === 'user'
-                ? 'ml-auto max-w-[85%] px-3.5 py-2.5 rounded-2xl rounded-br-sm bg-cyan-500 text-slate-950 font-medium'
-                : 'mr-auto max-w-[92%] px-3.5 py-2.5 rounded-2xl rounded-bl-sm bg-white/10 text-slate-200 border border-white/10 space-y-2';
-            div.innerHTML = html;
-            box.appendChild(div);
-            box.scrollTop = box.scrollHeight;
-        }
-
-        function sendQuickChat(text) {
-            const input = document.getElementById('chat-input');
-            if (input) input.value = text;
-            handleChatSubmit(new Event('submit'));
-        }
-
-        function askAboutAI(aiName) {
-            closeModal();
-            toggleAIChat(true);
-            sendQuickChat(aiName + ' haqida batafsil tushuntir');
-        }
-
-        function handleChatSubmit(e) {
-            e.preventDefault();
-            const input = document.getElementById('chat-input');
-            if (!input) return;
-            const q = input.value.trim();
-            if (!q) return;
-            input.value = '';
-            appendChatBubble('user', q);
-
-            const lower = q.toLowerCase();
-            let matched = [];
-            let replyText = '';
-
-            if (lower.includes('bepul')) {
-                currentPricing = 'free';
-                currentCategory = 'Hammasi';
-                currentSearch = '';
-                visibleLimit = 24;
-                syncFilterButtonsUI();
-                updateActiveBanner();
-                renderCards(true);
-                scrollToSection('katalog');
-                matched = getFilteredAIs().slice(0, 4);
-                replyText = 'Saytda <b>«Bepul bor»</b> filtrini yoqdim va katalogga o‘tkazdim! Mana eng kuchli bepul AI lar:';
-            } else if (lower.includes('video') || lower.includes('kino')) {
-                filterByCategory('Video Generatsiya');
-                matched = getFilteredAIs().slice(0, 4);
-                replyText = 'Katalogda <b>Video Generatsiya</b> bo‘limini ochdim! Eng yaxshi video AI lar:';
-            } else if (lower.includes('kod') || lower.includes('dastur')) {
-                filterByCategory('Dasturlash va Kod');
-                matched = getFilteredAIs().slice(0, 4);
-                replyText = 'Katalogda <b>Dasturlash va Kod</b> bo‘limini ochdim! Dasturchilar uchun eng zo‘r AI lar:';
-            } else if (lower.includes('rasm') || lower.includes('surat')) {
-                filterByCategory('Rasm va San’at');
-                matched = getFilteredAIs().slice(0, 4);
-                replyText = 'Katalogda <b>Rasm va San’at</b> bo‘limini ochdim! Eng kuchli rasm chizuvchi AI lar:';
-            } else if (lower.includes('ovoz') || lower.includes('musiqa') || lower.includes('qoshiq')) {
-                filterByCategory('Ovoz va Musiqa');
-                matched = getFilteredAIs().slice(0, 4);
-                replyText = 'Katalogda <b>Ovoz va Musiqa</b> bo‘limini ochdim!';
-            } else {
-                const found = aiList.filter(a => a.name.toLowerCase().includes(lower) || lower.includes(a.name.split(' ')[0].toLowerCase()));
-                if (found.length > 0) {
-                    matched = found.slice(0, 3);
-                    replyText = `<b>${found[0].name}</b> haqida ma’lumot topildi: ${found[0].shortDesc} (${found[0].pricing}).`;
-                } else {
-                    quickSearch(q);
-                    matched = getFilteredAIs().slice(0, 3);
-                    replyText = matched.length > 0
-                        ? `"${q}" so‘rovi bo‘yicha saytdan quyidagi AI lar topildi:`
-                        : `Saytda 400+ AI tizimlari mavjud. Pastdagi tezkor tugmalardan foydalaning yoki AI nomini yozing!`;
-                }
-            }
-
-            const miniCards = matched.map(m => `
-                <button onclick="openModalById('${m.id}')" class="w-full text-left p-2 rounded-xl bg-dark-950/90 hover:bg-cyan-500/20 border border-white/10 flex items-center justify-between gap-2 transition">
-                    <span class="font-bold text-cyan-300 text-xs truncate">${m.name}</span>
-                    <span class="text-[10px] text-slate-400 shrink-0">Ochish →</span>
-                </button>
-            `).join('');
-
-            setTimeout(() => {
-                appendChatBubble('ai', `<p>${replyText}</p>${miniCards ? '<div class="space-y-1.5 pt-1">' + miniCards + '</div>' : ''}`);
-            }, 250);
-        }
-
-        // =========================================================================
-        // 8. Event Listeners & Neural Canvas Background
-        // =========================================================================
-        catButtons.forEach(btn => {
-            btn.addEventListener('click', () => {
-                currentCategory = btn.getAttribute('data-cat');
-                visibleLimit = 24;
-                syncFilterButtonsUI();
-                updateActiveBanner();
-                renderCards(false);
-            });
-        });
-
-        priceButtons.forEach(btn => {
-            btn.addEventListener('click', () => {
-                currentPricing = btn.getAttribute('data-price');
-                visibleLimit = 24;
-                syncFilterButtonsUI();
-                updateActiveBanner();
-                renderCards(false);
-            });
-        });
-
-        if (catalogSearch) {
-            catalogSearch.addEventListener('input', e => {
-                currentSearch = e.target.value;
-                visibleLimit = 24;
-                updateActiveBanner();
-                renderCards(false);
-            });
-        }
-
-        if (heroSearchInput) {
-            heroSearchInput.addEventListener('input', e => {
-                currentSearch = e.target.value;
-                visibleLimit = 24;
-                if (catalogSearch) catalogSearch.value = currentSearch;
-                updateActiveBanner();
-                renderCards(false);
-            });
-            heroSearchInput.addEventListener('keydown', e => {
-                if (e.key === 'Enter') {
-                    scrollToSection('katalog');
-                    renderCards(true);
-                }
-            });
-        }
-
-        function scrollToSection(id) {
-            const el = document.getElementById(id);
-            if (el) el.scrollIntoView({ behavior: 'smooth' });
-        }
-
-        function quickSearch(term) {
-            currentSearch = term;
-            currentCategory = 'Hammasi';
-            currentPricing = 'all';
-            visibleLimit = 24;
-            if (heroSearchInput) heroSearchInput.value = term;
-            if (catalogSearch) catalogSearch.value = term;
-            syncFilterButtonsUI();
-            updateActiveBanner();
-            renderCards(true);
-            scrollToSection('katalog');
-        }
-
-        function filterByCategory(cat) {
-            currentCategory = cat;
-            currentPricing = 'all';
-            currentSearch = '';
-            visibleLimit = 24;
-            if (heroSearchInput) heroSearchInput.value = '';
-            if (catalogSearch) catalogSearch.value = '';
-            syncFilterButtonsUI();
-            updateActiveBanner();
-            renderCards(true);
-            scrollToSection('katalog');
-        }
-
-        function resetFilters() {
-            currentCategory = 'Hammasi';
-            currentPricing = 'all';
-            currentSearch = '';
-            visibleLimit = 24;
-            if (heroSearchInput) heroSearchInput.value = '';
-            if (catalogSearch) catalogSearch.value = '';
-            syncFilterButtonsUI();
-            updateActiveBanner();
-            renderCards(false);
-        }
-
-        function initNeuralCanvas() {
-            const canvas = document.getElementById('neural-canvas');
-            const heroSection = document.getElementById('bosh-sahifa');
-            if (!canvas) return;
-            const ctx = canvas.getContext('2d');
-            let w, h, nodes = [];
-            const mouse = { x: null, y: null, radius: 170 };
-
-            function resize() {
-                w = canvas.width = canvas.offsetWidth || window.innerWidth;
-                h = canvas.height = canvas.offsetHeight || 650;
-                const nodeCount = Math.min(95, Math.max(65, Math.floor((w * h) / 11000)));
-                nodes = Array.from({ length: nodeCount }, () => ({
-                    x: Math.random() * w,
-                    y: Math.random() * h,
-                    vx: (Math.random() - 0.5) * 0.85,
-                    vy: (Math.random() - 0.5) * 0.85,
-                    r: 1.6 + Math.random() * 1.6,
-                    color: Math.random() > 0.35 ? '#38bdf8' : '#a855f7'
-                }));
-            }
-            resize();
-            window.addEventListener('resize', resize);
-
-            if (heroSection) {
-                heroSection.addEventListener('mousemove', (e) => {
-                    const rect = canvas.getBoundingClientRect();
-                    mouse.x = e.clientX - rect.left;
-                    mouse.y = e.clientY - rect.top;
-                });
-                heroSection.addEventListener('mouseleave', () => {
-                    mouse.x = null;
-                    mouse.y = null;
-                });
-            }
-
-            function draw() {
-                ctx.clearRect(0, 0, w, h);
-                for (let i = 0; i < nodes.length; i++) {
-                    const a = nodes[i];
-                    a.x += a.vx;
-                    a.y += a.vy;
-
-                    if (mouse.x !== null && mouse.y !== null) {
-                        const dx = mouse.x - a.x;
-                        const dy = mouse.y - a.y;
-                        const distM = Math.hypot(dx, dy);
-                        if (distM < mouse.radius && distM > 1) {
-                            const force = (mouse.radius - distM) / mouse.radius;
-                            a.x -= (dx / distM) * force * 1.8;
-                            a.y -= (dy / distM) * force * 1.8;
-
-                            ctx.beginPath();
-                            ctx.moveTo(a.x, a.y);
-                            ctx.lineTo(mouse.x, mouse.y);
-                            ctx.strokeStyle = `rgba(168, 85, 247, ${force * 0.55})`;
-                            ctx.lineWidth = 1;
-                            ctx.stroke();
-                        }
-                    }
-
-                    if (a.x < 0 || a.x > w) a.vx *= -1;
-                    if (a.y < 0 || a.y > h) a.vy *= -1;
-
-                    ctx.beginPath();
-                    ctx.arc(a.x, a.y, a.r, 0, Math.PI * 2);
-                    ctx.fillStyle = a.color;
-                    ctx.fill();
-
-                    for (let j = i + 1; j < nodes.length; j++) {
-                        const b = nodes[j];
-                        const dist = Math.hypot(a.x - b.x, a.y - b.y);
-                        if (dist < 145) {
-                            ctx.beginPath();
-                            ctx.moveTo(a.x, a.y);
-                            ctx.lineTo(b.x, b.y);
-                            ctx.strokeStyle = `rgba(56, 189, 248, ${(1 - dist / 145) * 0.65})`;
-                            ctx.lineWidth = 0.75;
-                            ctx.stroke();
-                        }
-                    }
-                }
-                requestAnimationFrame(draw);
-            }
-            draw();
-        }
-
-        // =========================================================================
-        // 9. Site Rating, Visitors Counter & User Reviews Logic
-        // =========================================================================
-        let selectedReviewStars = 5;
-        const baseTotalVotes = 1280;
-        const baseScoreSum = 1280 * 4.9;
-
-        const defaultReviews = [
-            { name: 'Sardorbek T.', stars: 5, text: 'Dunyodagi barcha sun’iy intellektlar bir joyga yig‘ilgani juda qulay bo‘libdi. Ayniqsa bepul AI larni topish va AI yordamchi menga juda yoqdi!', date: 'Bugun' },
-            { name: 'Madina Karimova', stars: 5, text: 'Dizayni va statistikalar judayam chiroyli chiqibdi. O‘qish va ish uchun kerakli AI larni osongina topdim.', date: 'Kecha' },
-            { name: 'Azizbek R.', stars: 5, text: 'Video va dasturlash uchun qaysi AI zo‘rligini taqqoslash jadvalidan ko‘rib tanladim. Rahmat!', date: '2 kun oldin' },
-            { name: 'Dilshod M.', stars: 4, text: 'Juda foydali o‘zbekcha platforma, yanada ko‘proq tayyor promptlar qo‘shilsa yanada zo‘r bo‘ladi.', date: '3 kun oldin' }
-        ];
-
-        function getStoredReviews() {
-            try {
-                const saved = JSON.parse(localStorage.getItem('ai_olami_reviews') || '[]');
-                return Array.isArray(saved) ? saved : [];
-            } catch (e) {
-                return [];
-            }
-        }
-
-        function selectReviewStar(starCount) {
-            selectedReviewStars = starCount;
-            const labels = {
-                1: '1 yulduz — Qoniqarsiz',
-                2: '2 yulduz — Yaxshilash kerak',
-                3: '3 yulduz — O‘rtacha',
-                4: '4 yulduz — Yaxshi!',
-                5: '5 yulduz — A’lo!'
-            };
-            const labelEl = document.getElementById('selected-star-label');
-            if (labelEl) labelEl.textContent = labels[starCount] || '';
-
-            document.querySelectorAll('.star-pick-btn').forEach(btn => {
-                const s = parseInt(btn.getAttribute('data-star'), 10);
-                btn.className = s <= starCount
-                    ? 'star-pick-btn text-amber-400 hover:scale-110 transition'
-                    : 'star-pick-btn text-slate-600 hover:scale-110 transition';
-            });
-        }
-
-        function renderSiteReviewsAndRating() {
-            const userReviews = getStoredReviews();
-            const allReviews = [...userReviews, ...defaultReviews];
-
-            const userSum = userReviews.reduce((acc, r) => acc + (r.stars || 5), 0);
-            const totalCount = baseTotalVotes + allReviews.length;
-            const avgRating = ((baseScoreSum + userSum + defaultReviews.reduce((a, r) => a + r.stars, 0)) / totalCount).toFixed(1);
-
-            const avgEl = document.getElementById('site-avg-rating');
-            const countEl = document.getElementById('site-reviews-count');
-            const starsEl = document.getElementById('site-avg-stars');
-            const listEl = document.getElementById('site-reviews-list');
-
-            if (avgEl) avgEl.textContent = avgRating;
-            if (countEl) countEl.textContent = totalCount.toLocaleString('en-US').replace(/,/g, ' ');
-
-            if (starsEl) {
-                const fullStars = Math.round(parseFloat(avgRating));
-                starsEl.innerHTML = Array.from({ length: 5 }, (_, i) =>
-                    `<i class="fa-solid fa-star ${i < fullStars ? 'text-amber-400' : 'text-slate-600'}"></i>`
-                ).join('');
-            }
-
-            if (listEl) {
-                listEl.innerHTML = allReviews.map(r => {
-                    const starsHtml = Array.from({ length: 5 }, (_, i) =>
-                        `<i class="fa-solid fa-star ${i < r.stars ? 'text-amber-400' : 'text-slate-600'}"></i>`
-                    ).join('');
-                    const initials = (r.name || 'F').trim().slice(0, 2).toUpperCase();
-                    return `
-                        <div class="p-4 rounded-2xl bg-dark-950/75 border border-white/10">
-                            <div class="flex items-center justify-between gap-2 mb-1.5">
-                                <div class="flex items-center gap-2.5">
-                                    <div class="w-8 h-8 rounded-xl bg-gradient-to-br from-cyan-500 to-indigo-600 text-white text-xs font-bold flex items-center justify-center">${initials}</div>
-                                    <div>
-                                        <div class="text-xs sm:text-sm font-bold text-white">${r.name}</div>
-                                        <div class="text-[10px] text-slate-400">${r.date || 'Hozirgina'}</div>
-                                    </div>
-                                </div>
-                                <div class="flex items-center gap-0.5 text-xs">${starsHtml}</div>
-                            </div>
-                            <p class="text-xs text-slate-300 leading-relaxed mt-2">${r.text}</p>
-                        </div>
-                    `;
-                }).join('');
-            }
-        }
-
-        function submitSiteReview(e) {
-            e.preventDefault();
-            const nameInput = document.getElementById('reviewer-name');
-            const commentInput = document.getElementById('reviewer-comment');
-            const successMsg = document.getElementById('review-success-msg');
-            if (!nameInput || !commentInput) return;
-
-            const name = nameInput.value.trim();
-            const text = commentInput.value.trim();
-            if (!name || !text) return;
-
-            const existing = getStoredReviews();
-            existing.unshift({
-                name: name,
-                stars: selectedReviewStars,
-                text: text,
-                date: 'Hozirgina'
-            });
-            try {
-                localStorage.setItem('ai_olami_reviews', JSON.stringify(existing));
-            } catch (err) {}
-
-            // Increment visitors counter smoothly
-            const visitorsEl = document.getElementById('site-visitors-count');
-            if (visitorsEl) {
-                const curTarget = parseInt(visitorsEl.getAttribute('data-target') || '48920', 10) + 1;
-                visitorsEl.setAttribute('data-target', String(curTarget));
-                runCountUp(visitorsEl, { target: curTarget, suffix: '+', duration: 600 });
-            }
-
-            nameInput.value = '';
-            commentInput.value = '';
-            selectReviewStar(5);
-            renderSiteReviewsAndRating();
-
-            if (successMsg) {
-                successMsg.classList.remove('hidden');
-                setTimeout(() => successMsg.classList.add('hidden'), 3500);
-            }
-        }
-
-        // =========================================================================
-        // 10. Active AI Promotions & Free Trials Section
-        // =========================================================================
-        const activePromotions = [
-            {
-                aiId: 'gemini',
-                name: 'Google Gemini 2.5 Pro',
-                badge: '1 OY BEPUL SINOV',
-                type: 'trial',
-                badgeStyle: 'bg-emerald-500/20 text-emerald-300 border-emerald-400/40',
-                offerTitle: 'Gemini Advanced + 2 TB Google One — 30 kun 0$',
-                offerDesc: 'Yangi foydalanuvchilar uchun Gemini 2.5 Pro, Veo video generatsiya va NotebookLM Plus imkoniyatlari 1 oy davomida mutlaqo bepul.',
-                deadline: 'Tugashiga: 6 kun qoldi',
-                promoCode: 'Avtomatik faollashadi',
-                url: 'https://gemini.google.com'
-            },
-            {
-                aiId: 'perplexity',
-                name: 'Perplexity AI',
-                badge: 'TALABALAR UCHUN BEPUL PRO',
-                type: 'trial',
-                badgeStyle: 'bg-cyan-500/20 text-cyan-300 border-cyan-400/40',
-                offerTitle: 'Perplexity Pro — 1 oydan 12 oygacha bepul kirish',
-                offerDesc: 'Talaba emaili (.edu) yoki hamkor dastur orqali GPT-5, Claude 3.7 va Deep Research cheksiz qidiruvlariga bepul ruxsat.',
-                deadline: 'Tugashiga: 11 kun qoldi',
-                promoCode: 'STUDENTPRO',
-                url: 'https://www.perplexity.ai'
-            },
-            {
-                aiId: 'cursor',
-                name: 'Cursor AI IDE',
-                badge: '14 KUN PRO SINOV',
-                type: 'trial',
-                badgeStyle: 'bg-indigo-500/20 text-indigo-300 border-indigo-400/40',
-                offerTitle: 'Cursor Pro Agent — 2 hafta bepul + 500 tezkor so‘rov',
-                offerDesc: 'Yangi ro‘yxatdan o‘tgan dasturchilar uchun karta ulamasdan 14 kunlik to‘liq Pro rejim va barcha modellardan foydalanish.',
-                deadline: 'Doimiy yangi akkauntlar uchun',
-                promoCode: 'Karta talab qilinmaydi',
-                url: 'https://cursor.com'
-            },
-            {
-                aiId: 'runway',
-                name: 'Runway Gen-3 Alpha',
-                badge: '+125 BONUS KREDIT',
-                type: 'bonus',
-                badgeStyle: 'bg-amber-500/20 text-amber-300 border-amber-400/40',
-                offerTitle: 'Bepul tarifda 125 ta video generatsiya krediti',
-                offerDesc: 'Ro‘yxatdan o‘tish bilan darhol Gen-3 Alpha Turbo modelida HD videolar yaratish uchun bepul boshlang‘ich kreditlar beriladi.',
-                deadline: 'Tugashiga: 4 kun qoldi',
-                promoCode: 'FREE125',
-                url: 'https://runwayml.com'
-            },
-            {
-                aiId: 'suno',
-                name: 'Suno AI v4',
-                badge: 'HAR KUNI 50 BEPUL KREDIT',
-                type: 'bonus',
-                badgeStyle: 'bg-fuchsia-500/20 text-fuchsia-300 border-fuchsia-400/40',
-                offerTitle: 'Har kuni 10 ta to‘liq qo‘shiqni bepul yaratish aksiyasi',
-                offerDesc: 'Suno v4 yangi vokal dvigatelini sinab ko‘rish uchun barcha foydalanuvchilarga har 24 soatda 50 kredit yangilanib turadi.',
-                deadline: 'Cheklanmagan kunlik bonus',
-                promoCode: 'Kunlik avtomatik',
-                url: 'https://suno.com'
-            },
-            {
-                aiId: 'elevenlabs',
-                name: 'ElevenLabs',
-                badge: '80% CHEGIRMA (1-OY)',
-                type: 'discount',
-                badgeStyle: 'bg-rose-500/20 text-rose-300 border-rose-400/40',
-                offerTitle: 'Starter tarifi birinchi oy uchun $5 o‘rniga atigi $1',
-                offerDesc: 'Ovoz klonlash, 30 000 belgi va professional dublyaj studiyasini birinchi oyda 80% chegirma bilan sinab ko‘ring.',
-                deadline: 'Tugashiga: 8 kun qoldi',
-                promoCode: 'VOICE80',
-                url: 'https://elevenlabs.io'
-            }
-        ];
-
-        function renderPromotions(filterType = 'all') {
-            const grid = document.getElementById('promo-cards-grid');
-            if (!grid) return;
-            const list = filterType === 'all'
-                ? activePromotions
-                : activePromotions.filter(p => p.type === filterType);
-
-            grid.innerHTML = list.map(p => `
-                <div class="glass-card ai-tilt-card rounded-3xl p-6 flex flex-col justify-between border border-amber-400/20 relative overflow-hidden">
-                    <div>
-                        <div class="flex items-center justify-between gap-2 mb-4">
-                            <div class="flex items-center gap-3 min-w-0">
-                                <div class="shrink-0">${getBrandLogoSVG(p.name)}</div>
-                                <div class="min-w-0">
-                                    <h3 class="font-bold text-white text-sm sm:text-base truncate">${p.name}</h3>
-                                    <span class="text-[11px] text-amber-300/90 flex items-center gap-1">
-                                        <i class="fa-regular fa-clock"></i> ${p.deadline}
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-3">
-                            <span class="inline-block px-2.5 py-1 rounded-full text-[10px] font-extrabold tracking-wide border ${p.badgeStyle}">
-                                ${p.badge}
-                            </span>
-                        </div>
-
-                        <h4 class="font-bold text-white text-sm leading-snug mb-2">${p.offerTitle}</h4>
-                        <p class="text-xs text-slate-300 leading-relaxed mb-4">${p.offerDesc}</p>
-                    </div>
-
-                    <div class="pt-3.5 border-t border-white/10 flex items-center justify-between gap-2">
-                        <div class="text-[11px]">
-                            <span class="text-slate-400 block">Aksiya kodi / sharti:</span>
-                            <span class="font-mono font-bold text-cyan-300">${p.promoCode}</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <button onclick="openModalById('${p.aiId}')" class="px-3 py-2 rounded-xl bg-white/10 hover:bg-white/15 text-xs font-semibold text-white transition">
-                                Batafsil
-                            </button>
-                            <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:opacity-95 text-slate-950 text-xs font-extrabold transition">
-                                Sinab ko‘rish →
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            `).join('');
-
-            attachCardHoverEffects(grid);
-        }
-
-        function filterPromos(type, btnEl) {
-            document.querySelectorAll('.promo-filter-btn').forEach(btn => {
-                btn.className = 'promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition';
-            });
-            if (btnEl) {
-                btnEl.className = 'promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-amber-500 text-slate-950 transition';
-            }
-            renderPromotions(type);
-        }
-
-        function downloadSiteHTML() {
-            const fullHtml = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
-            const blob = new Blob([fullHtml], { type: 'text/html;charset=utf-8' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'index.html';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
-        }
-
-        // Initialize Everything Immediately
-        (function bootApp() {
-            initNeuralCanvas();
-            initBrandMarquee();
-            renderCards(false);
-            renderStats();
-            renderPromotions('all');
-            initComparisonSelects();
-            renderSiteReviewsAndRating();
-            setupRepeatableCounters();
-            setupStatsBarObserver();
-            attachCardHoverEffects(document.getElementById('yonalishlar'));
-        })();
-    </script>
-
-<script>
-(async function () {
-  try {
-    const response = await fetch(
-      './data/ai-candidates.json',
-      { cache: 'no-store' }
-    );
-    if (!response.ok) return;
-
-    const data = await response.json();
-    const items = (data.candidates || [])
-      .filter(x =>
-        typeof x.name === 'string' &&
-        typeof x.url === 'string' &&
-        /^https:\/\/(www\.)?producthunt\.com\//.test(x.url)
-      )
-      .slice(-12)
-      .reverse();
-
-    if (!items.length) return;
-
-    const section = document.createElement('section');
-    section.className = 'py-12 px-4 max-w-7xl mx-auto';
-    section.innerHTML = `
-      <h2 class="text-3xl font-bold mb-3">
-        Yangi AI topilmalari
-      </h2>
-      <p class="text-slate-400 mb-6">
-        Avtomatik topilgan, hali tekshirilmagan vositalar
-      </p>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
-    `;
-
-    const grid = section.querySelector('.grid');
-
-    items.forEach(ai => {
-      const card = document.createElement('a');
-      card.href = ai.url;
-      card.target = '_blank';
-      card.rel = 'noopener noreferrer';
-      card.className = 'glass-card rounded-2xl p-5 block';
-
-      const name = document.createElement('h3');
-      name.className = 'font-bold text-cyan-400';
-      name.textContent = ai.name;
-
-      const status = document.createElement('p');
-      status.className = 'text-xs text-slate-400 mt-2';
-      status.textContent = 'Product Hunt • Tekshirilmoqda';
-
-      card.append(name, status);
-      grid.appendChild(card);
-    });
-
-    document.getElementById('katalog')?.after(section);
-  } catch (error) {
-    console.error('AI ro‘yxatini yuklashda xato:', error);
-  }
-})();
-</script>
-
-<script>
-(async function () {
-  const grid = document.getElementById('promo-cards-grid');
-  const buttons = [
-    ...document.querySelectorAll('#aksiyalar .promo-filter-btn')
-  ];
-
-  if (!grid) return;
-
-  let promotions = [];
-  let selectedType = 'all';
-
-  function render() {
-    grid.replaceChildren();
-
-    if (buttons[0]) {
-      buttons[0].textContent =
-        `Barchasi (${promotions.length})`;
-    }
-
-    const items = promotions.filter(p =>
-      selectedType === 'all' || p.type === selectedType
-    );
-
-    if (items.length === 0) {
-      const message = document.createElement('p');
-      message.className =
-        'text-slate-400 col-span-full text-center py-10';
-      message.textContent =
-        'Hozircha tasdiqlangan, amal qilayotgan aksiyalar mavjud emas.';
-      grid.appendChild(message);
-      return;
-    }
-
-    for (const promo of items) {
-      const card = document.createElement('article');
-      card.className =
-        'glass-card rounded-3xl p-6 space-y-4';
-
-      const title = document.createElement('h3');
-      title.className = 'font-bold text-white text-lg';
-      title.textContent = promo.name;
-
-      const badge = document.createElement('p');
-      badge.className = 'text-emerald-400 text-xs';
-      badge.textContent = 'Tasdiqlangan aksiya';
-
-      const description = document.createElement('p');
-      description.className = 'text-slate-300 text-sm';
-      description.textContent = promo.description || '';
-
-      const expiry = document.createElement('p');
-      expiry.className = 'text-amber-300 text-xs';
-      expiry.textContent =
-        'Tugash sanasi: ' +
-        new Date(promo.expires_at)
-          .toLocaleDateString('uz-UZ');
-
-      const link = document.createElement('a');
-      link.href = promo.url;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      link.className =
-        'inline-block bg-amber-500 text-slate-950 font-bold px-4 py-2 rounded-xl text-sm';
-      link.textContent = 'Taklifni ko‘rish';
-
-      card.append(title, badge, description, expiry, link);
-      grid.appendChild(card);
-    }
-  }
-
-  window.filterPromos = function (type, button) {
-    selectedType = type;
-
-    buttons.forEach(b => {
-      b.className =
-        'promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold ' +
-        (b === button
-          ? 'bg-amber-500 text-slate-950'
-          : 'bg-white/5 text-slate-300');
-    });
-
-    render();
-  };
-
-  // Eski namoyish aksiyalarini ekrandan olib tashlash
-  render();
-
-  try {
-    const response = await fetch(
-      './data/promo-candidates.json',
-      { cache: 'no-store' }
-    );
-
-    if (!response.ok) throw new Error('Fayl topilmadi');
-
-    const data = await response.json();
-    const now = Date.now();
-
-    promotions = (data.promotions || []).filter(p => {
-      if (p.status !== 'approved') return false;
-      if (!['trial', 'bonus', 'discount'].includes(p.type))
-        return false;
-      if (!p.name || !p.expires_at) return false;
-
-      const expiry = Date.parse(p.expires_at);
-      if (!Number.isFinite(expiry) || expiry <= now)
-        return false;
-
-      try {
-        return new URL(p.url).protocol === 'https:';
-      } catch {
-        return false;
-      }
-    });
-
-    render();
-  } catch (error) {
-    grid.textContent =
-      'Aksiyalar ma’lumotini yuklab bo‘lmadi.';
-    console.error(error);
-  }
-})();
-</script>
-
+    <script src="./assets/site-data.js"></script>
+    <script src="./assets/visuals.js"></script>
+    <script src="./assets/site.js"></script>
 </body>
 </html>
