@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T15:24:24.961546+00:00",
+  "updated_at": "2026-11-24T16:29:11.531003+00:00",
   "tools": [
     {
       "name": "doola MCP",
@@ -12,7 +12,7 @@
       "description": "Start and run your US company from your AI assistant",
       "source_url": "https://www.producthunt.com/feed",
       "published_at": "2026-11-22T11:23:24-08:00",
-      "last_seen_at": "2026-11-24T15:24:24.961546+00:00",
+      "last_seen_at": "2026-11-24T16:29:11.531003+00:00",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Avtomatlashtirish",
       "approved_at": "2026-11-24T15:18:46.858453+00:00",
@@ -32,7 +32,7 @@
       "description": "Put your AI agents to work in a visual workspace",
       "source_url": "https://www.producthunt.com/feed",
       "published_at": "2026-11-18T10:51:22-08:00",
-      "last_seen_at": "2026-11-24T15:24:24.961546+00:00",
+      "last_seen_at": "2026-11-24T16:29:11.531003+00:00",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Avtomatlashtirish",
       "approved_at": "2026-11-24T15:18:46.858453+00:00",
@@ -52,13 +52,33 @@
       "description": "Open-source command center for your AI coding agents",
       "source_url": "https://www.producthunt.com/feed",
       "published_at": "2026-11-23T08:11:52-08:00",
-      "last_seen_at": "2026-11-24T15:24:24.961546+00:00",
+      "last_seen_at": "2026-11-24T16:29:11.531003+00:00",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Dasturlash va Kod",
       "approved_at": "2026-11-24T15:18:46.858453+00:00",
       "evidence": {
         "source_url": "https://www.producthunt.com/feed",
         "excerpt": "Open-source command center for your AI coding agents",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Hydrilla",
+      "url": "https://producthunt.com/products/hydrilla",
+      "source": "Product Hunt",
+      "status": "approved",
+      "id": "ai-7537a20a126ec6e2",
+      "found_at": "2026-11-24T15:18:46.858453+00:00",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "description": "Generate production-ready 3D assets with AI",
+      "source_url": "https://www.producthunt.com/feed",
+      "published_at": "2026-03-12T09:31:13-07:00",
+      "last_seen_at": "2026-11-24T16:29:11.531003+00:00",
+      "category": "Dizayn va 3D",
+      "approved_at": "2026-11-24T16:29:11.531003+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Generate production-ready 3D assets with AI",
         "rule": "explicit-ai-function-v1"
       }
     },
@@ -72,7 +92,7 @@
       "description": "Ship code as fast as you can write it",
       "source_url": "https://www.producthunt.com/feed",
       "published_at": "2026-11-23T13:00:36-08:00",
-      "last_seen_at": "2026-11-24T15:24:24.961546+00:00",
+      "last_seen_at": "2026-11-24T16:29:11.531003+00:00",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Dasturlash va Kod",
       "approved_at": "2026-11-24T15:18:46.858453+00:00",
@@ -92,7 +112,7 @@
       "description": "Your inbox, safely shared with AI agents",
       "source_url": "https://www.producthunt.com/feed",
       "published_at": "2026-11-23T00:44:25-08:00",
-      "last_seen_at": "2026-11-24T15:24:24.961546+00:00",
+      "last_seen_at": "2026-11-24T16:29:11.531003+00:00",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Avtomatlashtirish",
       "approved_at": "2026-11-24T15:18:46.858453+00:00",
