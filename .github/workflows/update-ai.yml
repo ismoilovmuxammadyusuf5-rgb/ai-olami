@@ -9,93 +9,184 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ai-olami-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Repositoryni olish
+      - name: Kodni olish
         uses: actions/checkout@v4
 
-      - name: Yangi AI vositalarini qidirish
+      - name: AI va aksiyalarni qidirish
         run: |
           python - <<'PY'
           import json
           import pathlib
           import urllib.request
           import xml.etree.ElementTree as ET
+          import re
+          import html
+          from datetime import datetime, timezone
 
-          url = (
-              "https://www.producthunt.com/feed"
-              "?category=artificial-intelligence"
+          folder = pathlib.Path("data")
+          folder.mkdir(exist_ok=True)
+
+          def load(name, key):
+              path = folder / name
+              if path.exists():
+                  return json.loads(path.read_text(
+                      encoding="utf-8"
+                  ))
+              return {key: []}
+
+          ais = load("ai-candidates.json", "candidates")
+          promos = load(
+              "promo-candidates.json", "promotions"
           )
-          req = urllib.request.Request(
-              url,
-              headers={"User-Agent": "Mozilla/5.0"}
-          )
-          with urllib.request.urlopen(req, timeout=30) as r:
-              root = ET.fromstring(r.read())
 
-          path = pathlib.Path("data/ai-candidates.json")
-          path.parent.mkdir(parents=True, exist_ok=True)
-
-          if path.exists():
-              data = json.loads(path.read_text(encoding="utf-8"))
-          else:
-              data = {"candidates": []}
-
-          known = {
-              x["url"] for x in data["candidates"]
+          known_ai = {
+              x["url"] for x in ais["candidates"]
+          }
+          known_promo = {
+              x["url"] for x in promos["promotions"]
           }
 
-          def child_text(node, name):
-              for child in node:
-                  if child.tag.split("}")[-1] == name:
-                      return (child.text or "").strip()
+          request = urllib.request.Request(
+              "https://www.producthunt.com/feed"
+              "?category=artificial-intelligence",
+              headers={"User-Agent": "Mozilla/5.0"}
+          )
+
+          with urllib.request.urlopen(
+              request, timeout=30
+          ) as response:
+              root = ET.fromstring(response.read())
+
+          def get_field(item, names):
+              for child in item:
+                  tag = child.tag.split("}")[-1]
+                  if tag in names:
+                      if tag == "link":
+                          value = child.attrib.get("href")
+                          if value:
+                              return value.strip()
+                      value = "".join(child.itertext()).strip()
+                      if value:
+                          return value
               return ""
 
-          for item in root.iter():
-              kind = item.tag.split("}")[-1]
-              if kind not in ("item", "entry"):
-                  continue
-
-              title = child_text(item, "title")
-              link = child_text(item, "link")
-
-              if not link:
-                  for child in item:
-                      if child.tag.split("}")[-1] == "link":
-                          link = child.attrib.get("href", "")
-                          if link:
-                              break
-
-              if not title or not link or link in known:
-                  continue
-
-              data["candidates"].append({
-                  "name": title,
-                  "url": link,
-                  "source": "Product Hunt",
-                  "status": "pending"
-              })
-              known.add(link)
-
-          if not data["candidates"]:
-              raise RuntimeError("RSS manbasidan AI topilmadi")
-
-          path.write_text(
-              json.dumps(data, ensure_ascii=False, indent=2)
-              + "\n",
-              encoding="utf-8"
+          ai_pattern = re.compile(
+              r"\b(ai|artificial intelligence|"
+              r"machine learning|llm|gpt|chatbot|"
+              r"generative ai|ai agents?)\b",
+              re.IGNORECASE
           )
-          print("Jami nomzodlar:", len(known))
+
+          offer_pattern = re.compile(
+              r"\bfree trial\b|\bfree credits\b|"
+              r"\bbonus credits\b|\bpromo code\b|"
+              r"\blimited.time offer\b|"
+              r"\b\d+\s*%\s*off\b|"
+              r"\bspecial discount\b",
+              re.IGNORECASE
+          )
+
+          now = datetime.now(
+              timezone.utc
+          ).isoformat()
+
+          new_ai = 0
+          new_promos = 0
+
+          for item in root.iter():
+              tag = item.tag.split("}")[-1]
+              if tag not in ("item", "entry"):
+                  continue
+
+              name = get_field(item, {"title"})
+              url = get_field(item, {"link"})
+              raw = get_field(
+                  item,
+                  {"summary", "description", "content"}
+              )
+              description = html.unescape(
+                  re.sub(r"<[^>]+>", " ", raw)
+              )
+              description = " ".join(
+                  description.split()
+              )[:500]
+
+              categories = [
+                  " ".join(c.itertext())
+                  for c in item
+                  if c.tag.split("}")[-1] == "category"
+              ]
+
+              combined = " ".join(
+                  [name, description] + categories
+              )
+
+              if not name or not url:
+                  continue
+
+              if not ai_pattern.search(combined):
+                  continue
+
+              if url not in known_ai:
+                  ais["candidates"].append({
+                      "name": name,
+                      "url": url,
+                      "description": description,
+                      "source": "Product Hunt",
+                      "status": "pending",
+                      "found_at": now
+                  })
+                  known_ai.add(url)
+                  new_ai += 1
+
+              if (
+                  offer_pattern.search(combined)
+                  and url not in known_promo
+              ):
+                  promos["promotions"].append({
+                      "name": name,
+                      "url": url,
+                      "description": description,
+                      "source": "Product Hunt",
+                      "status": "pending",
+                      "found_at": now
+                  })
+                  known_promo.add(url)
+                  new_promos += 1
+
+          for filename, data in [
+              ("ai-candidates.json", ais),
+              ("promo-candidates.json", promos)
+          ]:
+              path = folder / filename
+              path.write_text(
+                  json.dumps(
+                      data,
+                      ensure_ascii=False,
+                      indent=2
+                  ) + "\n",
+                  encoding="utf-8"
+              )
+
+          print("Yangi AI nomzodlari:", new_ai)
+          print("Aksiya nomzodlari:", new_promos)
           PY
 
-      - name: Natijalarni GitHubga saqlash
+      - name: Natijalarni saqlash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ai-candidates.json
+          git add data/ai-candidates.json data/promo-candidates.json
           if ! git diff --cached --quiet; then
-            git commit -m "Yangi AI nomzodlarini yangilash"
+            git commit -m "AI va aksiya nomzodlarini yangilash"
             git push
           fi
