@@ -6,7 +6,8 @@ O‘zbekcha AI katalogi. GitHub Pages va public GitHub Actions bilan ishlaydi; A
 
 `.github/workflows/update-ai.yml` har soatning 17-daqiqasida, `main`ga o‘zgarish yuborilganda va **Actions → Run workflow** orqali ishlaydi. GitHub rejalashtirilgan ishlarni kechiktirishi yoki tashlab ketishi mumkin; public repoda 60 kun faollik bo‘lmasa schedule o‘chirilishi mumkin. Bu uzluksiz real vaqt monitoringi emas.
 
-1. Bepul RSS manbalar alohida tekshiriladi. Bir manba xatosi qolganlarini to‘xtatmaydi.
+1. AGIPicks, TiorAI va AIToolBuzz ochiq kataloglari `scripts/sync_catalog.py` bilan yig‘iladi. Ism va rasmiy URL bo‘yicha takrorlar olib tashlanadi; manba va CC BY 4.0 litsenziya havolalari saqlanadi. Bu manbali katalog yozuvlari, barcha saytlar ayni paytda ishlashining mustaqil tekshiruvi emas. Manba uzilsa oldingi katalog saqlanadi; dastlab 1500 ta yaroqli yozuv olinmasa yangi sayt joylanmaydi.
+2. Bepul RSS manbalar ham alohida tekshiriladi. Bir manba xatosi qolganlarini to‘xtatmaydi.
 2. Manzil va mahsulot nomlari bir xillashtirilib, takrorlar birlashtiriladi. Faqat nomi bor eski yozuvlar dalilsiz tasdiqlanmaydi.
 3. Aniq AI vazifasi bor mahsulotlar mavjud sakkiz yo‘nalishdan biriga ajratiladi. Aniq AI bo‘lmagan yozuvlar rad qilinadi, noaniqlari `pending` qoladi. Bu qoidaviy saralash; mahsulotni amalda sinash yoki inson tekshiruvi emas.
 4. Tasdiqlangan topilmalar `data/approved-ai.json`ga yoziladi va sahifadagi asosiy katalog, qidiruv va filtrlarga qo‘shiladi. Manba uzilganda oldingi katalog saqlanadi. Narx yoki foydalanuvchi soni taxmin qilinmaydi.
@@ -20,10 +21,15 @@ O‘zbekcha AI katalogi. GitHub Pages va public GitHub Actions bilan ishlaydi; A
 - `scripts/`: faqat Python standart kutubxonasi bilan RSS, saralash va taklif dalillarini tekshirish.
 - `data/ai-candidates.json`: topilmalar, holat va saralash sabablari.
 - `data/approved-ai.json`: katalogga qo‘shiladigan topilmalar.
+- `data/ai-olami-tools.json`: uch ochiq katalogdan manbasi ko‘rsatilgan, takrorsiz yozuvlar.
 - `data/promo-candidates.json`: takliflar, dalillar va `pending/rejected/expired/approved` holatlari.
 - `data/monitor-status.json`: oxirgi ish va manbalar holati. Xatolar Actions logi va ish xulosasida ham ko‘rsatiladi.
 
 Namoyish uchun yaratilgan mahsulotlar, sun’iy tashriflar va qalbaki reytinglar olib tashlangan. Fikr qoldirish shu brauzer xotirasida saqlanadi; umumiy serverga yuborilmaydi va barcha foydalanuvchilarning reytingi sifatida ko‘rsatilmaydi. Avtomatik topilmalar manba matnini saqlaydi, shuning uchun ayrim tavsiflar inglizcha bo‘lishi mumkin.
+
+Besh statistika ko‘rinishi haqiqiy katalogdan hisoblanadi. Bepul tarif ko‘rsatkichlari manbada qayd etilgan tariflarni bildiradi; noma’lum tarif bepul deb hisoblanmaydi. Foydalanuvchilar soni va yillik o‘sish dalilsiz ko‘rsatilmaydi.
+
+Ma’lumot manbalari: [AGIPicks](https://agipicks.com/data/), [TiorAI](https://github.com/tioraicom/ai-tools-dataset), [AIToolBuzz](https://github.com/devadigax/aitoolbuzz-dataset). Yozuvlar va toifalar moslashtirilgan; mualliflar va litsenziya havolalari katalogda saqlanadi. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Mahalliy tekshirish
 
@@ -33,6 +39,8 @@ Python 3.12+ va Node.js 22 bilan, qo‘shimcha paketlarsiz:
 python -m unittest discover -s tests -v
 node --test tests/*.test.js
 node --check assets/site.js
+python -m scripts.sync_catalog
+python -m scripts.sync_catalog --check
 python -m scripts.update_catalog
 python -m scripts.validate_data
 python -m http.server 8000

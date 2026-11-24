@@ -41,11 +41,11 @@
         source_url: url, source: 'Tahririy tavsif', editorial: true, status: 'approved'}));
     let aiList = curated.slice(), promoData = {promotions: []};
     let currentCategory = 'Hammasi', currentPricing = 'all', currentSearch = '', visibleLimit = 24;
-    let selectedReviewStars = 5, selectedPromoType = 'all', previousFocus = null;
-    const pricingLabel = 'Tarif tekshirilmagan';
+    let selectedReviewStars = 5, selectedPromoType = 'all', currentStats = 'total', previousFocus = null;
+    const pricingLabel = ai => ai.pricing_model?.length ? 'Manbada: ' + ai.pricing_model.join(', ') : ai.free_plan === true ? 'Manbada bepul tarif qayd etilgan' : 'Tarif tekshirilmagan';
     const priceButtons = [...document.querySelectorAll('.price-btn')];
     // Unknown price is explicit; missing data never implies a paid or free plan.
-    const priceNote = el('span', 'text-xs text-slate-400', 'Tariflar hali avtomatik tasdiqlanmaydi.');
+    const priceNote = el('span', 'text-sm text-slate-400', 'Tarif filtrlari manba ma’lumotiga asoslanadi; joriy shartlarni xizmat saytida tekshiring.');
     priceButtons[priceButtons.length - 1]?.after(priceNote);
     const unknownButton = el('button', 'price-btn px-3 py-1 rounded-lg text-xs font-semibold bg-white/5 text-slate-300', 'Tekshirilmagan');
     unknownButton.type = 'button'; unknownButton.dataset.price = 'unknown';
@@ -54,21 +54,28 @@
     function getFilteredAIs() {
         const query = currentSearch.trim().toLowerCase();
         return aiList.filter(ai => (currentCategory === 'Hammasi' || ai.category === currentCategory)
-            && (currentPricing === 'all' || currentPricing === 'unknown')
+            && (currentPricing === 'all' || D.pricingFlags(ai)[currentPricing] === true)
             && (!query || [ai.name, ai.description, ai.category, ai.developer || '', ai.source].join(' ').toLowerCase().includes(query)));
     }
     function renderCards() {
         const list = getFilteredAIs(), grid = $('ai-grid');
         $('ai-count').textContent = list.length.toLocaleString('uz-UZ'); grid.replaceChildren();
         $('empty-state').classList.toggle('hidden', list.length > 0);
-        $('empty-state').querySelector('p').textContent = ['free', 'paid', 'opensource'].includes(currentPricing)
-            ? 'Bu tarif turi bo‘yicha dalillar hali tasdiqlanmagan. Tarifni xizmatning o‘zida tekshiring yoki «Barchasi» filtrini oching.'
-            : 'Boshqa kalit so‘z yozib ko‘ring yoki filtrlarni tozalang.';
+        $('empty-state').querySelector('p').textContent = 'Boshqa kalit so‘z yozib ko‘ring yoki filtrlarni tozalang. Tariflar faqat manbada qayd etilgan yozuvlar bo‘yicha filtrlanadi.';
         $('load-more-wrap').classList.toggle('hidden', list.length <= visibleLimit);
         $('load-more-label').textContent = `Yana ${Math.min(40, Math.max(0, list.length - visibleLimit))} ta AI yuklash`;
         list.slice(0, visibleLimit).forEach(ai => {
             const card = el('button', 'glass-card ai-tilt-card rounded-3xl overflow-hidden text-left flex flex-col justify-between group w-full');
             card.type = 'button'; card.addEventListener('click', () => openModalById(ai.id));
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                card.addEventListener('pointermove', event => {
+                    if (event.pointerType === 'touch') return;
+                    const bounds = card.getBoundingClientRect(), x = (event.clientX - bounds.left) / bounds.width, y = (event.clientY - bounds.top) / bounds.height;
+                    card.style.setProperty('--mx', x * 100 + '%'); card.style.setProperty('--my', y * 100 + '%');
+                    card.style.transform = `perspective(900px) rotateX(${(0.5 - y) * 5}deg) rotateY(${(x - 0.5) * 5}deg)`;
+                });
+                card.addEventListener('pointerleave', () => { card.style.transform = ''; });
+            }
             const type = categoryTypes[D.categories.indexOf(ai.category)];
             const head = el('div', 'w-full p-5 bg-gradient-to-br ' + getCategoryBadgeGradient(type) + ' border-b border-white/5 flex items-center gap-3');
             const title = el('div', 'min-w-0'); title.append(el('h3', 'font-bold text-white text-base truncate group-hover:text-cyan-300', ai.name), el('p', 'text-xs text-slate-400 truncate', ai.editorial ? ai.developer : ai.source));
@@ -93,13 +100,25 @@
         $('metric-categories').textContent = new Set(aiList.map(a => a.category)).size;
         $('metric-discovered').textContent = aiList.filter(a => !a.editorial).length;
         $('metric-promos').textContent = D.activePromotions(promoData).length;
+        renderStatistics();
+    }
+    function renderStatistics() {
         const container = $('stats-bars'); container.replaceChildren();
-        D.categories.forEach(category => {
-            const count = aiList.filter(a => a.category === category).length;
+        const rows = D.statistics(aiList, currentStats), maximum = Math.max(1, ...rows.map(row => row.value));
+        rows.forEach(item => {
             const row = el('div'), heading = el('div', 'flex justify-between gap-3 text-sm mb-2');
-            heading.append(el('span', 'text-slate-300', category), el('span', 'text-cyan-300 font-bold', count + ' ta'));
-            const track = el('div', 'h-2 bg-white/5 rounded-full overflow-hidden'), fill = el('div', 'h-full rounded-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-fuchsia-500');
-            fill.style.width = (aiList.length ? count / aiList.length * 100 : 0) + '%'; track.append(fill); row.append(heading, track); container.append(row);
+            heading.append(el('span', 'text-slate-300', item.title), el('span', 'text-cyan-300 font-bold', currentStats === 'share' ? item.value.toFixed(1) + '%' : item.value.toLocaleString('uz-UZ') + ' ta'));
+            const track = el('div', 'h-2 bg-white/5 rounded-full overflow-hidden'), fill = el('div', 'stat-bar-fill h-full rounded-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-fuchsia-500');
+            track.append(fill); row.append(heading, track); container.append(row);
+            requestAnimationFrame(() => { fill.style.width = item.value / (currentStats === 'share' ? 100 : maximum) * 100 + '%'; });
+        });
+        $('stats-note').textContent = currentStats === 'free' ? 'Bepul tarif manbada qayd etilgan vositalar. Bu joriy narx yoki cheksiz foydalanish kafolati emas; noma’lum tariflar hisobga kiritilmaydi.'
+            : currentStats === 'imported' ? 'Ochiq kataloglardan olingan yozuvlar. Import vaqti mahsulot yaratilgan yoki ishga tushgan sana degani emas.'
+            : 'Raqamlar shu katalogdagi takrorsiz yozuvlardan hisoblanadi. Ulushlar katalog tarkibini bildiradi.';
+        document.querySelectorAll('[data-stats]').forEach(button => {
+            const active = button.dataset.stats === currentStats;
+            button.setAttribute('aria-selected', String(active));
+            button.className = 'stats-tab-btn px-3.5 py-2 rounded-lg text-sm font-bold transition ' + (active ? 'bg-cyan-500 text-slate-950' : 'text-slate-300 hover:text-white');
         });
     }
     function initBrandMarquee() {
@@ -116,9 +135,10 @@
         const head = el('div', 'flex items-center gap-4 mb-5 pr-8'), title = el('div');
         title.append(el('h3', 'text-xl sm:text-2xl font-extrabold text-white', ai.name), el('p', 'text-sm text-cyan-400', ai.category)); head.append(logo(ai.name), title);
         content.append(head, el('p', 'text-sm text-slate-300 leading-relaxed mb-5', ai.description));
-        content.append(el('p', 'text-sm text-amber-300 mb-4', 'Tarif va foydalanish cheklovlari: tekshirilmagan. Xizmatning o‘zida aniqlashtiring.'));
+        content.append(el('p', 'text-sm text-amber-300 mb-4', pricingLabel(ai) + '. Joriy narx va foydalanish cheklovlarini xizmatning o‘zida aniqlashtiring.'));
         const meta = el('div', 'p-4 rounded-2xl bg-white/5 border border-white/10 mb-5 text-sm text-slate-400');
-        meta.append(el('p', '', ai.editorial ? 'Tahririy tavsif. Imkoniyatlar xizmat yangilanishi bilan o‘zgarishi mumkin.' : 'Avtomatik qoida asosida AI vositasi sifatida saralangan. Manba tavsifini quyida tekshirishingiz mumkin.'));
+        meta.append(el('p', '', ai.editorial ? 'Tahririy tavsif. Imkoniyatlar xizmat yangilanishi bilan o‘zgarishi mumkin.' : ai.imported ? 'Ochiq AI katalogidan olingan yozuv; tavsif va yo‘nalish moslashtirilgan. Har bir xizmat alohida jonli tekshirilgan degan da’vo yo‘q.' : 'Avtomatik qoida asosida AI vositasi sifatida saralangan. Manba tavsifini quyida tekshirishingiz mumkin.'));
+        if (ai.source_date) meta.append(el('p', 'mt-2', 'Manbadagi sana: ' + ai.source_date));
         if (Number.isFinite(Date.parse(ai.approved_at))) meta.append(el('p', 'mt-2', 'Saralangan: ' + new Date(ai.approved_at).toLocaleString('uz-UZ')));
         meta.append(link('Manba: ' + ai.source, ai.source_url, 'inline-block mt-2 text-cyan-300 underline')); content.append(meta);
         const actions = el('div', 'flex flex-wrap gap-3');
@@ -133,15 +153,19 @@
         const a = aiList.find(x => x.id === $('compare-a').value), b = aiList.find(x => x.id === $('compare-b').value);
         if (!a || !b) return;
         const table = el('table', 'w-full text-left border-collapse text-sm'), body = el('tbody', 'divide-y divide-white/10');
-        [['Vosita', a.name, b.name], ['Yo‘nalish', a.category, b.category], ['Manba', a.source, b.source], ['Tarif', pricingLabel, pricingLabel], ['Tavsif', a.description, b.description]].forEach((values, index) => {
+        [['Vosita', a.name, b.name], ['Yo‘nalish', a.category, b.category], ['Manba', a.source, b.source], ['Tarif', pricingLabel(a), pricingLabel(b)], ['Tavsif', a.description, b.description]].forEach((values, index) => {
             const row = el('tr'); values.forEach((value, i) => row.append(el(index === 0 ? 'th' : 'td', 'py-3 px-3 ' + (i ? 'text-slate-200' : 'text-slate-400'), value))); body.append(row);
         }); table.append(body); $('comparison-table').replaceChildren(table);
     }
     function initComparisonSelects() {
         ['compare-a', 'compare-b'].forEach(id => {
             const select = $(id), prior = select.value; select.replaceChildren();
-            aiList.forEach(ai => { const option = el('option', '', ai.name); option.value = ai.id; select.append(option); });
-            select.value = aiList.some(a => a.id === prior) ? prior : (id === 'compare-b' ? aiList[1]?.id : aiList[0]?.id);
+            const query = $('search-' + id).value.trim().toLowerCase();
+            const chosen = aiList.find(a => a.id === prior) || (id === 'compare-b' ? aiList[1] : aiList[0]);
+            const matches = aiList.filter(ai => !query || ai.name.toLowerCase().includes(query)).slice(0, 200);
+            if (chosen && !matches.includes(chosen)) matches.unshift(chosen);
+            matches.forEach(ai => { const option = el('option', '', ai.name); option.value = ai.id; select.append(option); });
+            select.value = chosen?.id || '';
         }); renderComparison();
     }
     function renderPromotions() {
@@ -169,7 +193,7 @@
         event.preventDefault(); const query = $('chat-input').value.trim(); if (!query) return;
         $('chat-input').value = ''; appendChatBubble('user', query); const lower = query.toLowerCase();
         const mapping = [['video', 'Video Generatsiya'], ['kod', 'Dasturlash va Kod'], ['dastur', 'Dasturlash va Kod'], ['rasm', 'Rasm va San’at'], ['ovoz', 'Ovoz va Musiqa'], ['musiqa', 'Ovoz va Musiqa']];
-        if (lower.includes('bepul')) { quickSearch('bepul'); appendChatBubble('ai', 'Bepul tariflar hozircha tasdiqlanmagan. Shuning uchun bepul degan taxmin bilan vosita tavsiya qilinmaydi; narxni xizmat sahifasida tekshiring.'); return; }
+        if (lower.includes('bepul')) { quickSearch('bepul'); appendChatBubble('ai', 'Manbada bepul tarif qayd etilgan vositalar ko‘rsatilmoqda. Joriy narx va cheklovlarni xizmat sahifasida tekshiring.', getFilteredAIs().slice(0, 4)); return; }
         const category = mapping.find(([key]) => lower.includes(key));
         if (category) filterByCategory(category[1]); else quickSearch(query);
         const matches = getFilteredAIs().slice(0, 4);
@@ -202,13 +226,15 @@
         try { const response = await fetch(path, {cache: 'no-store', signal: controller.signal}); if (!response.ok) throw new Error(path + ': HTTP ' + response.status); return await response.json(); } finally { clearTimeout(timer); }
     }
     async function loadData() {
-        const [catalog, promotions, status] = await Promise.allSettled([fetchJSON('./data/approved-ai.json'), fetchJSON('./data/promo-candidates.json'), fetchJSON('./data/monitor-status.json')]);
-        if (catalog.status === 'fulfilled') { aiList = D.dedupeTools([...curated, ...D.normalizeTools(catalog.value)]); renderCards(); renderMetrics(); initComparisonSelects(); }
-        else console.warn('Avtomatik katalog yuklanmadi:', catalog.reason);
+        const [directory, catalog, promotions, status] = await Promise.allSettled([fetchJSON('./data/ai-olami-tools.json'), fetchJSON('./data/approved-ai.json'), fetchJSON('./data/promo-candidates.json'), fetchJSON('./data/monitor-status.json')]);
+        aiList = D.dedupeTools([...curated, ...(directory.status === 'fulfilled' ? D.normalizeDirectory(directory.value) : []), ...(catalog.status === 'fulfilled' ? D.normalizeTools(catalog.value) : [])]);
+        renderCards(); renderMetrics(); initComparisonSelects();
         if (promotions.status === 'fulfilled') promoData = promotions.value;
         else { promoData = {promotions: []}; console.warn('Aksiyalar yuklanmadi:', promotions.reason); }
         renderPromotions();
         const messages = [];
+        if (directory.status === 'fulfilled' && Number.isFinite(Date.parse(directory.value.updated_at))) messages.push('Ochiq katalog yangilangan: ' + new Date(directory.value.updated_at).toLocaleString('uz-UZ'));
+        if (directory.status === 'rejected') messages.push('Ochiq katalog yuklanmadi; mavjud tahririy va RSS yozuvlari ko‘rsatilmoqda.');
         if (status.status === 'fulfilled' && Number.isFinite(Date.parse(status.value.last_run_at))) {
             messages.push('So‘nggi avtomatik tekshiruv: ' + new Date(status.value.last_run_at).toLocaleString('uz-UZ'));
             const sources = Array.isArray(status.value.sources) ? status.value.sources : [];
@@ -216,7 +242,7 @@
             if (failures.length) messages.push(`${failures.length} ta manbada xato; oldingi tasdiqlangan katalog saqlandi.`);
             if (Date.now() - Date.parse(status.value.last_run_at) > 10800000) messages.push('Tekshiruv ma’lumoti eskirgan.');
         } else messages.push('So‘nggi tekshiruv vaqti hozircha mavjud emas.');
-        if (catalog.status === 'rejected') messages.push('Yangi katalog yuklanmadi; tahririy tanlov ko‘rsatilmoqda.');
+        if (catalog.status === 'rejected') messages.push('RSS topilmalari yuklanmadi.');
         if (promotions.status === 'rejected') messages.push('Aksiyalar yuklanmadi.');
         messages.push('Har soatda tekshirish rejalashtirilgan; GitHub jadvali kechikishi mumkin.'); $('monitor-summary').textContent = messages.join(' • ');
     }
@@ -226,6 +252,8 @@
         filterPromos(type, button) { selectedPromoType = type; document.querySelectorAll('.promo-filter-btn').forEach(b => { b.className = 'promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold transition ' + (b === button ? 'bg-amber-500 text-slate-950' : 'text-slate-300 hover:text-white'); }); renderPromotions(); }});
     document.querySelectorAll('.cat-btn').forEach(button => button.addEventListener('click', () => { currentCategory = button.dataset.cat; visibleLimit = 24; renderCards(); }));
     priceButtons.forEach(button => button.addEventListener('click', () => { currentPricing = button.dataset.price; visibleLimit = 24; renderCards(); }));
+    document.querySelectorAll('[data-stats]').forEach(button => button.addEventListener('click', () => { currentStats = button.dataset.stats; renderStatistics(); }));
+    ['search-compare-a', 'search-compare-b'].forEach(id => $(id).addEventListener('input', initComparisonSelects));
     ['catalog-search', 'hero-search'].forEach(id => $(id).addEventListener('input', event => updateSearch(event.target.value)));
     $('hero-search').addEventListener('keydown', event => { if (event.key === 'Enter') scrollToSection('katalog'); });
     $('ai-modal').addEventListener('click', event => { if (event.target === $('ai-modal')) closeModal(); });

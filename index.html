@@ -328,12 +328,26 @@
             <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
                 <div>
                     <span class="text-xs font-bold uppercase tracking-widest text-cyan-400">Ushbu katalog ma’lumotlari</span>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-1">Katalogning Yo‘nalishlar Bo‘yicha Tarkibi</h2>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-1">Katalog Statistikasi</h2>
                 </div>
                 <p class="text-sm text-slate-400 max-w-md">Raqamlar shu katalogdagi yozuvlardan hisoblanadi; global bozor ulushi yoki foydalanuvchilar reytingi emas.</p>
             </div>
 
-            <div id="stats-bars" class="glass-card p-6 sm:p-8 rounded-3xl space-y-5"></div>
+            <div class="flex flex-wrap gap-1.5 rounded-xl bg-dark-900 p-1 border border-white/10 mb-5" role="tablist" aria-label="Statistika ko‘rinishlari">
+                <button data-stats="total" role="tab" aria-selected="true" aria-controls="stats-bars" class="stats-tab-btn px-3.5 py-2 rounded-lg text-sm font-bold bg-cyan-500 text-slate-950">AI soni</button>
+                <button data-stats="categories" role="tab" aria-selected="false" aria-controls="stats-bars" class="stats-tab-btn px-3.5 py-2 rounded-lg text-sm font-bold text-slate-300">Yo‘nalishlar kesimida</button>
+                <button data-stats="imported" role="tab" aria-selected="false" aria-controls="stats-bars" class="stats-tab-btn px-3.5 py-2 rounded-lg text-sm font-bold text-slate-300">Ochiq kataloglardan</button>
+                <button data-stats="share" role="tab" aria-selected="false" aria-controls="stats-bars" class="stats-tab-btn px-3.5 py-2 rounded-lg text-sm font-bold text-slate-300">Sohalar ulushi (%)</button>
+                <button data-stats="free" role="tab" aria-selected="false" aria-controls="stats-bars" class="stats-tab-btn px-3.5 py-2 rounded-lg text-sm font-bold text-slate-300">Bepul tarif qayd etilgan</button>
+            </div>
+            <div id="stats-bars" class="glass-card p-6 sm:p-8 rounded-3xl space-y-5" role="tabpanel" aria-live="polite"></div>
+            <p id="stats-note" class="text-sm text-slate-400 mt-4"></p>
+            <p class="text-sm text-slate-400 mt-4">Ochiq ma’lumotlar va atributsiya (CC BY 4.0):
+                <a href="https://agipicks.com/data/" target="_blank" rel="noopener noreferrer" class="text-cyan-300 underline">AGIPicks</a>,
+                <a href="https://github.com/tioraicom/ai-tools-dataset" target="_blank" rel="noopener noreferrer" class="text-cyan-300 underline">TiorAI</a>,
+                <a href="https://github.com/devadigax/aitoolbuzz-dataset" target="_blank" rel="noopener noreferrer" class="text-cyan-300 underline">AIToolBuzz</a>.
+                Tavsiflar qisqartirilgan, toifalar moslashtirilgan va takrorlar birlashtirilgan. Manba sanalari farq qiladi; barcha xizmatlar mustaqil jonli tekshirilmagan.
+            </p>
         </div>
     </section>
 
@@ -373,10 +387,12 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                     <div>
                         <label class="block text-xs text-slate-400 mb-1.5">1-Sun’iy Intellekt</label>
+                        <input id="search-compare-a" type="search" aria-label="Birinchi taqqoslanadigan vositani qidirish" placeholder="Nomini yozib toping…" class="w-full mb-2 px-4 py-2 rounded-xl bg-dark-950 border border-white/15 text-sm text-white">
                         <select id="compare-a" onchange="renderComparison()" class="w-full px-4 py-3 rounded-xl bg-dark-950 border border-white/15 text-sm text-white focus:outline-none focus:border-cyan-400"></select>
                     </div>
                     <div>
                         <label class="block text-xs text-slate-400 mb-1.5">2-Sun’iy Intellekt</label>
+                        <input id="search-compare-b" type="search" aria-label="Ikkinchi taqqoslanadigan vositani qidirish" placeholder="Nomini yozib toping…" class="w-full mb-2 px-4 py-2 rounded-xl bg-dark-950 border border-white/15 text-sm text-white">
                         <select id="compare-b" onchange="renderComparison()" class="w-full px-4 py-3 rounded-xl bg-dark-950 border border-white/15 text-sm text-white focus:outline-none focus:border-purple-400"></select>
                     </div>
                 </div>
