@@ -1,3 +1,20 @@
 {
-  "promotions": []
+  "promotions": [
+    {
+      "name": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "source": "OpenAI",
+      "status": "pending",
+      "found_at": "2026-11-24T14:40:47.915799+00:00"
+    },
+    {
+      "name": "DALL·E now available in beta",
+      "url": "https://openai.com/index/dall-e-now-available-in-beta",
+      "description": "We’ll invite 1 million people from our waitlist over the coming weeks. Users can create with DALL·E using free credits that refill every month, and buy additional credits in 115-generation increments for $15.",
+      "source": "OpenAI",
+      "status": "pending",
+      "found_at": "2026-11-24T14:40:47.933131+00:00"
+    }
+  ]
 }
