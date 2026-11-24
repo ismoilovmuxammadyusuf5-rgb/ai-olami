@@ -2047,5 +2047,67 @@
             attachCardHoverEffects(document.getElementById('yonalishlar'));
         })();
     </script>
+
+<script>
+(async function () {
+  try {
+    const response = await fetch(
+      './data/ai-candidates.json',
+      { cache: 'no-store' }
+    );
+    if (!response.ok) return;
+
+    const data = await response.json();
+    const items = (data.candidates || [])
+      .filter(x =>
+        typeof x.name === 'string' &&
+        typeof x.url === 'string' &&
+        /^https:\/\/(www\.)?producthunt\.com\//.test(x.url)
+      )
+      .slice(-12)
+      .reverse();
+
+    if (!items.length) return;
+
+    const section = document.createElement('section');
+    section.className = 'py-12 px-4 max-w-7xl mx-auto';
+    section.innerHTML = `
+      <h2 class="text-3xl font-bold mb-3">
+        Yangi AI topilmalari
+      </h2>
+      <p class="text-slate-400 mb-6">
+        Avtomatik topilgan, hali tekshirilmagan vositalar
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    `;
+
+    const grid = section.querySelector('.grid');
+
+    items.forEach(ai => {
+      const card = document.createElement('a');
+      card.href = ai.url;
+      card.target = '_blank';
+      card.rel = 'noopener noreferrer';
+      card.className = 'glass-card rounded-2xl p-5 block';
+
+      const name = document.createElement('h3');
+      name.className = 'font-bold text-cyan-400';
+      name.textContent = ai.name;
+
+      const status = document.createElement('p');
+      status.className = 'text-xs text-slate-400 mt-2';
+      status.textContent = 'Product Hunt • Tekshirilmoqda';
+
+      card.append(name, status);
+      grid.appendChild(card);
+    });
+
+    document.getElementById('katalog')?.after(section);
+  } catch (error) {
+    console.error('AI ro‘yxatini yuklashda xato:', error);
+  }
+})();
+</script>
+
 </body>
 </html>
