@@ -2109,5 +2109,130 @@
 })();
 </script>
 
+<script>
+(async function () {
+  const grid = document.getElementById('promo-cards-grid');
+  const buttons = [
+    ...document.querySelectorAll('#aksiyalar .promo-filter-btn')
+  ];
+
+  if (!grid) return;
+
+  let promotions = [];
+  let selectedType = 'all';
+
+  function render() {
+    grid.replaceChildren();
+
+    if (buttons[0]) {
+      buttons[0].textContent =
+        `Barchasi (${promotions.length})`;
+    }
+
+    const items = promotions.filter(p =>
+      selectedType === 'all' || p.type === selectedType
+    );
+
+    if (items.length === 0) {
+      const message = document.createElement('p');
+      message.className =
+        'text-slate-400 col-span-full text-center py-10';
+      message.textContent =
+        'Hozircha tasdiqlangan, amal qilayotgan aksiyalar mavjud emas.';
+      grid.appendChild(message);
+      return;
+    }
+
+    for (const promo of items) {
+      const card = document.createElement('article');
+      card.className =
+        'glass-card rounded-3xl p-6 space-y-4';
+
+      const title = document.createElement('h3');
+      title.className = 'font-bold text-white text-lg';
+      title.textContent = promo.name;
+
+      const badge = document.createElement('p');
+      badge.className = 'text-emerald-400 text-xs';
+      badge.textContent = 'Tasdiqlangan aksiya';
+
+      const description = document.createElement('p');
+      description.className = 'text-slate-300 text-sm';
+      description.textContent = promo.description || '';
+
+      const expiry = document.createElement('p');
+      expiry.className = 'text-amber-300 text-xs';
+      expiry.textContent =
+        'Tugash sanasi: ' +
+        new Date(promo.expires_at)
+          .toLocaleDateString('uz-UZ');
+
+      const link = document.createElement('a');
+      link.href = promo.url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.className =
+        'inline-block bg-amber-500 text-slate-950 font-bold px-4 py-2 rounded-xl text-sm';
+      link.textContent = 'Taklifni ko‘rish';
+
+      card.append(title, badge, description, expiry, link);
+      grid.appendChild(card);
+    }
+  }
+
+  window.filterPromos = function (type, button) {
+    selectedType = type;
+
+    buttons.forEach(b => {
+      b.className =
+        'promo-filter-btn px-3.5 py-2 rounded-lg text-xs font-bold ' +
+        (b === button
+          ? 'bg-amber-500 text-slate-950'
+          : 'bg-white/5 text-slate-300');
+    });
+
+    render();
+  };
+
+  // Eski namoyish aksiyalarini ekrandan olib tashlash
+  render();
+
+  try {
+    const response = await fetch(
+      './data/promo-candidates.json',
+      { cache: 'no-store' }
+    );
+
+    if (!response.ok) throw new Error('Fayl topilmadi');
+
+    const data = await response.json();
+    const now = Date.now();
+
+    promotions = (data.promotions || []).filter(p => {
+      if (p.status !== 'approved') return false;
+      if (!['trial', 'bonus', 'discount'].includes(p.type))
+        return false;
+      if (!p.name || !p.expires_at) return false;
+
+      const expiry = Date.parse(p.expires_at);
+      if (!Number.isFinite(expiry) || expiry <= now)
+        return false;
+
+      try {
+        return new URL(p.url).protocol === 'https:';
+      } catch {
+        return false;
+      }
+    });
+
+    render();
+  } catch (error) {
+    grid.textContent =
+      'Aksiyalar ma’lumotini yuklab bo‘lmadi.';
+    console.error(error);
+  }
+})();
+</script>
+
 </body>
 </html>
