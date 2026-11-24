@@ -19,11 +19,17 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 12
+    outputs:
+      publish: ${{ steps.save.outputs.publish }}
     permissions:
       contents: write
     steps:
       - name: Kodni olish
         uses: actions/checkout@v4
+        with:
+          # A queued schedule/dispatch may predate a bot commit. Start from the
+          # latest main so it never attempts to push an obsolete snapshot.
+          ref: ${{ github.event_name == 'pull_request' && github.ref || 'main' }}
       - name: Python
         uses: actions/setup-python@v5
         with:
@@ -44,8 +50,15 @@ jobs:
         if: github.event_name != 'pull_request'
         run: python -m scripts.validate_data
       - name: Natijalarni saqlash
+        id: save
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "::notice::Main changed while sources were checked; the queued push run will publish the latest code."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ai-candidates.json data/approved-ai.json data/promo-candidates.json data/monitor-status.json
@@ -53,8 +66,9 @@ jobs:
             git commit -m "Katalog va rasmiy takliflarni tekshirish"
             git push
           fi
+          echo "publish=true" >> "$GITHUB_OUTPUT"
       - name: Faqat sayt fayllarini tayyorlash
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: steps.save.outputs.publish == 'true'
         run: |
           mkdir -p _site/data
           cp index.html _site/
@@ -62,14 +76,14 @@ jobs:
           cp data/approved-ai.json data/promo-candidates.json data/monitor-status.json _site/data/
           touch _site/.nojekyll
       - name: Pages fayllari
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: steps.save.outputs.publish == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
           retention-days: 1
 
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: needs.update.outputs.publish == 'true'
     needs: update
     runs-on: ubuntu-latest
     timeout-minutes: 5
