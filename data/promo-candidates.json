@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T16:29:11.531003+00:00",
+  "updated_at": "2026-11-25T08:44:28.919946+00:00",
   "promotions": [
     {
       "name": "Evernote turns AI-driven discovery into paid subscriptions",
@@ -12,9 +12,9 @@
       "published_at": "Wed, 28 Oct 2026 19:40:49 GMT",
       "status": "pending",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-24T16:29:11.531003+00:00",
+      "last_seen_at": "2026-11-25T08:44:28.919946+00:00",
       "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
-      "checked_at": "2026-11-24T16:29:11.531003+00:00",
+      "checked_at": "2026-11-25T08:44:28.919946+00:00",
       "id": "promo-16681fd606d5f699"
     },
     {
@@ -25,7 +25,7 @@
       "status": "pending",
       "found_at": "2026-11-24T14:40:47.933131+00:00",
       "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
-      "checked_at": "2026-11-24T16:29:11.531003+00:00",
+      "checked_at": "2026-11-25T08:44:28.919946+00:00",
       "id": "promo-16a1a1dc486e496d"
     },
     {
@@ -36,7 +36,7 @@
       "status": "pending",
       "found_at": "2026-11-24T14:40:47.915799+00:00",
       "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
-      "checked_at": "2026-11-24T16:29:11.531003+00:00",
+      "checked_at": "2026-11-25T08:44:28.919946+00:00",
       "id": "promo-3802aa15c4b6ae22"
     }
   ]
