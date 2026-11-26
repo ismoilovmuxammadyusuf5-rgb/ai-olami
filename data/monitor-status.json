@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_run_at": "2026-11-26T02:53:03.097522+00:00",
-  "last_success_at": "2026-11-26T02:53:03.097522+00:00",
+  "last_run_at": "2026-11-26T12:44:56.061981+00:00",
+  "last_success_at": "2026-11-26T12:44:56.061981+00:00",
   "overall_status": "ok",
   "sources": [
     {
@@ -24,9 +24,9 @@
     }
   ],
   "counts": {
-    "approved": 16,
-    "pending": 163,
-    "rejected": 105,
+    "approved": 29,
+    "pending": 165,
+    "rejected": 128,
     "promotions_approved": 0
   },
   "promotion_checks": [
@@ -35,21 +35,21 @@
       "url": "https://openai.com/ads/customers/evernote",
       "status": "pending",
       "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
-      "checked_at": "2026-11-26T02:53:03.097522+00:00"
+      "checked_at": "2026-11-26T12:44:56.061981+00:00"
     },
     {
       "id": "promo-16a1a1dc486e496d",
       "url": "https://openai.com/index/dall-e-now-available-in-beta",
       "status": "pending",
       "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
-      "checked_at": "2026-11-26T02:53:03.097522+00:00"
+      "checked_at": "2026-11-26T12:44:56.061981+00:00"
     },
     {
       "id": "promo-3802aa15c4b6ae22",
       "url": "https://openai.com/index/expanding-ai-access-us-government",
       "status": "pending",
       "reason": "Rasmiy manbada nom, narx, shart va vaqt zonali aktiv muddatlarning to‘liq dalili yo‘q",
-      "checked_at": "2026-11-26T02:53:03.097522+00:00"
+      "checked_at": "2026-11-26T12:44:56.061981+00:00"
     }
   ],
   "policy": "AI: explicit source function; promotions: official dated structured Offer; no paid API"

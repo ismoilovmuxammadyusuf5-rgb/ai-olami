@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T02:53:03.097522+00:00",
+  "updated_at": "2026-11-26T12:44:56.061981+00:00",
   "candidates": [
     {
       "name": "Sharing AI progress in mathematics",
@@ -28,7 +28,7 @@
       "published_at": "Wed, 14 Oct 2026 12:00:00 GMT",
       "id": "ai-004cd593adabcd24",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -44,7 +44,7 @@
       "published_at": "Tue, 03 Nov 2026 00:00:00 GMT",
       "id": "ai-019edb616369c332",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -60,7 +60,7 @@
       "published_at": "Mon, 09 Nov 2026 08:00:00 GMT",
       "id": "ai-02e9abf47eaf3fa0",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -98,7 +98,7 @@
       "published_at": "Mon, 23 Nov 2026 16:12:00 +0000",
       "id": "ai-04ec58c5601563db",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -115,7 +115,7 @@
       "published_at": "Thu, 19 Nov 2026 18:00:00 +0000",
       "id": "ai-056cf0b58a3dbace",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -145,7 +145,7 @@
       "published_at": "Mon, 02 Nov 2026 18:00:00 GMT",
       "id": "ai-0d297090385ad5a7",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -161,7 +161,7 @@
       "published_at": "Tue, 17 Nov 2026 00:00:00 GMT",
       "id": "ai-0e7f690aa4ff229b",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -177,7 +177,7 @@
       "published_at": "Tue, 10 Nov 2026 12:00:00 GMT",
       "id": "ai-0f0020abcf733229",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -193,7 +193,7 @@
       "published_at": "Thu, 29 Oct 2026 09:00:00 GMT",
       "id": "ai-0f01adb2acab0a67",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -218,7 +218,7 @@
       "published_at": "Mon, 23 Nov 2026 08:00:00 GMT",
       "id": "ai-10878202550bbbf9",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -234,7 +234,7 @@
       "published_at": "Mon, 23 Nov 2026 08:00:00 GMT",
       "id": "ai-1259b534687dd8b3",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -263,7 +263,7 @@
       "published_at": "Thu, 05 Nov 2026 09:00:00 GMT",
       "id": "ai-14e90e72d3401ddf",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -277,7 +277,7 @@
       "published_at": "Wed, 28 Oct 2026 19:40:49 GMT",
       "id": "ai-16681fd606d5f699",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -305,7 +305,7 @@
       "published_at": "Tue, 20 Oct 2026 10:00:00 GMT",
       "id": "ai-1725d137aa3debc0",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -321,7 +321,7 @@
       "published_at": "Mon, 23 Nov 2026 18:00:00 +0000",
       "id": "ai-17a4c12938fd3e48",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -337,7 +337,7 @@
       "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
       "id": "ai-17b7a2b39f098895",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -353,7 +353,7 @@
       "published_at": "Wed, 18 Nov 2026 10:00:00 GMT",
       "id": "ai-184d931227f2504d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -369,7 +369,7 @@
       "published_at": "Sun, 22 Nov 2026 00:00:00 GMT",
       "id": "ai-1a10f1676d46fc01",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -385,7 +385,7 @@
       "published_at": "Fri, 23 Oct 2026 00:00:00 GMT",
       "id": "ai-1a543055a02f9816",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -401,7 +401,7 @@
       "published_at": "Wed, 04 Nov 2026 14:30:00 GMT",
       "id": "ai-1be4fdd8e6ca80f0",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -417,7 +417,7 @@
       "published_at": "Tue, 20 Oct 2026 00:00:00 GMT",
       "id": "ai-1cfb6291fa158d05",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -433,7 +433,7 @@
       "published_at": "Mon, 19 Oct 2026 12:00:00 GMT",
       "id": "ai-1dbe22633003a2af",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -447,7 +447,7 @@
       "published_at": "Tue, 27 Oct 2026 15:00:00 GMT",
       "id": "ai-1e3ebf94e41ebe19",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -463,7 +463,7 @@
       "published_at": "Wed, 14 Oct 2026 00:00:00 GMT",
       "id": "ai-200a5d3dd39c6bfb",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -480,7 +480,7 @@
       "published_at": "Fri, 20 Nov 2026 17:00:00 +0000",
       "id": "ai-20a6c91a795bac88",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -496,7 +496,7 @@
       "published_at": "Mon, 16 Nov 2026 06:00:00 GMT",
       "id": "ai-21b4758ab52123ac",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
     },
@@ -512,7 +512,7 @@
       "published_at": "Mon, 16 Nov 2026 06:00:00 GMT",
       "id": "ai-21e886491b30cfff",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -528,7 +528,7 @@
       "published_at": "Tue, 03 Nov 2026 12:00:00 GMT",
       "id": "ai-25493a43cba550c7",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -558,7 +558,7 @@
       "published_at": "Thu, 05 Nov 2026 02:00:00 GMT",
       "id": "ai-25fa4dd18ec78a48",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -574,7 +574,7 @@
       "published_at": "Mon, 26 Oct 2026 10:00:00 GMT",
       "id": "ai-27334100e818b985",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -590,7 +590,7 @@
       "published_at": "Mon, 02 Nov 2026 15:30:00 GMT",
       "id": "ai-277870ffc8d71544",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -622,7 +622,7 @@
       "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
       "id": "ai-295354ff422b0d4d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -672,7 +672,7 @@
       "published_at": "Thu, 05 Nov 2026 00:45:15 GMT",
       "id": "ai-2d1d326185a62641",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -688,7 +688,7 @@
       "published_at": "Mon, 16 Nov 2026 17:00:00 GMT",
       "id": "ai-2d7a5d6b20fff3cd",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -702,7 +702,7 @@
       "published_at": "Mon, 09 Nov 2026 08:00:00 GMT",
       "id": "ai-2e34e84f0999c607",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -738,7 +738,7 @@
       "published_at": "Sun, 15 Nov 2026 22:00:01 GMT",
       "id": "ai-2e8f421d2ee2a3df",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -767,7 +767,7 @@
       "published_at": "Thu, 19 Nov 2026 19:00:00 +0000",
       "id": "ai-2f5da7a01f727a33",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -783,7 +783,7 @@
       "published_at": "Tue, 17 Nov 2026 08:00:00 GMT",
       "id": "ai-3047d7657748ea76",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -799,7 +799,7 @@
       "published_at": "Thu, 15 Oct 2026 19:00:00 GMT",
       "id": "ai-32165ee6af8945a5",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -815,7 +815,7 @@
       "published_at": "Sun, 15 Nov 2026 22:00:00 GMT",
       "id": "ai-33b95c2112c46efd",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -829,7 +829,7 @@
       "published_at": "Tue, 03 Nov 2026 08:00:00 GMT",
       "id": "ai-34e7d62615202d0d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -843,7 +843,7 @@
       "published_at": "Thu, 12 Nov 2026 00:00:00 GMT",
       "id": "ai-35bcc4b3dafe10f2",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -859,7 +859,7 @@
       "published_at": "Mon, 26 Oct 2026 18:00:00 GMT",
       "id": "ai-35e334c198740f74",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -875,7 +875,7 @@
       "published_at": "Tue, 10 Nov 2026 00:00:00 GMT",
       "id": "ai-37e4452e64c861cf",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -903,7 +903,7 @@
       "published_at": "Wed, 21 Oct 2026 17:00:00 GMT",
       "id": "ai-39cad894cdd240fb",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -919,7 +919,7 @@
       "published_at": "Tue, 17 Nov 2026 00:00:00 GMT",
       "id": "ai-3b3be741a87f5e21",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -935,7 +935,7 @@
       "published_at": "Fri, 23 Oct 2026 00:00:00 GMT",
       "id": "ai-3b5a2a6a27ab5490",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -965,7 +965,7 @@
       "published_at": "Tue, 24 Nov 2026 14:00:00 +0000",
       "id": "ai-3cf0a5f34d4c9c13",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -993,7 +993,7 @@
       "published_at": "Mon, 16 Nov 2026 00:00:00 GMT",
       "id": "ai-3d4aeac88b69acfa",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1044,7 +1044,7 @@
       "published_at": "Wed, 21 Oct 2026 21:00:00 GMT",
       "id": "ai-3f1a11956436b167",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1058,7 +1058,7 @@
       "published_at": "Wed, 21 Oct 2026 00:00:00 GMT",
       "id": "ai-3fe372fb2e8166f0",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1074,7 +1074,7 @@
       "published_at": "Mon, 02 Nov 2026 00:00:00 GMT",
       "id": "ai-4094d4340f9e66f9",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1088,7 +1088,7 @@
       "published_at": "Thu, 08 Oct 2026 12:00:00 GMT",
       "id": "ai-45d6a2b79938283a",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1138,7 +1138,7 @@
       "published_at": "Thu, 12 Nov 2026 09:30:00 GMT",
       "id": "ai-4922ca6fb0dd9299",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1183,7 +1183,7 @@
       "published_at": "Wed, 07 Oct 2026 07:00:00 GMT",
       "id": "ai-4e324623ab7ca6fe",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1202,7 +1202,7 @@
       "published_at": "Mon, 23 Nov 2026 17:00:00 +0000",
       "id": "ai-4f5fe20de68e9dfd",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1241,7 +1241,7 @@
       "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
       "id": "ai-53d809d7420a3923",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1255,7 +1255,7 @@
       "published_at": "Wed, 11 Nov 2026 00:00:00 GMT",
       "id": "ai-55ff14dc4213127d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1269,7 +1269,7 @@
       "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
       "id": "ai-570fe3204556675e",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1285,7 +1285,7 @@
       "published_at": "Fri, 30 Oct 2026 00:00:00 GMT",
       "id": "ai-574dbaf7fc8731e4",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1301,7 +1301,7 @@
       "published_at": "Wed, 14 Oct 2026 12:00:00 GMT",
       "id": "ai-57c3309db5bedcde",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1317,7 +1317,7 @@
       "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
       "id": "ai-58da586369f33999",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1333,7 +1333,7 @@
       "published_at": "Mon, 02 Nov 2026 09:00:00 GMT",
       "id": "ai-5a014341bc3fc0f1",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1392,7 +1392,7 @@
       "published_at": "Mon, 02 Nov 2026 15:00:00 GMT",
       "id": "ai-5d33ed0c66ace544",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1408,7 +1408,7 @@
       "published_at": "Fri, 06 Nov 2026 00:00:00 GMT",
       "id": "ai-5f721228af3682c2",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1424,7 +1424,7 @@
       "published_at": "Mon, 23 Nov 2026 17:00:00 +0000",
       "id": "ai-606cad8e85b3c4fe",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1440,7 +1440,7 @@
       "published_at": "Mon, 16 Nov 2026 00:00:00 GMT",
       "id": "ai-60f3c7381bc61eae",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1456,7 +1456,7 @@
       "published_at": "Thu, 05 Nov 2026 17:00:00 GMT",
       "id": "ai-616c68177b707eae",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1485,7 +1485,7 @@
       "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
       "id": "ai-63610b904de29506",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1501,7 +1501,7 @@
       "published_at": "Thu, 22 Oct 2026 06:00:00 GMT",
       "id": "ai-6400feb681472530",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1517,7 +1517,7 @@
       "published_at": "Wed, 21 Oct 2026 04:50:00 GMT",
       "id": "ai-64ddfb139fec8a1c",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1533,7 +1533,7 @@
       "published_at": "Tue, 24 Nov 2026 08:00:00 +0000",
       "id": "ai-6546b5b79b87675e",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1547,7 +1547,7 @@
       "published_at": "Thu, 12 Nov 2026 00:00:00 GMT",
       "id": "ai-65b96c238445cded",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1563,7 +1563,7 @@
       "published_at": "Wed, 07 Oct 2026 12:00:00 GMT",
       "id": "ai-661f64ddb5f472a2",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1586,7 +1586,7 @@
       "published_at": "Thu, 12 Nov 2026 20:00:00 GMT",
       "id": "ai-67672a694e389b29",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1615,7 +1615,7 @@
       "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
       "id": "ai-67952d9a918d2536",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1664,7 +1664,7 @@
       "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
       "id": "ai-68ddb817fe4001c0",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1680,7 +1680,7 @@
       "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
       "id": "ai-68f478bc125468f3",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1709,7 +1709,7 @@
       "published_at": "Tue, 10 Nov 2026 09:00:00 GMT",
       "id": "ai-69d4d9d74efa0162",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1771,7 +1771,7 @@
       "published_at": "Wed, 28 Oct 2026 09:30:00 GMT",
       "id": "ai-709cc8e2bd467b79",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1818,7 +1818,7 @@
       "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
       "id": "ai-742d30efdc4090c1",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1852,7 +1852,7 @@
       "published_at": "Fri, 20 Nov 2026 10:00:00 GMT",
       "id": "ai-7ad44f990f0c53ef",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1882,7 +1882,7 @@
       "published_at": "Fri, 13 Nov 2026 15:00:00 GMT",
       "id": "ai-7d4d71d056da0286",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1898,7 +1898,7 @@
       "published_at": "Mon, 26 Oct 2026 13:45:00 GMT",
       "id": "ai-7d972df501d01ba1",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1912,7 +1912,7 @@
       "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
       "id": "ai-7e73eebe3e909303",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1926,7 +1926,7 @@
       "published_at": "Mon, 09 Nov 2026 00:00:00 GMT",
       "id": "ai-81209450b91a7acb",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1953,7 +1953,7 @@
       "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
       "id": "ai-8145fefb47ff1ca9",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -1969,7 +1969,7 @@
       "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
       "id": "ai-82fe289fe466dcc1",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -1985,7 +1985,7 @@
       "published_at": "Fri, 30 Oct 2026 09:30:00 GMT",
       "id": "ai-84abd1857de5dfd9",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2001,7 +2001,7 @@
       "published_at": "Thu, 08 Oct 2026 12:00:00 GMT",
       "id": "ai-855092fba1df7e8a",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2015,7 +2015,7 @@
       "published_at": "Thu, 29 Oct 2026 00:00:00 GMT",
       "id": "ai-85f94c0fe8f02a81",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2029,7 +2029,7 @@
       "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
       "id": "ai-86dbfdb5b436c283",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2046,7 +2046,7 @@
       "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
       "id": "ai-88a0684d6bab0437",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2062,7 +2062,7 @@
       "published_at": "Thu, 22 Oct 2026 19:00:00 GMT",
       "id": "ai-891b7e0bbf66f86d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2092,7 +2092,7 @@
       "published_at": "Tue, 13 Oct 2026 12:00:00 GMT",
       "id": "ai-8d45898e533e591d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2108,7 +2108,7 @@
       "published_at": "Mon, 26 Oct 2026 14:30:00 GMT",
       "id": "ai-8eb6001a836a6e50",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2138,7 +2138,7 @@
       "published_at": "Tue, 17 Nov 2026 17:45:00 GMT",
       "id": "ai-8f6af8c44a4a1bfb",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2152,7 +2152,7 @@
       "published_at": "Tue, 10 Nov 2026 08:00:00 GMT",
       "id": "ai-9092d5eb66f29547",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2168,7 +2168,7 @@
       "published_at": "Mon, 23 Nov 2026 18:00:00 +0000",
       "id": "ai-930259be17ccb09d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2184,7 +2184,7 @@
       "published_at": "Thu, 19 Nov 2026 08:00:00 GMT",
       "id": "ai-9342dbf934e428aa",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2200,7 +2200,7 @@
       "published_at": "Thu, 29 Oct 2026 17:00:00 GMT",
       "id": "ai-9349f418e7bc7ab4",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2216,7 +2216,7 @@
       "published_at": "Mon, 02 Nov 2026 00:00:00 GMT",
       "id": "ai-945f879ef3a469b4",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2258,7 +2258,7 @@
       "published_at": "Thu, 15 Oct 2026 00:00:00 GMT",
       "id": "ai-94eadcab22c41e35",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2272,7 +2272,7 @@
       "published_at": "Wed, 14 Oct 2026 07:00:00 GMT",
       "id": "ai-94ee28b93f9d2d83",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2288,7 +2288,7 @@
       "published_at": "Mon, 09 Nov 2026 13:00:00 GMT",
       "id": "ai-952d2516af2e9054",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2304,7 +2304,7 @@
       "published_at": "Wed, 21 Oct 2026 12:00:00 GMT",
       "id": "ai-95dedf578de78f3e",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2318,7 +2318,7 @@
       "published_at": "Fri, 16 Oct 2026 19:00:00 GMT",
       "id": "ai-9732b2763df5a67a",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2347,7 +2347,7 @@
       "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
       "id": "ai-981785a01550309d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2363,7 +2363,7 @@
       "published_at": "Tue, 10 Nov 2026 10:00:00 GMT",
       "id": "ai-991ad48e8559b2fe",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2392,7 +2392,7 @@
       "published_at": "Wed, 18 Nov 2026 06:00:00 GMT",
       "id": "ai-99be0c0a7e074380",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2406,7 +2406,7 @@
       "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
       "id": "ai-9bf93d58cc35db99",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2438,7 +2438,7 @@
       "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
       "id": "ai-9d9675420d9516db",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2454,7 +2454,7 @@
       "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
       "id": "ai-9e63539289a31c86",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2470,7 +2470,7 @@
       "published_at": "Mon, 16 Nov 2026 08:00:00 GMT",
       "id": "ai-9fe6d2ae73e55f52",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2502,7 +2502,7 @@
       "published_at": "Fri, 06 Nov 2026 08:00:00 GMT",
       "id": "ai-a0a44ed09dc9a108",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2518,7 +2518,7 @@
       "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
       "id": "ai-a1de396d3910fa2e",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2564,7 +2564,7 @@
       "published_at": "Wed, 04 Nov 2026 07:00:00 GMT",
       "id": "ai-a3433e936d2c04bf",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2589,7 +2589,7 @@
       "published_at": "Wed, 28 Oct 2026 13:15:00 GMT",
       "id": "ai-a395c7da350b5086",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2605,7 +2605,7 @@
       "published_at": "Thu, 15 Oct 2026 13:00:00 GMT",
       "id": "ai-a60f4a701f887ae8",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2621,7 +2621,7 @@
       "published_at": "Fri, 30 Oct 2026 09:00:00 GMT",
       "id": "ai-a86d24c59c826150",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2637,7 +2637,7 @@
       "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
       "id": "ai-a890a236270cc5e3",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2653,7 +2653,7 @@
       "published_at": "Thu, 19 Nov 2026 20:30:00 +0000",
       "id": "ai-a89c20fefc5a1132",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2669,7 +2669,7 @@
       "published_at": "Wed, 14 Oct 2026 07:00:00 GMT",
       "id": "ai-a8b8c31de898145e",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2683,7 +2683,7 @@
       "published_at": "Thu, 05 Nov 2026 00:00:00 GMT",
       "id": "ai-a8e215d1c3fca63a",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2697,7 +2697,7 @@
       "published_at": "Fri, 13 Nov 2026 08:00:00 GMT",
       "id": "ai-a99dfdd20d85acbb",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2713,7 +2713,7 @@
       "published_at": "Mon, 26 Oct 2026 22:00:00 GMT",
       "id": "ai-a9c488820a62ac4a",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2729,7 +2729,7 @@
       "published_at": "Tue, 20 Oct 2026 07:00:00 GMT",
       "id": "ai-aa8847d44cbae332",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2745,7 +2745,7 @@
       "published_at": "Wed, 11 Nov 2026 08:00:00 GMT",
       "id": "ai-ac94b61a25ade5ed",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2781,7 +2781,7 @@
       "published_at": "Mon, 23 Nov 2026 21:20:00 GMT",
       "id": "ai-b0689cf87ab570a4",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2797,7 +2797,7 @@
       "published_at": "Wed, 21 Oct 2026 13:00:00 GMT",
       "id": "ai-b1215e1aefc04c61",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2813,7 +2813,7 @@
       "published_at": "Tue, 17 Nov 2026 00:00:00 GMT",
       "id": "ai-b43ef08ac3ed4f7a",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2861,7 +2861,7 @@
       "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
       "id": "ai-b6756c0a180ee554",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2888,7 +2888,7 @@
       "published_at": "Mon, 16 Nov 2026 09:30:00 GMT",
       "id": "ai-b82b64ef90f76e66",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2904,7 +2904,7 @@
       "published_at": "Thu, 12 Nov 2026 12:00:00 GMT",
       "id": "ai-b9840fd67063a36a",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -2944,7 +2944,7 @@
       "published_at": "Thu, 05 Nov 2026 20:00:00 GMT",
       "id": "ai-bbd492caba72ca54",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2960,7 +2960,7 @@
       "published_at": "Mon, 02 Nov 2026 18:00:00 GMT",
       "id": "ai-bca108e4c77bd86b",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -2994,7 +2994,7 @@
       "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
       "id": "ai-c1a2af93db54bfcf",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3010,7 +3010,7 @@
       "published_at": "Tue, 27 Oct 2026 07:00:00 GMT",
       "id": "ai-c417f8e3d39d0b89",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3024,7 +3024,7 @@
       "published_at": "Tue, 27 Oct 2026 00:00:00 GMT",
       "id": "ai-c44dc9ed271ff418",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3054,7 +3054,7 @@
       "published_at": "Mon, 09 Nov 2026 19:00:00 GMT",
       "id": "ai-caa9073cefb43725",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3077,7 +3077,7 @@
       "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
       "id": "ai-d3b9ba6f7bd01af0",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3093,7 +3093,7 @@
       "published_at": "Thu, 12 Nov 2026 00:00:00 GMT",
       "id": "ai-d7c1da8cb7dc41da",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3118,7 +3118,7 @@
       "published_at": "Mon, 16 Nov 2026 12:00:00 GMT",
       "id": "ai-d91fd06de7b8771e",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3132,7 +3132,7 @@
       "published_at": "Thu, 29 Oct 2026 07:00:00 GMT",
       "id": "ai-d948735545c20cf3",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3162,7 +3162,7 @@
       "published_at": "Thu, 08 Oct 2026 00:00:00 GMT",
       "id": "ai-d9e485b409fe8517",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3178,7 +3178,7 @@
       "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
       "id": "ai-da30645137037f00",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3192,7 +3192,7 @@
       "published_at": "Thu, 08 Oct 2026 16:00:00 GMT",
       "id": "ai-db7b9e6fe248e314",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3206,7 +3206,7 @@
       "published_at": "Thu, 05 Nov 2026 08:00:00 GMT",
       "id": "ai-db9792e954d44701",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3239,7 +3239,7 @@
       "published_at": "Mon, 16 Nov 2026 17:00:00 GMT",
       "id": "ai-dd659f011024f04f",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3255,7 +3255,7 @@
       "published_at": "Wed, 21 Oct 2026 07:00:00 GMT",
       "id": "ai-de9db6f384cbc788",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3271,7 +3271,7 @@
       "published_at": "Wed, 21 Oct 2026 00:00:00 GMT",
       "id": "ai-e270f5ba4688033d",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3287,7 +3287,7 @@
       "published_at": "Wed, 28 Oct 2026 10:00:00 GMT",
       "id": "ai-e2ed7680c50ae3f0",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3304,7 +3304,7 @@
       "published_at": "Fri, 20 Nov 2026 18:00:00 +0000",
       "id": "ai-e75dee93f69f4b7e",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3329,7 +3329,7 @@
       "published_at": "Wed, 21 Oct 2026 07:00:00 GMT",
       "id": "ai-ea92da5c121ecb45",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3359,7 +3359,7 @@
       "published_at": "Thu, 22 Oct 2026 00:00:00 GMT",
       "id": "ai-eda525050cea8fce",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3388,7 +3388,7 @@
       "published_at": "Fri, 23 Oct 2026 17:00:00 GMT",
       "id": "ai-ee4c22366ef7e7ab",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3424,7 +3424,7 @@
       "published_at": "Thu, 19 Nov 2026 17:00:00 +0000",
       "id": "ai-efdbd6c83627cffe",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3481,7 +3481,7 @@
       "published_at": "Tue, 10 Nov 2026 07:00:00 GMT",
       "id": "ai-f3fc54cd1d78c100",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3513,7 +3513,7 @@
       "published_at": "Fri, 23 Oct 2026 10:00:00 GMT",
       "id": "ai-f8c156dba7886826",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3543,7 +3543,7 @@
       "published_at": "Wed, 04 Nov 2026 08:00:00 GMT",
       "id": "ai-fbaa86a829ad59fd",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3557,7 +3557,7 @@
       "published_at": "Tue, 03 Nov 2026 08:00:00 GMT",
       "id": "ai-fc87a45dcfbf03d4",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3573,7 +3573,7 @@
       "published_at": "Mon, 16 Nov 2026 09:00:00 GMT",
       "id": "ai-ff7833693fa2a067",
       "found_at": "2026-11-24T15:18:46.858453+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3591,7 +3591,7 @@
       "published_at": "Tue, 24 Nov 2026 16:00:00 +0000",
       "id": "ai-a7a0adf7d6c734e3",
       "found_at": "2026-11-24T16:29:11.531003+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3605,7 +3605,7 @@
       "published_at": "2026-11-10T15:48:03-08:00",
       "id": "ai-0059475abb1b48d2",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3649,7 +3649,7 @@
       "published_at": "Tue, 24 Nov 2026 16:00:00 +0000",
       "id": "ai-141c148d6874e34e",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -3663,7 +3663,7 @@
       "published_at": "2026-11-24T15:52:06-08:00",
       "id": "ai-1632f85d5645b6fd",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3726,7 +3726,7 @@
       "published_at": "2026-11-21T04:32:45-08:00",
       "id": "ai-2a1c4f053acfacbc",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "approved",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Dasturlash va Kod",
@@ -3789,7 +3789,7 @@
       "published_at": "2026-11-20T23:55:52-08:00",
       "id": "ai-556d3aa11df60295",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3803,7 +3803,7 @@
       "published_at": "2026-11-24T07:05:09-08:00",
       "id": "ai-5e59bec9af5dde69",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "approved",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Avtomatlashtirish",
@@ -3824,7 +3824,7 @@
       "published_at": "2026-11-24T06:25:48-08:00",
       "id": "ai-5e7cfc97290d8b90",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3882,7 +3882,7 @@
       "published_at": "Tue, 24 Nov 2026 11:00:00 GMT",
       "id": "ai-7758c04a629331bf",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3910,7 +3910,7 @@
       "published_at": "Tue, 24 Nov 2026 00:00:00 GMT",
       "id": "ai-7e14b56be6744308",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -3938,7 +3938,7 @@
       "published_at": "2026-11-24T12:30:45-08:00",
       "id": "ai-851638220161f2c3",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "approved",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Avtomatlashtirish",
@@ -3959,7 +3959,7 @@
       "published_at": "Tue, 24 Nov 2026 00:00:00 GMT",
       "id": "ai-89a905d5eae9fa3e",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "AI vazifasini tasdiqlovchi tavsif yetishmaydi"
     },
@@ -3987,7 +3987,7 @@
       "published_at": "Tue, 24 Nov 2026 00:00:00 GMT",
       "id": "ai-a3c9028eefd69cfd",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -4003,7 +4003,7 @@
       "published_at": "Tue, 24 Nov 2026 13:00:00 GMT",
       "id": "ai-ac2f786b30f6d457",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -4019,7 +4019,7 @@
       "published_at": "Tue, 24 Nov 2026 19:30:00 +0000",
       "id": "ai-adfa512c9bee7d82",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "Yangilik maqolasi: alohida mahsulot ekanini tekshirish kerak"
     },
@@ -4061,7 +4061,7 @@
       "published_at": "2026-11-22T07:35:37-08:00",
       "id": "ai-d4e8b08653a2d08b",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -4103,7 +4103,7 @@
       "published_at": "2026-11-14T16:00:45-08:00",
       "id": "ai-de315d194da619bb",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "approved",
       "reason": "Manbada AI funksiyasi aniq tavsiflangan",
       "category": "Dasturlash va Kod",
@@ -4138,7 +4138,7 @@
       "published_at": "2026-11-24T09:54:28-08:00",
       "id": "ai-e98eb80efbef5149",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -4180,7 +4180,7 @@
       "published_at": "2026-11-24T07:39:09-08:00",
       "id": "ai-fe4c3e4dd5c7f43d",
       "found_at": "2026-11-25T08:44:28.919946+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "pending",
       "reason": "AI vazifasi yoki kategoriyasi noaniq"
     },
@@ -4215,7 +4215,7 @@
       "published_at": "2026-11-24T19:54:59-08:00",
       "id": "ai-1ae7a57b5d1e05cf",
       "found_at": "2026-11-25T19:22:17.662417+00:00",
-      "last_seen_at": "2026-11-26T02:53:03.097522+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
       "status": "rejected",
       "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     },
@@ -4239,6 +4239,629 @@
         "excerpt": "The deterministic control layer for AI agents",
         "rule": "explicit-ai-function-v1"
       }
+    },
+    {
+      "name": "Doodle",
+      "url": "https://producthunt.com/products/doodle-5",
+      "description": "The stick figure on your taskbar that answers questions",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T15:52:43-08:00",
+      "id": "ai-01a3ce53bfe8d8d5",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Fairwind",
+      "url": "https://producthunt.com/products/fairwind",
+      "description": "Let a teacher or coach confirm your activities list",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T23:11:15-08:00",
+      "id": "ai-0ce3d574893072c1",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Superframes",
+      "url": "https://producthunt.com/products/superframes-ai-video-editor",
+      "description": "Brief an AI Director to edit the whole video",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T21:09:09-08:00",
+      "id": "ai-0f8c7a8ed148d7bd",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Video Generatsiya",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Brief an AI Director to edit the whole video",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "MeetFolks",
+      "url": "https://producthunt.com/products/meetfolks",
+      "description": "AI Notetaker for In-Person Meetings",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T13:33:47-08:00",
+      "id": "ai-12cbb983acdc7d05",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "pending",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "Upsolve Harness 2.0",
+      "url": "https://producthunt.com/products/upsolve-ai",
+      "description": "A data agent that's 2x faster and learns every user",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T14:03:32-08:00",
+      "id": "ai-175f0ab2cee309e1",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Remora",
+      "url": "https://producthunt.com/products/remora-6",
+      "description": "The long-term memory layer for AI agents",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T10:28:50-08:00",
+      "id": "ai-22248a27ed212c0e",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "The long-term memory layer for AI agents",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "QA.tech MCP",
+      "url": "https://producthunt.com/products/qa-tech",
+      "description": "Verify every change from your IDE with QA agents",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-24T06:28:22-08:00",
+      "id": "ai-259c4a197b21f2ee",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Postmaster of Puppets",
+      "url": "https://producthunt.com/products/postmaster-of-puppets",
+      "description": "See if anyone can send email as your domain",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T02:54:52-08:00",
+      "id": "ai-269ed12ddd9c5a24",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Clary",
+      "url": "https://producthunt.com/products/clary-2",
+      "description": "iOS notifications in sender's own voice from WhatsApp & more",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-24T16:47:25-08:00",
+      "id": "ai-38981344c39aa758",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Claude-Mem Cloud Sync",
+      "url": "https://producthunt.com/products/claude-mem",
+      "description": "Switch devices. Keep your AI agents' memory.",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T23:58:18-08:00",
+      "id": "ai-3e69d7bcb46e0062",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Katta Til Modellari",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Switch devices. Keep your AI agents' memory.",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Ground",
+      "url": "https://producthunt.com/products/ground-2",
+      "description": "Generate high quality synthetic data for testing or training",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T11:49:42-08:00",
+      "id": "ai-43263d0b09c6b413",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "SuperLoupe",
+      "url": "https://producthunt.com/products/superloupe",
+      "description": "search inside anything on your Mac",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T15:54:50-08:00",
+      "id": "ai-50debe1bccf9f6a7",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Meboki",
+      "url": "https://producthunt.com/products/meboki",
+      "description": "Offline grammar checker for any Mac app. Open source",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T07:44:08-08:00",
+      "id": "ai-51c3e1d497397290",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Chunkify",
+      "url": "https://producthunt.com/products/chunkify",
+      "description": "Video Streaming API for Developers & AI Agents",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-23T02:45:10-08:00",
+      "id": "ai-53fb8b3a41937971",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Video Generatsiya",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Video Streaming API for Developers & AI Agents",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "AgentDE",
+      "url": "https://producthunt.com/products/agentde",
+      "description": "Put all your coding agents in one native Mac window",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T19:15:08-08:00",
+      "id": "ai-5b27a169a2ddaa5c",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Bifura",
+      "url": "https://producthunt.com/products/bifura",
+      "description": "See your website the way AI agents do",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-24T07:04:58-08:00",
+      "id": "ai-72ad1731b0f29061",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "See your website the way AI agents do",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "WhipDesk",
+      "url": "https://producthunt.com/products/whipdesk",
+      "description": "Control AI coding agents from your phone",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T13:44:16-08:00",
+      "id": "ai-7bae8940b689ae3c",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Dasturlash va Kod",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Control AI coding agents from your phone",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "InfraThrone DevOps Park",
+      "url": "https://producthunt.com/products/infrathrone-devops-park",
+      "description": "Fix 300+ real production outages in live DevOps labs",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T04:07:17-08:00",
+      "id": "ai-8827fa61d50379a5",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "FocusHaze",
+      "url": "https://producthunt.com/products/focushaze",
+      "description": "Dim every window except the one you're working in",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T02:52:17-08:00",
+      "id": "ai-8b1096c5732b1ce3",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "MusicProductionAI",
+      "url": "https://producthunt.com/products/musicproductionai",
+      "description": "Make music from a prompt or a hum, right in your browser",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T00:25:07-08:00",
+      "id": "ai-8d2f0181314ca937",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Watch Reader",
+      "url": "https://producthunt.com/products/watch-reader",
+      "description": "Books and articles, read aloud on your Apple Watch",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-22T00:47:07-08:00",
+      "id": "ai-8dc58372198370e3",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Mime",
+      "url": "https://producthunt.com/products/mime",
+      "description": "Silent dictation: mouth the words and it types them",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-24T23:22:06-08:00",
+      "id": "ai-8ddb53c1e13ce641",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "NEXUS",
+      "url": "https://producthunt.com/products/nexus-42",
+      "description": "Map codebase locally and AI changes only what you approved",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T04:41:13-08:00",
+      "id": "ai-a1b0c70aa1af6bda",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "pending",
+      "reason": "AI vazifasi yetarlicha aniq tavsiflanmagan"
+    },
+    {
+      "name": "Hub",
+      "url": "https://producthunt.com/products/hub-20",
+      "description": "Run 100 Claude Code or Codex sessions like 5",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-24T10:34:28-08:00",
+      "id": "ai-a5d9b21894aaa2a0",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Dasturlash va Kod",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Run 100 Claude Code or Codex sessions like 5",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Hello Transcribe 5",
+      "url": "https://producthunt.com/products/hello-transcribe",
+      "description": "Private transcription with speaker labels, all on device",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T04:43:11-08:00",
+      "id": "ai-a7455a0121faa4e9",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Flurra",
+      "url": "https://producthunt.com/products/flurra",
+      "description": "Ask Claude or ChatGPT to edit your videos",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T08:34:30-08:00",
+      "id": "ai-ac47754d4aaeb62e",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Video Generatsiya",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Ask Claude or ChatGPT to edit your videos",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Transept AI",
+      "url": "https://producthunt.com/products/transept-ai",
+      "description": "Translate your book in your own voice and prove authorship",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T08:34:15-08:00",
+      "id": "ai-afdfd5806ae1ed24",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Ovoz va Musiqa",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Translate your book in your own voice and prove authorship",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Monton",
+      "url": "https://producthunt.com/products/monton",
+      "description": "AI agents that do your agency's busywork",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T05:32:15-08:00",
+      "id": "ai-b151172c0ece8a97",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "AI agents that do your agency's busywork",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Pax by Pydantic",
+      "url": "https://producthunt.com/products/pydantic",
+      "description": "A coding agent where even coding is a plugin",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T20:04:50-08:00",
+      "id": "ai-c3ca06ccfa307a1f",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "ServNook",
+      "url": "https://producthunt.com/products/webhut",
+      "description": "XAMPP stopped at PHP 8.2. ServNook runs PHP 8.5 on Windows",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-10-23T03:52:49-07:00",
+      "id": "ai-ce2588ba4e849c09",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "OpenChat",
+      "url": "https://producthunt.com/products/openchat-5",
+      "description": "Open-source live chat in your own Cloudflare account",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T09:54:19-08:00",
+      "id": "ai-d982cd9a54350a22",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "DeskFleet",
+      "url": "https://producthunt.com/products/deskfleet",
+      "description": "Run coding agents together across your team’s machines",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T09:17:28-08:00",
+      "id": "ai-e124afbe34d454d7",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "ExtraOrbital",
+      "url": "https://producthunt.com/products/extraorbital-deleted-1365752",
+      "description": "✦ Open bar databases, storage buckets & AI keys for agents",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-03T07:25:43-08:00",
+      "id": "ai-e26055bc959338ee",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "✦ Open bar databases, storage buckets & AI keys for agents",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Kagi Mail",
+      "url": "https://producthunt.com/products/kagi",
+      "description": "Private email that puts people who need you first",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-24T23:24:38-08:00",
+      "id": "ai-e28063a98c27c575",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Ottante",
+      "url": "https://producthunt.com/products/ottante",
+      "description": "Checks the work your AI agents did, right on your Mac",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T07:15:16-08:00",
+      "id": "ai-e90442b207544adf",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Avtomatlashtirish",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Checks the work your AI agents did, right on your Mac",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "Antipode",
+      "url": "https://producthunt.com/products/antipode",
+      "description": "Share your unused Claude Code limits without breaking ToS",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T08:53:32-08:00",
+      "id": "ai-f80e70f386d6dc14",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "approved",
+      "reason": "Manbada AI funksiyasi aniq tavsiflangan",
+      "category": "Dasturlash va Kod",
+      "approved_at": "2026-11-26T12:44:56.061981+00:00",
+      "evidence": {
+        "source_url": "https://www.producthunt.com/feed",
+        "excerpt": "Share your unused Claude Code limits without breaking ToS",
+        "rule": "explicit-ai-function-v1"
+      }
+    },
+    {
+      "name": "iwantmy.app",
+      "url": "https://producthunt.com/products/iwantmy-app",
+      "description": "Describe a mobile app in chat and open it on your phone",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T09:00:47-08:00",
+      "id": "ai-f8f983abf86ed806",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
+    },
+    {
+      "name": "Nookdeck",
+      "url": "https://producthunt.com/products/nookdeck",
+      "description": "Turn your old phone into a Stream Deck for your computer",
+      "source": "Product Hunt",
+      "source_url": "https://www.producthunt.com/feed",
+      "categories": [],
+      "published_at": "2026-11-25T00:17:17-08:00",
+      "id": "ai-fc9f985e1ccb1064",
+      "found_at": "2026-11-26T12:44:56.061981+00:00",
+      "last_seen_at": "2026-11-26T12:44:56.061981+00:00",
+      "status": "rejected",
+      "reason": "AI funksiyasi haqida aniq dalil yo‘q"
     }
   ]
 }
